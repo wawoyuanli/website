@@ -1,48 +1,105 @@
 <template>
-	<div class="clogin">
-		<div class="loginflag">{{ loginflag }}</div>
-		<!--登陆表单-->
-		<form>
-			<div class="form-group">
-				<label for="exampleInputEmail1">username</label>
-				<input
-					type="email"
-					class="form-control"
-					id="exampleInputEmail1"
-					aria-describedby="emailHelp"
-				/>
-				<small id="emailHelp" class="form-text text-muted"
-					>We'll never share your email with anyone else.</small
-				>
-			</div>
-			<div class="form-group">
-				<label for="exampleInputPassword1">Password</label>
-				<input
-					type="password"
-					class="form-control"
-					id="exampleInputPassword1"
-				/>
-			</div>
-			<div class="form-group form-check">
-				<input type="checkbox" class="form-check-input" id="exampleCheck1" />
-				<label class="form-check-label" for="exampleCheck1">Check me out</label>
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
-      
-	</div>
+  <div class="clogin">
+    <div class="loginflag">Login</div>
+    <div class="formdata">
+      <div class="row  row-center">
+        <div class="col-center">
+          <div id="loginui" class="loginui">
+            <div class="form-group">
+              <input name="username" class="form-control uname" placeholder="">
+            </div>
+            <div style="padding: 1px" class="form-group">
+              <input name="password" type="password" class="form-control password" id="password" placeholder=" ">
+            </div>
+            <div class="submit">
+              <button @click="login" class="btn">Log in</button>
+            </div>
+            <div class="forgot">
+              <a href="/register"> I forgot my password</a>
+            </div>
+            <div class="toregister">Not a member yet? Click
+              <a href="/register">here</a> to register.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 export default {
-	name: 'Login',
-	props: {
-		loginflag: {
-			type: String,
-			value: 'Login',
-		},
-	},
-	data() {
-		return {}
-	},
-}
+  name: "Login",
+  props: {
+    loginflag: {
+      type: String,
+      value: "Login"
+    }
+  },
+  data () {
+    return {};
+  },
+  methods: {
+    /**登录 */
+    login () {
+
+    }
+  }
+};
 </script>
+<style lang="less" scoped>
+.clogin {
+  .loginflag {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 10rem;
+  }
+  .formdata {
+    display: flex;
+    justify-content: center;
+    .row-center {
+      text-align: center;
+      .col-center {
+        display: inline-block;
+        float: none;
+        text-align: left;
+        .loginui {
+          padding: 28px;
+          border-radius: 8px;
+          // border-color: #00a3ff;
+          border-width: 1px;
+          .form-group {
+            .uname {
+              width: 280px;
+            }
+            .password {
+              width: 280px;
+            }
+          }
+          .submit {
+            display: flex;
+            justify-content: center;
+            .btn {
+              background: #ff6f00;
+              border-radius: 5px;
+              width: 300px;
+              color: #fff;
+            }
+          }
+          .forgot a {
+            font-size: 14px;
+            color: #ff6f00;
+            text-decoration: underline;
+          }
+          .toregister {
+            font-size: 14px;
+            a {
+              color: #ff6f00;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+</style>

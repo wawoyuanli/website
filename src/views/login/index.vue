@@ -1,60 +1,45 @@
 <template>
-	<div class="login">
-		<Nav></Nav>
-		<div class="loginflag">Login</div>
-		<form>
-			<div class="form-group">
-				<label for="exampleInputEmail1">Email address</label>
-				<input
-					type="email"
-					class="form-control"
-					id="exampleInputEmail1"
-					aria-describedby="emailHelp"
-				/>
-				<small id="emailHelp" class="form-text text-muted"
-					>We'll never share your email with anyone else.</small
-				>
-			</div>
-			<div class="form-group">
-				<label for="exampleInputPassword1">Password</label>
-				<input
-					type="password"
-					class="form-control"
-					id="exampleInputPassword1"
-				/>
-			</div>
-			<div class="form-group form-check">
-				<a href="">I forgot my password</a>
-				<div>Not a member yet? Click here to register.</div>
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
-	</div>
+  <div class="login">
+    <Nav :navitemlist="list"></Nav>
+    <Login/>
+    <Footer/>
+  </div>
 </template>
 <script>
-import Nav from '@c/nav.vue'
+import Nav from "@c/nav.vue";
+import Login from "@c/login.vue";
+import Footer from '@c/footer.vue' //引入底部组件
 export default {
-	name: 'login',
-	components: {
-		Nav: Nav,
-	},
-	data() {
-		return {}
-	},
-}
+  name: "login",
+  components: {
+    Nav: Nav,
+    Login: Login,
+    Footer:Footer
+  },
+  data () {
+    return {
+      list: [
+        { name: 'Home', path: '#', active: 'active' },
+        { name: 'Features', path: '#', active: 'active' },
+        { name: 'support', path: '#', active: 'active' },
+        { name: 'Contact', path: '#', active: 'active' },
+      ],
+    };
+  }
+};
 </script>
 <style lang="less" scoped>
 .login {
-	.loginflag {
-		font-size: 35px;
-		font-weight: bold;
-		box-sizing: border-box;
-		display: flex;
-		justify-content: center;
-		padding-top: 200px;
-		-moz-box-sizing: border-box; /* Firefox */
-		-webkit-box-sizing: border-box; /* Safari */
-	}
+  .loginflag {
+    font-size: 35px;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari */
+  }
 }
 </style>
 
