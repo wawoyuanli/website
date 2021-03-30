@@ -1,10 +1,10 @@
 <template>
-	<div class="login">
-		<Nav></Nav>
-		<div class="loginflag">Login</div>
+	<div class="clogin">
+		<div class="loginflag">{{ loginflag }}</div>
+		<!--登陆表单-->
 		<form>
 			<div class="form-group">
-				<label for="exampleInputEmail1">Email address</label>
+				<label for="exampleInputEmail1">username</label>
 				<input
 					type="email"
 					class="form-control"
@@ -24,37 +24,25 @@
 				/>
 			</div>
 			<div class="form-group form-check">
-				<a href="">I forgot my password</a>
-				<div>Not a member yet? Click here to register.</div>
+				<input type="checkbox" class="form-check-input" id="exampleCheck1" />
+				<label class="form-check-label" for="exampleCheck1">Check me out</label>
 			</div>
 			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
+      
 	</div>
 </template>
 <script>
-import Nav from '@c/nav.vue'
 export default {
-	name: 'login',
-	components: {
-		Nav: Nav,
+	name: 'Login',
+	props: {
+		loginflag: {
+			type: String,
+			value: 'Login',
+		},
 	},
 	data() {
 		return {}
 	},
 }
 </script>
-<style lang="less" scoped>
-.login {
-	.loginflag {
-		font-size: 35px;
-		font-weight: bold;
-		box-sizing: border-box;
-		display: flex;
-		justify-content: center;
-		padding-top: 200px;
-		-moz-box-sizing: border-box; /* Firefox */
-		-webkit-box-sizing: border-box; /* Safari */
-	}
-}
-</style>
-

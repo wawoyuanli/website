@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { getToken } from '@/utils/app.js'
+import { getToKen, getUserName } from '@/utils/app.js'
 const BASEURL = process.env.NODE_ENV === 'production' ? process.env.VUE_APP_API : process.env.VUE_APP_API
 
 const service = axios.create({
@@ -8,11 +8,17 @@ const service = axios.create({
 })
 /**请求拦截器 */
 service.interceptors.request.use(function (config) {
-    config.headers['Tokey'] = getToken()
+    config.headers['token'] = getToKen()
+    config.headers['userName'] = getUserName()
+    return config
+}, function (error) {
+    return Promise.reject(error)
 })
 /**响应拦截 */
 service.interceptors.response.use(function (response) {
+    // let data = response.data
     return response;
 }, function (error) {
     return Promise.reject(error)
 })
+ export default service
