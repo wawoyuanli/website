@@ -10,7 +10,7 @@ import Nav from "@c/nav.vue";
 import Login from "@c/login.vue";
 import Footer from '@c/footer.vue' //引入底部组件
 export default {
-  name: "login",
+  name: "LoginPage",
   components: {
     Nav: Nav,
     Login: Login,
@@ -41,5 +41,6 @@ export default {
     -webkit-box-sizing: border-box; /* Safari */
   }
 }
+	
 </style>
 
