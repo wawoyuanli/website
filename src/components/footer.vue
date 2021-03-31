@@ -32,13 +32,17 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-sm">
-					<a href="">Privacy Policy</a>
-					<a href="">Terms of Service</a>
+			<div class="privacy">
+				<div class="row">
+					<div class="col-sm">
+						<a href="">Privacy Policy</a>
+						<a href="">Terms of Service</a>
+					</div>
+					<div class="col-sm"></div>
+					<div class="col-sm" style="text-align: right">
+						2020 © ColossalScope
+					</div>
 				</div>
-				<div class="col-sm"></div>
-				<div class="col-sm" style="text-align:right">2020 © ColossalScope</div>
 			</div>
 		</div>
 	</div>
@@ -54,6 +58,8 @@ export default {
 </script>
  <style lang="less" scoped>
 .footer {
+  position: absolute;
+  bottom: 0;
 	width: 100vw;
 	height: auto;
 	min-height: 258px;
@@ -110,6 +116,9 @@ export default {
 				}
 			}
 		}
+    .privacy{
+      padding: 40px 0px;
+    }
 	}
 }
 </style>
