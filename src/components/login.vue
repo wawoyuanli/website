@@ -1,18 +1,22 @@
 <template>
   <div class="clogin">
-    <div class="loginflag">Login</div>
+    <p class="h1">Login</p>
     <div class="formdata">
-      <div class="row  row-center">
-        <div class="col-center">
-          <div id="loginui" class="loginui">
-            <div class="form-group">
-              <input name="username" class="form-control uname" placeholder="">
-            </div>
-            <div style="padding: 1px" class="form-group">
-              <input name="password" type="password" class="form-control password" id="password" placeholder=" ">
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <input class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <input class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
             <div class="submit">
-              <button @click="login" class="btn">Log in</button>
+              <button @click="login" class="btn col-md-12">Log in</button>
             </div>
             <div class="forgot">
               <a href="/register"> I forgot my password</a>
@@ -47,55 +51,40 @@ export default {
 </script>
 <style lang="less" scoped>
 .clogin {
-  .loginflag {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    padding-top: 10rem;
+  .h1 {
+    text-align: center;
+    padding-top: 8rem;
   }
   .formdata {
-    display: flex;
-    justify-content: center;
-    .row-center {
-      text-align: center;
-      .col-center {
-        display: inline-block;
-        float: none;
-        text-align: left;
-        .loginui {
-          padding: 28px;
-          border-radius: 8px;
-          // border-color: #00a3ff;
-          border-width: 1px;
-          .form-group {
-            .uname {
-              width: 280px;
-            }
-            .password {
-              width: 280px;
-            }
+    .container {
+      .row {
+        justify-content: center;
+        .col-md-4 {
+          .form-control {
+            margin: 10px 0px;
           }
-          .submit {
-            display: flex;
-            justify-content: center;
-            .btn {
-              background: #ff6f00;
-              border-radius: 5px;
-              width: 300px;
-              color: #fff;
-            }
+        }
+        .submit {
+          .btn {
+            background: #ff6f00;
+            color: #fff;
           }
-          .forgot a {
-            font-size: 14px;
+        }
+        .forgot {
+          margin-top: 20px;
+          a {
             color: #ff6f00;
+
             text-decoration: underline;
           }
-          .toregister {
-            font-size: 14px;
-            a {
-              color: #ff6f00;
-              text-decoration: underline;
-            }
+        }
+        .toregister {
+          margin-top: 20px;
+          color: rgb(146, 135, 135);
+          margin-bottom: 10rem;
+          a {
+            text-decoration: underline;
+            color: #ff6f00;
           }
         }
       }
