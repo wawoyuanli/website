@@ -167,7 +167,6 @@ export default {
 	data() {
 		return {
 			iconList: [
-				{ name: 'camera', path: require('../assets/images/_camera.png') },
 				{ name: 'people', path: require('../assets/images/People Plus.png') },
 				{ name: 'earth', path: require('../assets/images/earth.png') },
 				{ name: 'seat', path: require('../assets/images/seat.png') },

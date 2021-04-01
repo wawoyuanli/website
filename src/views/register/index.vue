@@ -20,7 +20,6 @@ export default {
   data () {
     return {
       list: [
-        { name: 'Home', path: '/', active: 'active' },
         { name: 'Features', path: '#', active: 'active' },
         { name: 'support', path: '#', active: 'active' },
         { name: 'Contact', path: '#', active: 'active' },

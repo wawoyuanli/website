@@ -1,7 +1,8 @@
 <template>
 	<div class="home">
 		<Nav/>
-		<!-- <Footer/> -->
+		<div style="width:100%;height:42rem">111</div>
+		<Footer/>
 	</div>
 </template>
 <script>
