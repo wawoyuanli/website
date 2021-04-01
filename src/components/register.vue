@@ -8,7 +8,13 @@
 						>Username：
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="username" />
+					<input
+						class="form-control"
+						id="username"
+						v-model="username"
+						@blur="usernameCheck(username)"
+					/>
+					<div v-show="show" style="margin-top:10px;color:red">{{ errorMessage }}</div>
 				</div>
 			</div>
 			<div class="row">
@@ -17,7 +23,7 @@
 						>Email
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="email" />
+					<input class="form-control" id="email" v-model="email" />
 				</div>
 			</div>
 			<div class="row">
@@ -26,7 +32,7 @@
 						>Password
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="password" />
+					<input class="form-control" id="password" v-model="password" type=""/>
 				</div>
 			</div>
 			<div class="row">
@@ -35,7 +41,7 @@
 						>Confirm Password
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="password2" />
+					<input class="form-control" id="password2" v-model="password2" />
 				</div>
 			</div>
 
@@ -45,7 +51,7 @@
 						>Desired PIN ：
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="password2" />
+					<input class="form-control" id="password2" v-model="desiredPin" />
 				</div>
 
 				<div class="col-md-2">
@@ -54,13 +60,17 @@
 
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="password2" />
+					<input class="form-control" id="password2" v-model="birthYear" />
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<label for="password2" class="control-label">Referrer ： </label>
-					<input class="form-control control-label-referrer" id="password2" />
+					<input
+						class="form-control control-label-referrer"
+						id="password2"
+						v-model="referrer"
+					/>
 				</div>
 			</div>
 			<div class="row">
@@ -73,7 +83,7 @@
 				<div class="col-md-4">
 					<div style="display: flex; color: #00acac">
 						<p>Click or touch the</p>
-						<strong style="margin-left: 4px">Clock</strong>
+						<strong style="margin-left: 4px">{{ iconName }}</strong>
 					</div>
 				</div>
 			</div>
@@ -147,9 +157,11 @@
 				</div>
 			</div>
 		</div>
+		<div class="d-flex p-2 bd-highlight">I'm a flexbox container!</div>
 	</div>
 </template>
 <script>
+import { checkUsername, checkEmail, checkPassword } from '@/utils/validate.js'
 export default {
 	name: 'Register',
 	data() {
@@ -160,6 +172,16 @@ export default {
 				{ name: 'earth', path: require('../assets/images/earth.png') },
 				{ name: 'seat', path: require('../assets/images/seat.png') },
 			],
+			username: '',
+			email: '',
+			password: '',
+			password2: '',
+			desiredPin: '',
+			birthYear: '',
+			referrer: '',
+			iconName: 'man',
+			errorMessage: '',
+			show: false,
 		}
 	},
 	methods: {
@@ -168,6 +190,12 @@ export default {
 		},
 		changeIconHandler: function () {},
 		clickVoiceIcon: function () {},
+		usernameCheck(username) {
+      const _th=this
+			var mess = checkUsername(username)
+			_th.errorMessage =mess
+			_th.show = true
+		},
 	},
 }
 </script>

@@ -9,6 +9,7 @@
 import Nav from '@c/nav.vue'
 import Register from '@c/register.vue'
 import Footer from "@c/footer.vue";
+
 export default {
   name: 'RegisterPage',
   components: {
