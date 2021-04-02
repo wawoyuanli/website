@@ -25,8 +25,11 @@
 				<!--Main menu-->
 				<ul class="navbar-nav ml-auto mr-3">
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger actived" href="/home"
-							:style="color">Home
+						<a
+							class="nav-link js-scroll-trigger actived"
+							href="/home"
+							:style="color"
+							>Home
 							<span class="sr-only">(current)</span>
 						</a>
 					</li>
@@ -71,8 +74,8 @@ export default {
 			style: {
 				backgroundColor: `rgb(90, 199, 199)`,
 				color: 'rgb(90, 199, 199)',
-			}, 
-			color:'rgb(90, 199, 199)'
+			},
+			color: 'rgb(90, 199, 199)',
 		}
 	},
 	mounted() {
@@ -86,11 +89,11 @@ export default {
 				document.documentElement.scrollTop ||
 				document.body.scrollTop
 			//设置背景颜色的透明读
-			if (scrollTop) {
-				_th.style.backgroundColor = `rgb(255, 255, 255)`
+			if (scrollTop<10) {
+				_th.style.background = `linear-gradient(to right, #207aa9,#1d90b3,#10b3c1)`
 				_th.style.color = 'red'
-			} else if (scrollTop == 0) {
-				_th.style.backgroundColor = `rgb(90, 199, 199)`
+			} else if (scrollTop >10) {
+				_th.style.background = '#fff'
 				_th.style.color = `blue`
 			}
 		},
@@ -107,7 +110,7 @@ export default {
 <style lang="less" scoped>
 /**导入nav配置样式 */
 @import '../assets/less/nav.less';
-#mainNav{
+#mainNav {
 	padding: 20px 0px;
 }
 .fixed-top {

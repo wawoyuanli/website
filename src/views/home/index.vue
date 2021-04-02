@@ -1,6 +1,6 @@
 <template>
 	<div class="home">
-		<Nav/>
+		<Nav :navitemlist="navitemlist"/>
 		<div style="width:100%;height:42rem">111</div>
 		<Footer/>
 	</div>
@@ -20,7 +20,7 @@ export default {
 			navitemlist: [
 				// { name: 'Home', path: '/', active: 'active' },
 				{ name: 'Features', path: '#', active: 'active' },
-				{ name: 'support', path: '#', active: 'active' },
+				{ name: 'support', path: '/support', active: 'active' },
 				{ name: 'Contact', path: '/contact', active: 'active' },
 			],
 		}
