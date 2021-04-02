@@ -30,6 +30,11 @@ export default new Router({
       path: '/support',
       name: 'support',
       component: () => import('@/views/support/index.vue'),
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('@/views/contact/index.vue'),
     }
   ]
 })

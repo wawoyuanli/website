@@ -172,6 +172,7 @@ export default {
 </script>
  <style scoped  lang="less">
 .home {
+	 background: linear-gradient(90deg,#1f75a7 0,#03bec5)!important;
 	color: #343a40;
 	min-height: 100vh;
 	.parallax-mirror {
