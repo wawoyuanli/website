@@ -7,7 +7,7 @@
 	>
 		<div class="container">
 			<a class="navbar-brand" href="/home">
-				<strong>ColossalScope</strong>
+				<strong :style="{ color: color }">ColossalScope</strong>
 			</a>
 			<button
 				class="navbar-toggler"
@@ -28,7 +28,7 @@
 						<a
 							class="nav-link js-scroll-trigger actived"
 							href="/home"
-							:style="color"
+							:style="{ color: color }"
 							>Home
 							<span class="sr-only">(current)</span>
 						</a>
@@ -38,7 +38,10 @@
 						v-for="(item, index) in navitemlist"
 						:key="index"
 					>
-						<a class="nav-link js-scroll-trigger" :href="item.path"
+						<a
+							class="nav-link js-scroll-trigger"
+							:href="item.path"
+							:style="{ color: color }"
 							>{{ item.name }}
 						</a>
 					</li>
@@ -61,7 +64,6 @@ export default {
 			default() {
 				//默认数组 可从父组件中传入 需要几个对象传几个对象
 				return [
-					// { name: 'Home', path: '#', active: 'active' },
 					{ name: 'Features', path: '#', active: 'active' },
 					{ name: 'support', path: '#', active: 'active' },
 					{ name: 'Contact', path: '#', active: 'active' },
@@ -75,7 +77,7 @@ export default {
 				backgroundColor: `rgb(90, 199, 199)`,
 				color: 'rgb(90, 199, 199)',
 			},
-			color: 'rgb(90, 199, 199)',
+			color: '#fff',
 		}
 	},
 	mounted() {
@@ -84,17 +86,15 @@ export default {
 	methods: {
 		handleScroll() {
 			const _th = this
-			let scrollTop =
-				window.pageYOffset ||
-				document.documentElement.scrollTop ||
-				document.body.scrollTop
+			let scrollTop = window.pageYOffset
 			//设置背景颜色的透明读
-			if (scrollTop<10) {
+			if (scrollTop < 10) {
 				_th.style.background = `linear-gradient(to right, #207aa9,#1d90b3,#10b3c1)`
-				_th.style.color = 'red'
-			} else if (scrollTop >10) {
+				_th.color = '#fff'
+			} else if (scrollTop > 10) {
+				_th.color = `#ec5c42`
 				_th.style.background = '#fff'
-				_th.style.color = `blue`
+				// _th.style.color = `#08006f`
 			}
 		},
 		signinClick() {
@@ -110,12 +110,25 @@ export default {
 <style lang="less" scoped>
 /**导入nav配置样式 */
 @import '../assets/less/nav.less';
+.navbar {
+	font-size: 0.875rem;
+}
+.navbar-expand-lg {
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
 #mainNav {
-	padding: 20px 0px;
+	padding: .25rem 0px;
+	transition: all 0.5s;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	border: none;
+	background-color: transparent;
 }
 .fixed-top {
-	background: rgb(90, 199, 199);
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	background: linear-gradient(90deg, #1f75a7 0, #03bec5) !important;
+	// box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
 	.container {
 		.navbar-brand {
 			color: #fff;
