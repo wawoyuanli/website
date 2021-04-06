@@ -33,7 +33,27 @@
 					<label for="sendCode" class="control-label">
 						<label style="color: red; opacity: 0"> sendcode</label>
 					</label>
-					<button class="btn btn-primary form-control">发送验证码</button>
+					<button
+						class="btn btn-primary form-control"
+						@click="sendVerificationCode"
+					>
+						发送验证码
+					</button>
+				</div>
+			</div>
+			<!--验证码-->
+			<div class="row">
+				<div class="col-lg-6">
+					<label for="remark" class="control-label"
+						>remark
+						<label style="color: red">*</label>
+					</label>
+					<input
+						class="form-control"
+						id="remark"
+						v-model="remark"
+						placeholder="请输入验证码"
+					/>
 				</div>
 			</div>
 			<!--密码-->
@@ -58,24 +78,43 @@
 						>FirstName
 						<label style="color: red">*</label>
 					</label>
-					<input type="text" class="form-control" placeholder="First name" />
+					<input
+						type="text"
+						class="form-control"
+						placeholder="First name"
+						v-model="firstName"
+					/>
 				</div>
 				<div class="col-lg-3">
 					<label for="lastName" class="control-label"
 						>lastName
 						<label style="color: red">*</label>
 					</label>
-					<input type="text" class="form-control" placeholder="Last name" />
+					<input
+						type="text"
+						class="form-control"
+						placeholder="Last name"
+						v-model="lastName"
+					/>
 				</div>
 			</div>
 			<!--sex-->
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-3">
 					<label for="sex" class="control-label"
 						>sex
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="sex" v-model="desiredPin" />
+					<select id="inputState" class="form-control">
+						<option selected>男</option>
+						<option>女</option>
+					</select>
+				</div>
+				<div class="col-lg-3" style="opacity: 0">
+					<label for="sex" class="control-label">
+						<label style="color: red">*</label>
+					</label>
+					<select id="inputState" class="form-control"></select>
 				</div>
 			</div>
 			<!--出生日期-->
@@ -85,21 +124,33 @@
 						>birthday year
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="sex" v-model="desiredPin" />
+					<date-picker
+						v-model="dateYear"
+						:config="optionsYear"
+						@dp-hide="showDatePickResult"
+					/>
 				</div>
 				<div class="col-lg-2">
-					<label for="sex" class="control-label"
+					<label for="birthdaymonth" class="control-label"
 						>birthday month
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="sex" v-model="desiredPin" />
+					<date-picker
+						v-model="dateMonth"
+						:config="optionsMonth"
+						@dp-hide="showDatePickResult"
+					/>
 				</div>
 				<div class="col-lg-2">
 					<label for="sex" class="control-label"
 						>birthday day
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="sex" v-model="desiredPin" />
+					<date-picker
+						v-model="dateDay"
+						:config="optionsDay"
+						@dp-hide="showDatePickResult"
+					/>
 				</div>
 			</div>
 			<!--address-->
@@ -137,10 +188,21 @@
 					/>
 				</div>
 			</div>
+			<!--PIN 个人识别码-->
+			<div class="row">
+				<div class="col-lg-6">
+					<label> pinCode:</label>
+					<label style="color: red">*</label>
+					<input
+						class="form-control control-label-referrer"
+						id="pinCode"
+						v-model="pinCode"
+					/>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-lg-6">
 					<label> Vetification:</label>
-					<!-- <label style="color: red">*</label> -->
 				</div>
 			</div>
 			<div class="row">
@@ -151,7 +213,6 @@
 					</div>
 				</div>
 			</div>
-
 			<!--icon-->
 			<div class="row">
 				<div class="col-lg-6">
@@ -226,8 +287,13 @@
 </template>
 <script>
 import { checkUsername, checkEmail, checkPassword } from '@/utils/validate.js'
+import datePicker from 'vue-bootstrap-datetimepicker'
+import $ from 'jquery'
 export default {
 	name: 'Register',
+	components: {
+		datePicker,
+	},
 	data() {
 		return {
 			iconList: [
@@ -239,16 +305,66 @@ export default {
 			email: '',
 			remark: '', //邮箱校验码
 			password: '',
-			password2: '',
-			desiredPin: '',
+			firstName: '',
+			lastName: '',
+			sex: '0',
+			pinCode: '',
 			birthYear: '',
 			referrer: '',
 			iconName: 'man',
 			errorMessage: '',
 			show: false,
+			dateYear: new Date(),
+			dateMonth: new Date(),
+			dateDay: new Date(),
+			optionsYear: {
+				format: 'YYYY',
+				useCurrent: false,
+				locale: 'zh-cn',
+				tooltips: {
+					selectTime: '',
+				},
+			},
+			optionsMonth: {
+				format: 'M',
+				useCurrent: false,
+				locale: 'zh-cn',
+				tooltips: {
+					selectTime: '',
+				},
+			},
+			optionsDay: {
+				format: 'D',
+				useCurrent: false,
+				locale: 'zh-cn',
+				tooltips: {
+					selectTime: '',
+				},
+			},
 		}
 	},
+	created: function () {
+		 $.extend(true, $.fn.datetimepicker.defaults, {
+            icons: {
+            time: 'far fa-clock',
+            date: 'far fa-calendar',
+            up: 'fas fa-arrow-up',
+            down: 'fas fa-arrow-down',
+            previous: 'fas fa-chevron-left',
+            next: 'fas fa-chevron-right',
+            today: 'fas fa-calendar-check',
+            clear: 'far fa-trash-alt',
+            close: 'far fa-times-circle'
+            }
+        })
+	},
 	methods: {
+		showDatePickResult: function () {
+			console.log(this.dateYear)
+		},
+		sendVerificationCode: function () {
+			console.log('发送验证码')
+		},
 		clickIcon: function (name) {
 			console.log(name)
 		},
