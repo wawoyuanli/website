@@ -2,70 +2,134 @@
 	<div class="register-wrap">
 		<h1 class="registerflag">Register</h1>
 		<div class="container">
+			<!--用户名：nickName-->
 			<div class="row">
-				<div class="col-md-4">
-					<label for="username" class="control-label"
-						>Username：
+				<div class="col-lg-6">
+					<label for="nickName" class="control-label"
+						>nickName
 						<label style="color: red">*</label>
 					</label>
 					<input
 						class="form-control"
-						id="username"
-						v-model="username"
-						@blur="usernameCheck(username)"
+						id="nickName"
+						v-model="nickName"
+						@blur="userNameCheck(nickName)"
 					/>
-					<div v-show="show" style="margin-top:10px;color:red">{{ errorMessage }}</div>
+					<div v-show="show" style="margin-top: 10px; color: red">
+						{{ errorMessage }}
+					</div>
 				</div>
 			</div>
+			<!--邮箱：email-->
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-4">
 					<label for="email" class="control-label"
 						>Email
 						<label style="color: red">*</label>
 					</label>
 					<input class="form-control" id="email" v-model="email" />
 				</div>
+				<div class="col-lg-2">
+					<label for="sendCode" class="control-label">
+						<label style="color: red; opacity: 0"> sendcode</label>
+					</label>
+					<button class="btn btn-primary form-control">发送验证码</button>
+				</div>
 			</div>
+			<!--密码-->
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-6">
 					<label for="password" class="control-label"
 						>Password
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="password" v-model="password" type=""/>
+					<input
+						class="form-control"
+						id="password"
+						v-model="password"
+						type=""
+					/>
 				</div>
 			</div>
+			<!--firstName lastName-->
 			<div class="row">
-				<div class="col-md-4">
-					<label for="password2" class="control-label"
-						>Confirm Password
+				<div class="col-lg-3">
+					<label for="firstName" class="control-label"
+						>FirstName
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="password2" v-model="password2" />
+					<input type="text" class="form-control" placeholder="First name" />
+				</div>
+				<div class="col-lg-3">
+					<label for="lastName" class="control-label"
+						>lastName
+						<label style="color: red">*</label>
+					</label>
+					<input type="text" class="form-control" placeholder="Last name" />
 				</div>
 			</div>
-
+			<!--sex-->
 			<div class="row">
-				<div class="col-md-2">
-					<label for="password2" class="control-label"
-						>Desired PIN ：
+				<div class="col-lg-6">
+					<label for="sex" class="control-label"
+						>sex
 						<label style="color: red">*</label>
 					</label>
-					<input class="form-control" id="password2" v-model="desiredPin" />
-				</div>
-
-				<div class="col-md-2">
-					<label for="password2" class="control-label"
-						>Birth Year ：
-
-						<label style="color: red">*</label>
-					</label>
-					<input class="form-control" id="password2" v-model="birthYear" />
+					<input class="form-control" id="sex" v-model="desiredPin" />
 				</div>
 			</div>
+			<!--出生日期-->
 			<div class="row">
-				<div class="col-md-4">
-					<label for="password2" class="control-label">Referrer ： </label>
+				<div class="col-lg-2">
+					<label for="sex" class="control-label"
+						>birthday year
+						<label style="color: red">*</label>
+					</label>
+					<input class="form-control" id="sex" v-model="desiredPin" />
+				</div>
+				<div class="col-lg-2">
+					<label for="sex" class="control-label"
+						>birthday month
+						<label style="color: red">*</label>
+					</label>
+					<input class="form-control" id="sex" v-model="desiredPin" />
+				</div>
+				<div class="col-lg-2">
+					<label for="sex" class="control-label"
+						>birthday day
+						<label style="color: red">*</label>
+					</label>
+					<input class="form-control" id="sex" v-model="desiredPin" />
+				</div>
+			</div>
+			<!--address-->
+			<div class="row">
+				<div class="col-lg-6">
+					<label for="referrer" class="control-label">address ： </label>
+					<input
+						class="form-control control-label-referrer"
+						id="password2"
+						v-model="referrer"
+					/>
+				</div>
+			</div>
+			<!--postCode 邮编-->
+			<div class="row">
+				<div class="col-lg-6">
+					<label> postCode:</label>
+					<label style="color: red">*</label>
+					<input
+						class="form-control control-label-referrer"
+						id="password2"
+						v-model="referrer"
+					/>
+				</div>
+			</div>
+			<!--phone 电话号码-->
+			<div class="row">
+				<div class="col-lg-6">
+					<label> phone:</label>
+					<label style="color: red">*</label>
 					<input
 						class="form-control control-label-referrer"
 						id="password2"
@@ -74,13 +138,13 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
-					<label> Verification:</label>
-					<label style="color: red">*</label>
+				<div class="col-lg-6">
+					<label> Vetification:</label>
+					<!-- <label style="color: red">*</label> -->
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-6">
 					<div style="display: flex; color: #00acac">
 						<p>Click or touch the</p>
 						<strong style="margin-left: 4px">{{ iconName }}</strong>
@@ -90,7 +154,7 @@
 
 			<!--icon-->
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-6">
 					<div style="display: flex; justify-content: space-between">
 						<li v-for="(item, index) in iconList" :key="index">
 							<img :src="item.path" alt="" @click="clickIcon(item.name)" />
@@ -101,10 +165,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">Detected country:</div>
+				<div class="col-lg-6">Detected country:</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-6">
 					<div style="display: flex">
 						<img
 							src="../assets/images/cn.png"
@@ -117,7 +181,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-6">
 					<div style="display: flex; padding: 4px 0px">
 						<input id="TermsCheckBox" type="checkbox" name="" />
 						<div style="display: flex; margin-left: 5px">
@@ -145,7 +209,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-6">
 					<div class="register-buttons m-t-30">
 						<input
 							type="submit"
@@ -171,8 +235,9 @@ export default {
 				{ name: 'earth', path: require('../assets/images/earth.png') },
 				{ name: 'seat', path: require('../assets/images/seat.png') },
 			],
-			username: '',
+			nickName: '',
 			email: '',
+			remark: '', //邮箱校验码
 			password: '',
 			password2: '',
 			desiredPin: '',
@@ -189,10 +254,10 @@ export default {
 		},
 		changeIconHandler: function () {},
 		clickVoiceIcon: function () {},
-		usernameCheck(username) {
-      const _th=this
-			var mess = checkUsername(username)
-			_th.errorMessage =mess
+		usernameCheck(nickName) {
+			const _th = this
+			var mess = checkUsername(nickName)
+			_th.errorMessage = mess
 			_th.show = true
 		},
 	},
@@ -218,8 +283,8 @@ export default {
 					color: #343a40 !important;
 					border-radius: 5px;
 					display: block;
-					width: 26rem;
-					height: 2.4rem;
+					// width: 26rem;
+					// height: 2.4rem;
 					padding: 0.375rem 0.75rem;
 					font-size: 1rem;
 					font-weight: 400;
@@ -251,9 +316,6 @@ export default {
 					font-size: 0.875rem;
 					padding: 5px 0px;
 					color: #65686b;
-				}
-				.form-control {
-					// width: 13rem;
 				}
 			}
 		}
