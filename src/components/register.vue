@@ -277,6 +277,7 @@
 							name="register"
 							value="Register"
 							class="btn btn-primary btn-block btn-lg"
+							@click="registerHandler"
 						/>
 					</div>
 				</div>
@@ -289,6 +290,7 @@
 import { checkUsername, checkEmail, checkPassword } from '@/utils/validate.js'
 import datePicker from 'vue-bootstrap-datetimepicker'
 import $ from 'jquery'
+import { registerHandler, GetSms } from '@/api/login'
 export default {
 	name: 'Register',
 	components: {
@@ -344,19 +346,19 @@ export default {
 		}
 	},
 	created: function () {
-		 $.extend(true, $.fn.datetimepicker.defaults, {
-            icons: {
-            time: 'far fa-clock',
-            date: 'far fa-calendar',
-            up: 'fas fa-arrow-up',
-            down: 'fas fa-arrow-down',
-            previous: 'fas fa-chevron-left',
-            next: 'fas fa-chevron-right',
-            today: 'fas fa-calendar-check',
-            clear: 'far fa-trash-alt',
-            close: 'far fa-times-circle'
-            }
-        })
+		$.extend(true, $.fn.datetimepicker.defaults, {
+			icons: {
+				time: 'far fa-clock',
+				date: 'far fa-calendar',
+				up: 'fas fa-arrow-up',
+				down: 'fas fa-arrow-down',
+				previous: 'fas fa-chevron-left',
+				next: 'fas fa-chevron-right',
+				today: 'fas fa-calendar-check',
+				clear: 'far fa-trash-alt',
+				close: 'far fa-times-circle',
+			},
+		})
 	},
 	methods: {
 		showDatePickResult: function () {
@@ -375,6 +377,48 @@ export default {
 			var mess = checkUsername(nickName)
 			_th.errorMessage = mess
 			_th.show = true
+		},
+		registerHandler: function () {
+		
+		 /**
+		  * 	let requestData = {
+				username: '1583649818@qq.com',
+				module: true,
+			}
+			GetSms(requestData)
+				.then((response) => {
+					debugger
+					let data = response.data
+					debugger
+				})
+				.catch((error) => {
+					debugger
+					console.log(error)
+				})
+		  */
+			const data = {
+				userName: 'hyl',
+				email: 'test2021@qq.com',
+				password: '123456',
+				surveyFirstName: 'xiaohong',
+				surveyLastName: 'wang',
+				sex: '1',
+				surveyBirthdayYear: '1996',
+				surveyBirthdayMonth: '10',
+				surveyBirthdayDay: '12',
+				surveyAddress: '中国北京市海淀区1700号',
+				surveyPostcode: '100000',
+				phonenumber: '17100000000',
+				surveyPinCode: '1234',
+			}
+			registerHandler(data).then(function(res){
+				debugger
+
+
+			}).catch(function(err){
+				debugger
+				
+			})
 		},
 	},
 }

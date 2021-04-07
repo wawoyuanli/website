@@ -8,8 +8,8 @@ const service = axios.create({
 })
 /**请求拦截器 */
 service.interceptors.request.use(function (config) {
-  config.headers['token'] = getToKen()
-  config.headers['userName'] = getUserName()
+  config.headers["Tokey"] = getToKen();
+  config.headers["UserName"] = getUserName();
   return config
 }, function (error) {
   return Promise.reject(error)

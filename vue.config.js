@@ -37,9 +37,9 @@ module.exports = {
     sourceMap: false,
     // css预设器配置项
     loaderOptions: {
-      less: {
-        javascriptEnabled: true //less 配置
-        // prependData: `@import "@/assets/less/variable.less;"`
+      scss: {
+        javascriptEnabled: true, //less 配置
+        prependData: `@import "@/assets/less/variable.less;"`
       }
     }
   },
@@ -51,13 +51,13 @@ module.exports = {
   devServer: {
     open: false, // 编译完成是否打开网页
     host: '0.0.0.0', // 指定使用地址，默认localhost,0.0.0.0代表可以被外界访问
-    port: 8080, // 访问端口
+    port: 80, // 访问端口
     https: false, // 编译失败时刷新页面
     hot: true, // 开启热加载
     hotOnly: false,
     proxy: {
-      [process.env.VUE_APP_API]: {
-        target: "http://www.web-jshtml.cn/productapi/token",//http://127.0.0.1:80
+      [process.env.VUE_APP_API]: {//'http://www.web-jshtml.cn/productapi/token',
+        target: "http://g36469v144.zicp.vip",//"http://www.web-jshtml.cn/productapi/token", //API服务器的地址  http://www.web-jshtml.cn/api
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_API]: '' // es5
@@ -69,8 +69,8 @@ module.exports = {
       warnings: true,
       errors: true
     },
-    before: app => {
-    }
+    // before: app => {
+    // }
   },
   /**
   * 第三方插件配置
