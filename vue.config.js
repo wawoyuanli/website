@@ -57,7 +57,7 @@ module.exports = {
     hotOnly: false,
     proxy: {
       [process.env.VUE_APP_API]: {
-        target: "http://www.web-jshtml.cn/productapi/token", //API服务器的地址  http://www.web-jshtml.cn/api
+        target: "http://www.web-jshtml.cn/productapi/token",//http://127.0.0.1:80
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_API]: '' // es5
@@ -79,9 +79,8 @@ module.exports = {
     'style-resources-loader': {
       preProcessor: 'less',
       patterns: [
-        path.resolve(__dirname,'./src/assets/less/varibles.less')
+        path.resolve(__dirname, './src/assets/less/varibles.less')
       ],
     }
   }
 }
-   
