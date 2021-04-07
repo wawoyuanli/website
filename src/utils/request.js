@@ -8,7 +8,7 @@ const service = axios.create({
 })
 /**请求拦截器 */
 service.interceptors.request.use(function (config) {
-  config.headers["Tokey"] = getToKen();
+  config.headers["Tokey"] = 'admin-token  '//= getToKen();
   config.headers["UserName"] = getUserName();
   return config
 }, function (error) {

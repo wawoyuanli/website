@@ -30,6 +30,7 @@
   </div>
 </template>
 <script>
+import { login, getCountryCode } from '@/api/login'
 export default {
   name: "Login",
   props: {
@@ -44,7 +45,20 @@ export default {
   methods: {
     /**登录 */
     login () {
+      // let requestData = {
+      //   username: 'hyl123',
+      //   password: '123456'
+      // }
+      // login(requestData).then(function (res) {
 
+      // }).catch(function (err) {
+      //   console.log(err)
+      // })
+      getCountryCode().then(function (res) {
+
+      }).catch(function (err) {
+        console.log(err)
+      })
     }
   }
 };

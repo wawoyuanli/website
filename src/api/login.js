@@ -1,62 +1,39 @@
 import service from '@/utils/request';
-export function registerHandler(data) {
-    return service.request({
-        method: "post",
-        url: "/manager/survey/register",
-        data
-        // data: data, 左边的data是变量名（key）后台接收的。右边的Data是接收的参数。如果两者都是同名的情况下，可以写成单一个即可（ES6的写法）
-    })
+/**注册接口 */
+export function registerHandler (data) {
+  return service.request({
+    method: "POST",
+    url: "/manager/survey/register",
+    data
+  })
 }
-export function GetSms(data){
-    return service.request({
-        method: "post",
-        url: "/getSms/",
-        data
-        // data: data, 左边的data是变量名（key）后台接收的。右边的Data是接收的参数。如果两者都是同名的情况下，可以写成单一个即可（ES6的写法）
-    })
-}
-/**
- * 获取用户角色
- */
- export function getUserRole(data = {}){
-    return service.request({
-        method: "post",
-        url: "/userRole/",
-        data
-        // data: data, 左边的data是变量名（key）后台接收的。右边的Data是接收的参数。如果两者都是同名的情况下，可以写成单一个即可（ES6的写法）
-    })
+/**获取验证码接口 6位数字验证码 */
+export function getCode (data) {
+  return service.request({
+    method: "GET",
+    url: `/manager/survey/sendEmail?email=${data.email}`,
+    data
+  })
 }
 
-/**
- * 退出
- */
-export function Logout(data = {}){
-    return service.request({
-        method: "post",
-        url: "/logout/",
-        data
-    })
-}
+/**获取国家码 */
+export function getCountryCode (data) {
+  return service.request({
+    method: "GET",
+    url: "/manager/survey/countryCode",
+    data
 
+  })
+}
 
 /**
  * 登录
  */
-export function Login(data){
-    return service.request({
-        method: "post",
-        url: "/login/",
-        data
-    })
+export function login (data) {
+  return service.request({
+    method: "post",
+    url: "/manager/survey/login",
+    data
+  })
 }
 
-/**
- * 注册
- */
-export function Register(data){
-    return service.request({
-        method: "post",
-        url: "/register/",
-        data
-    })
-}

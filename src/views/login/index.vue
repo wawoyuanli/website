@@ -14,7 +14,7 @@ export default {
   components: {
     Nav: Nav,
     Login: Login,
-    Footer:Footer
+    Footer: Footer
   },
   data () {
     return {
@@ -40,6 +40,5 @@ export default {
     -webkit-box-sizing: border-box; /* Safari */
   }
 }
-	
 </style>
 
