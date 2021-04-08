@@ -35,6 +35,16 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: () => import('@/views/contact/index.vue'),
+    },
+    {
+      path: '/privacy',
+      name: 'privacy',
+      component: () => import('@/views/privacy/index.vue'),
+    },
+    {
+      path: '/tos',
+      name: 'tos',
+      component: () => import('@/views/tos/index.vue'),
     }
   ]
 })

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <a href="" class="footer-brand wow fadeIn cc_pointer" data-wow-delay="0.1s">
+          <a href="/home" class="footer-brand wow fadeIn cc_pointer" data-wow-delay="0.1s">
             ColossalScope
           </a>
           <p class="mt-3 wow fadeIn cc_cursor" data-wow-delay="0.2s">
@@ -14,14 +14,14 @@
         <div class="col-sm">
           <ul class="list-unstyled text-right">
             <li>
-              <a href="#" class="footer-link">About us</a>
+              <a href="/home" class="footer-link">About us</a>
             </li>
             <li>
-              <a href="#" class="footer-link">Support</a>
+              <a href="/support" class="footer-link">Support</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Contact</a>
+              <a href="/contact" class="footer-link">Contact</a>
             </li>
           </ul>
         </div>
@@ -30,8 +30,8 @@
       <div class="privacy">
         <div class="row">
           <div class="col-sm">
-            <a href="">Privacy Policy</a>
-            <a href="">Terms of Service</a>
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/tos">Terms of Service</a>
           </div>
           <div class="col-sm"></div>
           <div class="col-sm" style="text-align: right">

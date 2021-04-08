@@ -12,7 +12,7 @@
               <br> For the things you do online
             </h1>
             <p style="font-size:1rem;color:#fff;padding:20px 0px">All-in-one script for earning money online.</p>
-            <input type="button" value="Join Us" class="joinus-btn">
+            <div class="joinus-btn"><a  href="/register">Join Us</a></div>
           </div>
           <img src="../../assets/images/iphone-x-mockup.png" alt="" style="margin-left:37%;z-index:10">
         </div>
@@ -126,10 +126,15 @@ export default {
     border: none;
     background-color: #ff6f00;
     border-color: #ff6f00;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     border-radius: 5px;
-    color: #fff;
-    font-size: 1.2rem;
+    text-align: center;
+    a{
+      font-size: 1.4rem;
+      color: white;
+   
+    }
   }
   .parallax-mirror {
     // visibility: hidden;
