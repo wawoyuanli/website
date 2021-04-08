@@ -27,12 +27,12 @@ export function getCountryCode (data) {
 }
 
 /**
- * 登录
+ * 登录http://g36469v144.zicp.vip/manager/index
  */
 export function login (data) {
   return service.request({
-    method: "post",
-    url: "/manager/survey/login",
+    method: "POST",
+    url: "/manager/survey/login", 
     data
   })
 }
