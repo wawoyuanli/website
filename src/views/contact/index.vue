@@ -1,7 +1,7 @@
 <template>
 
   <div class="contact">
-    <Nav />
+    <Nav id="borderBottom" :color="color" :isActive="isActive" :list="list" />
     <div class="content-section">
       <div class="container">
         <div class="row">
@@ -101,7 +101,17 @@ export default {
         { name: 'earth', path: require('../../assets/images/earth.png') },
         { name: 'seat', path: require('../../assets/images/seat.png') },
       ],
+      list: [
+        { name: 'Features', path: '/features', active: 'active' },
+        { name: 'support', path: '/support', active: 'active' },
+        { name: 'Contact', path: '/contact', active: 'active' },
+      ],
+      isActive: true,
+      color: '#26a4c3'
     }
+  },
+  mounted () {
+    document.getElementById('borderBottom').classList.add('borderBottom')
   }
 }
 </script>

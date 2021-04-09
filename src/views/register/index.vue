@@ -1,6 +1,6 @@
 <template>
   <div class="register">
-    <Nav :navitemlist="list" />
+    <Nav :navitemlist="list" :color="color" :isActive="isActive" id="borderBottom" />
     <Register/>
     <Footer/>
   </div>
@@ -20,13 +20,17 @@ export default {
   data () {
     return {
       list: [
-        { name: 'Features', path: '#', active: 'active' },
-        { name: 'support', path: '#', active: 'active' },
-        { name: 'Contact', path: '#', active: 'active' },
+        { name: 'Features', path: '/features', active: 'active' },
+        { name: 'support', path: '/support', active: 'active' },
+        { name: 'Contact', path: '/contact', active: 'active' },
       ],
+      isActive: true,
+      color: '#26a4c3'
     }
   },
-  mounted () { },
+  mounted () {
+    document.getElementById('borderBottom').classList.add('borderBottom')
+  },
   methods: {},
 }
 </script>

@@ -283,6 +283,9 @@ export default {
       },
     })
   },
+  mounted () {
+
+  },
   methods: {
     showDatePickResult: function () {
       console.log(this.dateYear)

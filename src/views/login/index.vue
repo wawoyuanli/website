@@ -1,7 +1,9 @@
 <template>
   <div class="login">
-    <Nav :navitemlist="list"></Nav>
-    <Login/>
+    <Nav :navitemlist="list" :color="color" :isActive="isActive" id="borderBottom"></Nav>
+    <div class="login-form">
+      <Login/>
+    </div>
     <Footer/>
   </div>
 </template>
@@ -23,12 +25,20 @@ export default {
         { name: 'support', path: '#', active: 'active' },
         { name: 'Contact', path: '#', active: 'active' },
       ],
+      color: '#26a4c3',
+      isActive: true
     };
+  },
+  mounted () {
+    document.getElementById('borderBottom').classList.add('borderBottom')
   }
 };
 </script>
 <style lang="less" scoped>
 .login {
+  .login-form {
+    min-width: 70vh;
+  }
   .loginflag {
     font-size: 35px;
     font-weight: bold;

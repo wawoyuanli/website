@@ -30,8 +30,8 @@
       <div class="privacy">
         <div class="row">
           <div class="col-sm">
-            <a href="/privacy">Privacy Policy</a>
-            <a href="/tos">Terms of Service</a>
+            <a href="/privacy" style="color:#ff6f00">Privacy Policy</a>
+            <a href="/tos" style="color:#ff6f00;margin-left:10px">Terms of Service</a>
           </div>
           <div class="col-sm"></div>
           <div class="col-sm" style="text-align: right">
