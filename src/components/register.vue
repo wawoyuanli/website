@@ -8,7 +8,8 @@
           <label for="nickName" class="control-label">nickName
             <label style="color: red">*</label>
           </label>
-          <input class="form-control" id="nickName" v-model="nickName" @blur="userNameCheck(nickName)" />
+          <input class="form-control" id="nickName" v-model="nickName" @blur="userNameCheck(nickName)" data-toggle="tooltip" data-placement="right"
+            :title='tipUsername' />
           <div v-show="show" style="margin-top: 10px; color: red">
             {{ errorMessage }}
           </div>
@@ -20,7 +21,7 @@
           <label for="email" class="control-label">Email
             <label style="color: red">*</label>
           </label>
-          <input class="form-control" id="email" v-model="email" />
+          <input class="form-control" id="email" v-model="email" data-toggle="tooltip" data-placement="right" :title='tipEmail' />
         </div>
         <div class="col-lg-2">
           <label for="sendCode" class="control-label">
@@ -37,7 +38,8 @@
           <label for="remark" class="control-label">remark
             <label style="color: red">*</label>
           </label>
-          <input class="form-control" id="remark" v-model="remark" placeholder="请输入验证码" />
+          <input class="form-control" id="remark" v-model="remark" placeholder="请输入验证码" data-toggle="tooltip" data-placement="right"
+            :title='tipRemark' />
         </div>
       </div>
       <!--密码-->
@@ -46,7 +48,8 @@
           <label for="password" class="control-label">Password
             <label style="color: red">*</label>
           </label>
-          <input class="form-control" id="password" v-model="password" type="" />
+          <input class="form-control" id="password" v-model="password" type="" data-toggle="tooltip" data-placement="right" :title='tipPassword'
+          />
         </div>
       </div>
       <!--firstName lastName-->
@@ -55,13 +58,15 @@
           <label for="firstName" class="control-label">FirstName
             <label style="color: red">*</label>
           </label>
-          <input type="text" class="form-control" placeholder="First name" v-model="firstName" />
+          <input type="text" class="form-control" placeholder="First name" v-model="firstName" data-toggle="tooltip" data-placement="right"
+            :title='tipFirstname' />
         </div>
         <div class="col-lg-3">
           <label for="lastName" class="control-label">lastName
             <label style="color: red">*</label>
           </label>
-          <input type="text" class="form-control" placeholder="Last name" v-model="lastName" />
+          <input type="text" class="form-control" placeholder="Last name" v-model="lastName" data-toggle="tooltip" data-placement="right"
+            :title='tipLastname' />
         </div>
       </div>
       <!--sex-->
@@ -107,7 +112,8 @@
       <div class="row">
         <div class="col-lg-6">
           <label for="referrer" class="control-label">address ： </label>
-          <input class="form-control control-label-referrer" id="password2" v-model="referrer" />
+          <input class="form-control control-label-referrer" id="password2" v-model="referrer" data-toggle="tooltip" data-placement="right"
+            :title='tipAddress' />
         </div>
       </div>
       <!--postCode 邮编-->
@@ -115,7 +121,8 @@
         <div class="col-lg-6">
           <label> postCode:</label>
           <label style="color: red">*</label>
-          <input class="form-control control-label-referrer" id="password2" v-model="referrer" />
+          <input class="form-control control-label-referrer" id="password2" v-model="referrer" data-toggle="tooltip" data-placement="right"
+            :title='tipPostcode' />
         </div>
       </div>
       <!--phone 电话号码-->
@@ -123,7 +130,8 @@
         <div class="col-lg-6">
           <label> phone:</label>
           <label style="color: red">*</label>
-          <input class="form-control control-label-referrer" id="password2" v-model="referrer" />
+          <input class="form-control control-label-referrer" id="password2" v-model="phonenumber" data-toggle="tooltip" data-placement="right"
+            :title='tipPhonenumber' />
         </div>
       </div>
       <!--PIN 个人识别码-->
@@ -131,7 +139,8 @@
         <div class="col-lg-6">
           <label> pinCode:</label>
           <label style="color: red">*</label>
-          <input class="form-control control-label-referrer" id="pinCode" v-model="pinCode" />
+          <input class="form-control control-label-referrer" id="pinCode" v-model="pinCode" data-toggle="tooltip" data-placement="right"
+            :title='tipPincode' />
         </div>
       </div>
       <div class="row">
@@ -206,7 +215,6 @@
         </div>
       </div>
     </div>
-    <div class="d-flex p-2 bd-highlight">I'm a flexbox container!</div>
   </div>
 </template>
 <script>
@@ -221,6 +229,17 @@ export default {
   },
   data () {
     return {
+      tipUsername: 'Choose your desired username,It must be 4-20 characters long and can only contain letters and numbers. it must start with a letter',
+      tipPassword: 'Choose your password.It must be 4-80 characters long and can only contain letters,numbers and !@#$%^&*(0-=+.,',
+      tipEmail: 'Choose your desired username.It must be 4-20 characters long and can only contain letters and numbers.it must start width a letter',
+      tipRemark: 'validate code must be six numbers',
+      tipPincode: 'This is your additional security. we will request it before your cashout or password reset.It can only contain only 4 numbers (0-9)',
+      tipFirstname: 'you will input your first name',
+      tipLastname: 'tou will input your last name',
+      tipAddress: 'please input your address',
+      tipPostcode: 'please input your post code',
+      tipPhonenumber: 'plase input your phone number must be 11 letters',
+
       iconList: [
         { name: 'people', path: require('../assets/images/People Plus.png') },
         { name: 'earth', path: require('../assets/images/earth.png') },
