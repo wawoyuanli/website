@@ -21,7 +21,7 @@ export default {
   data () {
     return {
       list: [
-        { name: 'Features', path: '#', active: 'active' },
+        { name: 'Features', path: '/home#features', active: 'active' },
         { name: 'support', path: '#', active: 'active' },
         { name: 'Contact', path: '#', active: 'active' },
       ],

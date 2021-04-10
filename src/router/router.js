@@ -9,7 +9,7 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      redirect:'/home',
+      redirect: '/home',
     },
     {
       path: '/home',
@@ -30,6 +30,7 @@ export default new Router({
       path: '/support',
       name: 'support',
       component: () => import('@/views/support/index.vue'),
+
     },
     {
       path: '/contact',
@@ -45,6 +46,10 @@ export default new Router({
       path: '/tos',
       name: 'tos',
       component: () => import('@/views/tos/index.vue'),
+    },
+    {
+      path: '/faq',
+      component: () => import('@/views/faq/index.vue')
     }
   ]
 })

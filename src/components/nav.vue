@@ -87,6 +87,9 @@ export default {
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+.navbar-brand {
+  // font-size: 1.75rem;
+}
 .navbar-brand :hover {
   color: #ff6f00;
 }
@@ -104,6 +107,7 @@ export default {
 .nav-bg {
   background-color: #ffffff;
 }
+
 .logoname {
   color: #ff6f00;
 }
@@ -111,7 +115,7 @@ export default {
   .container {
     .navbar-brand {
       color: #fff;
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
 
     .collapse {

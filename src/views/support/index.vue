@@ -1,6 +1,6 @@
 <template>
   <div id="support">
-    <Nav :color="color" :isActive="isActive" id="borderBottom" :list="list" />
+    <Nav :color="color" :isActive="isActive" id="borderBottom" :navitemlist="list" />
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -15,9 +15,12 @@
                   <div class="service service-vertical help-box">
                     <a href="#">
                       <div class="info">
-                        <h4 class="title">FAQ</h4>
+                        <h4 class="title">
+                          <a href="/faq">FAQ</a>
+                        </h4>
                         <p class="desc">
-                          Check Frequently Asked Questions first. Maybe your issue is a common one and you will find the solution here
+                          <a href="/faq">
+                            Check Frequently Asked Questions first. Maybe your issue is a common one and you will find the solution here</a>
                         </p>
                       </div>
                     </a>
@@ -27,9 +30,12 @@
                   <div class="service service-vertical help-box">
                     <a href="#">
                       <div class="info">
-                        <h4 class="title">Contact</h4>
+                        <h4 class="title">
+                          <a href="/contact">Contact</a>
+                        </h4>
                         <p class="desc" id="descright">
-                          Finally, if your case is urgent or you can't find any answers, feel free to contact us
+                          <a href="/contact">
+                            Finally, if your case is urgent or you can't find any answers, feel free to contact us</a>
                         </p>
                       </div>
                     </a>
@@ -41,7 +47,7 @@
         </div>
       </div>
     </div>
-    <Footer />
+    <Footer></Footer>
   </div>
 </template>
 <script>
@@ -58,8 +64,8 @@ export default {
       isActive: true,
       color: '#26a4c3',
       list: [
-        { name: 'Features', path: '/features', active: 'active' },
-        { name: 'support', path: '/support', active: 'active' },
+        { name: 'Features', path: '/home#features', active: 'active' },
+        { name: 'support', path: '#', active: 'active' },
         { name: 'Contact', path: '/contact', active: 'active' },
       ],
     }

@@ -1,7 +1,11 @@
 <template>
-  <div class="tos">
+  <div class="faq">
     <Nav :navitemlist="list" id="borderBottom" :color="color" :isActive="isActive"></Nav>
-    <p class="tos-content">Terms of Service</p>
+    <div class="faq-content">
+      <p>
+        Frequently Asked Questions
+      </p>
+    </div>
     <Footer></Footer>
   </div>
 </template>
@@ -9,7 +13,7 @@
 import Nav from '@c/nav.vue'
 import Footer from '@c/footer.vue'
 export default {
-  name: 'Tos',
+  name: 'Faq',
   components: {
     Nav: Nav,
     Footer: Footer
@@ -17,7 +21,7 @@ export default {
   data () {
     return {
       list: [
-        { name: 'Features', path: '/home#features' },
+        { name: 'Features', path: '/home' },
         { name: 'support', path: '/support' },
         { name: 'Contact', path: '/contact' },
       ],
@@ -31,15 +35,15 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-.tos {
-  padding-top: 7rem;
+.faq {
+  width: 100vw;
   background-color: #ffffff;
-  .tos-content {
-    width: 70vw;
-    text-align: left;
-    margin: 0 auto;
-    font-size: 1.75rem;
-    min-height: 70vh;
+  .faq-content {
+    width: 90vw;
+    text-align: center;
+    min-height: 75vh;
+    padding-top: 7rem;
   }
 }
 </style>
+

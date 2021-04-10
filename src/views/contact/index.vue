@@ -1,7 +1,7 @@
 <template>
 
   <div class="contact">
-    <Nav id="borderBottom" :color="color" :isActive="isActive" :list="list" />
+    <Nav id="borderBottom" :color="color" :isActive="isActive" :navitemlist="list" />
     <div class="content-section">
       <div class="container">
         <div class="row">
@@ -82,7 +82,7 @@
       </div>
 
     </div>
-    <Footer/>
+    <Footer></Footer>
   </div>
 </template>
 <script>
@@ -102,9 +102,9 @@ export default {
         { name: 'seat', path: require('../../assets/images/seat.png') },
       ],
       list: [
-        { name: 'Features', path: '/features', active: 'active' },
-        { name: 'support', path: '/support', active: 'active' },
-        { name: 'Contact', path: '/contact', active: 'active' },
+        { name: 'Features', path: '#' },
+        { name: 'support', path: '/support' },
+        { name: 'Contact', path: '#' },
       ],
       isActive: true,
       color: '#26a4c3'
