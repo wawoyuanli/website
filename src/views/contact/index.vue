@@ -45,8 +45,7 @@
                                   <i class="fa fa-plus"></i>
                                   <span>Add image</span>
                                 </span>
-                                <input type="submit" name="ctl00$MainContent$ctl00$Verification_BannerUploadSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$ctl00$Verification_BannerUploadSubmit&quot;, &quot;&quot;, true, &quot;Verification_OnSubmitValidationGroup&quot;, &quot;&quot;, false, false))"
-                                  id="ctl00_MainContent_ctl00_Verification_BannerUploadSubmit" class="btn btn-primary">
+                                <input type="submit" name="submitbtn" value="Submit" id="submit" class="btn btn-primary">
                               </div>
                             </div>
                             <div class="form-group">
@@ -62,10 +61,10 @@
                                 </div>
                                 <div style="display: flex; justify-content: space-between">
                                   <li v-for="(item, index) in iconList" :key="index">
-                                    <img :src="item.path" alt="" @click="clickIcon(item.name)" />
+                                    <img :src="item.path" alt="" />
                                   </li>
-                                  <button @click="changeIconHandler">flush</button>
-                                  <button @click="clickVoiceIcon">voice</button>
+                                  <button>flush</button>
+                                  <button>voice</button>
                                 </div>
                               </div>
                             </div>
@@ -102,7 +101,7 @@ export default {
         { name: 'seat', path: require('../../assets/images/seat.png') },
       ],
       list: [
-        { name: 'Features', path: '#' },
+        { name: 'Features', path: '/home' },
         { name: 'support', path: '/support' },
         { name: 'Contact', path: '#' },
       ],

@@ -2,7 +2,7 @@
   <div class="login">
     <Nav :navitemlist="list" :color="color" :isActive="isActive" id="borderBottom"></Nav>
     <div class="login-form">
-      <Login/>
+      <Login></Login>
     </div>
     <Footer/>
   </div>
@@ -35,20 +35,5 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-.login {
-  .login-form {
-    min-width: 70vh;
-  }
-  .loginflag {
-    font-size: 35px;
-    font-weight: bold;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    padding-top: 200px;
-    -moz-box-sizing: border-box; /* Firefox */
-    -webkit-box-sizing: border-box; /* Safari */
-  }
-}
 </style>
 

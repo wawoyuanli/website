@@ -72,6 +72,7 @@ export default {
 </script>
 <style lang="less" scoped>
 .clogin {
+  min-height: 75vh;
   .h1 {
     text-align: center;
     padding-top: 8rem;

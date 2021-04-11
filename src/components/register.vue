@@ -362,11 +362,11 @@ export default {
 </script>
 <style scoped lang="less">
 .register-wrap {
-  width: 100%;
   margin-top: 8rem;
   box-sizing: border-box;
+  min-height: 75vh;
+  padding-bottom: 3rem;
   .registerflag {
-    width: 100%;
     text-align: center;
     font-size: 2.5rem;
   }
