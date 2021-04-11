@@ -11,6 +11,7 @@
 import Nav from "@c/nav.vue";
 import Login from "@c/login.vue";
 import Footer from '@c/footer.vue' //引入底部组件
+import $ from 'jquery'
 export default {
   name: "LoginPage",
   components: {
@@ -26,11 +27,14 @@ export default {
         { name: 'Contact', path: '#', active: 'active' },
       ],
       color: '#26a4c3',
-      isActive: true
+      isActive: true,
     };
   },
   mounted () {
     document.getElementById('borderBottom').classList.add('borderBottom')
+  },
+  methods: {
+
   }
 };
 </script>

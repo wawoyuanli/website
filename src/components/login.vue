@@ -5,12 +5,16 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <input class="form-control" data-toggle="tooltip" data-placement="right" :title='tipUsername' />
+            <input class="form-control" data-toggle="tooltip" data-placement="right" :title='tipUsername' v-model="username" @blur="blur(username)"
+              @input="input" />
+            <p v-show="isShow" style="font-size:10px;color:red">{{errMess}} *</p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <input class="form-control" data-toggle="tooltip" data-placement="right" :title='tipPassword' />
+            <input class="form-control" data-toggle="tooltip" data-placement="right" :title='tipPassword' v-model="password" @blur="blur2(password)"
+              @input="input2" />
+            <p v-show="show" style="font-size:10px;color:red">{{errMessPassword}} *</p>
           </div>
         </div>
         <div class="row">
@@ -36,13 +40,17 @@ import { login, getCountryCode } from '@/api/login'
 export default {
   name: 'Login',
   props: {
-    loginflag: {
-      type: String,
-      value: 'Login',
-    },
+
+
   },
   data () {
     return {
+      username: '',
+      password: '',
+      errMess: '',
+      errMessPassword: '',
+      isShow: false,
+      show: false,
       tipUsername: 'Choose your desired username,It must be 4-20 characters long and can only contain letters and numbers. it must start with a letter',
       tipPassword: 'Choose your password.It must be 4-80 characters long and can only contain letters,numbers and !@#$%^&*(0-=+.,'
     }
@@ -50,9 +58,19 @@ export default {
   methods: {
     /**登录 */
     login () {
+      if (!this.username.trim()) {
+        this.errMess = '用户名不能为空'
+        this.isShow = true
+        return false
+      }
+      if (!this.password.trim()) {
+        this.errMessPassword = '密码不能为空'
+        this.show = true
+        return false
+      }
       let requestData = {
-        'username': 'hyl123',
-        'password': '123456',
+        username: this.username,
+        password: this.password
       }
       login(requestData)
         .then(function (res) {
@@ -61,11 +79,34 @@ export default {
         .catch(function (err) {
           console.log(err)
         })
-      // getCountryCode().then(function (res) {
-
-      // }).catch(function (err) {
-      //   console.log(err)
-      // })
+    },
+    blur: function (username) {
+      if (!username) {
+        this.errMess = '用户名不能为空！'
+        this.isShow = true
+      }
+    },
+    input: function (e) {
+      if (!e.data.trim()) {
+        this.errMess = '用户名不能为空！'
+        this.isShow = true
+      } else {
+        this.isShow = false
+      }
+    },
+    blur2: function (password) {
+      if (!password.trim()) {
+        this.errMessPassword = '密码不能为空！'
+        this.show = true
+      }
+    },
+    input2: function (e) {
+      if (!e.data.trim()) {
+        this.errMessPassword = '用户名不能为空！'
+        this.show = true
+      } else {
+        this.show = false
+      }
     },
   },
 }

@@ -1,6 +1,6 @@
 <template>
   <!--导航栏组件-->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
     <div class="container">
       <a href="/home" class="navbar-brand">
         <strong :style="{color:color}">ColossalScope</strong>
@@ -106,11 +106,20 @@ export default {
 }
 .nav-bg {
   background-color: #ffffff;
+  transition: all 1s;
+  animation: mymove 2s initial;
+  // transform: scaleY(1.1);
+  transform-origin: 0 100% 0 scaleY(2);
+}
+@keyframes mymove {
+  100% {
+    height: 1000px;
+  }
+  80% {
+    height: 80px;
+  }
 }
 
-.logoname {
-  color: #ff6f00;
-}
 .fixed-top {
   .container {
     .navbar-brand {

@@ -209,6 +209,7 @@ export default {
         document.getElementById("nav").classList.remove("nav-bg");
         _th.color = '#fff'
         _th.isActive = false
+
       } else if (scrollTop > 10) {
         document.getElementById("nav").classList.add("nav-bg");
         _th.isActive = true
