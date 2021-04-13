@@ -1,0 +1,8 @@
+const message = {
+    en: {
+        
+    },
+    ch: {
+        
+    }
+}
