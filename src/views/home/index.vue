@@ -1,6 +1,7 @@
 <template>
   <div class="js home" id="page-top">
     <!--导航组件-->
+    <!-- <div>{{$t('lang.nav')}}</div> -->
     <div class="nav-bg-liner">
       <Nav :navitemlist="navitemlist" id="nav" :isActive="isActive" :color="color" />
     </div>

@@ -3,22 +3,20 @@ import App from './App.vue'
 import router from './router/router'
 import store from "./store/index.js";
 /**引入bootstrap 相关文件 */
-import $ from 'jquery'
+// import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
-
-/**国际化 */
-import VueI18n from 'vue-i18n'
 
 import './assets/less/varibles.less'
 import less from 'less'
 Vue.use(less)
-Vue.use(VueI18n)
+/**vue 国际化 */
+import i18n from './lang/i18n.js'
 Vue.config.productionTip = false
 
 new Vue({
   router,
-  $,
   store,
+  i18n,
   render: h => h(App),
 }).$mount('#app')

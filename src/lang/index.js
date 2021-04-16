@@ -1,8 +1,0 @@
-const message = {
-    en: {
-        
-    },
-    ch: {
-        
-    }
-}
