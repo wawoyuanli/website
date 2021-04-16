@@ -6,7 +6,7 @@
 	>
 		<div class="container">
 			<a href="/home" class="navbar-brand">
-				<strong :style="{ color: color }">ColossalScope</strong>
+				<strong :style="{ color: color }">{{ $t('nav.webLogo') }}</strong>
 			</a>
 			<button
 				class="navbar-toggler"
@@ -28,7 +28,7 @@
 							class="nav-link js-scroll-trigger actived"
 							href="/home"
 							:style="{ color: color }"
-							>Home
+							>{{ $t('nav.home') }}
 							<span class="sr-only">(current)</span>
 						</a>
 					</li>
@@ -46,24 +46,28 @@
 					</li>
 				</ul>
 				<a class="btn btn-outline-primary btn-lg animated mr-3" href="/login"
-					>Sign In</a
+					>{{$t('nav.signIn')}}</a
 				>
-				<a class="btn btn-primary btn-lg" href="/register">Get started</a>
+				<a class="btn btn-primary btn-lg" href="/register">{{$t('nav.getStarted')}}</a>
 				<!-- Example single danger button -->
 				<div class="dropdown">
 					<button
-						class="btn btn-secondary dropdown-toggle"
+						class="btn btn-primary dropdown-toggle"
 						type="button"
 						id="dropdownMenuButton"
 						data-toggle="dropdown"
 						aria-haspopup="true"
 						aria-expanded="false"
 					>
-						切换语言
+						{{$t('nav.changeLanguage')}}
 					</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">English</a>
-						<a class="dropdown-item" href="#">中文</a>
+						<a class="dropdown-item" href="#" @click="changeLanguage('en')"
+							>English</a
+						>
+						<a class="dropdown-item" href="#" @click="changeLanguage('zh')"
+							>中文</a
+						>
 					</div>
 				</div>
 			</div>
@@ -75,17 +79,6 @@
 export default {
 	name: 'Nav',
 	props: {
-		navitemlist: {
-			type: Array,
-			default() {
-				//默认数组 可从父组件中传入 需要几个对象传几个对象
-				return [
-					{ name: 'Features', path: '#', active: 'active' },
-					{ name: 'support', path: '#', active: 'active' },
-					{ name: 'Contact', path: '#', active: 'active' },
-				]
-			},
-		},
 		color: {
 			type: String,
 			default: '',
@@ -100,15 +93,32 @@ export default {
 		},
 	},
 	data() {
-		return {}
+		return {
+		 
+		}
 	},
 	mounted() {},
+	computed: {
+		navitemlist() {
+			return [
+				{ name: this.$t('nav.features'), path: '#features' },
+				{ name: this.$t('nav.support'), path: '/support' },
+				{ name: this.$t('nav.contact'), path: '/contact' },
+			]
+		},
+	},
+	watch: {},
 	methods: {
 		signinClick() {
 			//向父组件传递事件
 			this.$emit('signClick')
 		},
+		changeLanguage(type) {
+			this.$i18n.locale = type
+			localStorage.setItem('lang',type)
+		},
 	},
+
 	beforeDestroy() {
 		window.removeEventListener('scroll', this.handleScroll)
 	},
@@ -209,9 +219,9 @@ export default {
 				background-color: #ff8526;
 				border-color: #ff7d1a;
 			}
-      .dropdown{
-        margin-left: 3rem!important;
-      }
+			.dropdown {
+				margin-left: 3rem !important;
+			}
 		}
 	}
 }

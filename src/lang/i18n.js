@@ -4,7 +4,7 @@ import zh from './zh'
 import en from './en' 
 Vue.use(VueI18n)
 const i18n = new VueI18n({
-    locale: 'zh',
+    locale: localStorage.getItem('lang')|| 'en',
     messages: {
         'zh':zh,
         'en':en,

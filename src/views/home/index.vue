@@ -1,7 +1,6 @@
 <template>
   <div class="js home" id="page-top">
     <!--导航组件-->
-    <!-- <div>{{$t('lang.nav')}}</div> -->
     <div class="nav-bg-liner">
       <Nav :navitemlist="navitemlist" id="nav" :isActive="isActive" :color="color" />
     </div>
@@ -11,14 +10,13 @@
         <div class="row">
           <div class="col-lg-6" style="padding:7.3rem 0px">
             <h1 class="page-header mb-3 animated fadeIn" style="font-size: 2.7rem; color: #fff">
-              Earth Money
-              <br /> For the things you do online
+              {{$t('home.earnMoney')}}
             </h1>
             <p style="font-size: 1rem; color: #fff; padding: 20px 0px">
-              All-in-one script for earning money online.
+              {{$t('home.refer')}}
             </p>
             <div class="joinus-btn">
-              <a href="/register">Join Us</a>
+              <a href="/register">{{$t('home.join')}}</a>
             </div>
           </div>
           <div class="col-lg-6">
@@ -186,9 +184,9 @@ export default {
   data () {
     return {
       navitemlist: [
-        { name: 'Features', path: '#features', active: 'active' },
-        { name: 'support', path: '/support', active: 'active' },
-        { name: 'Contact', path: '/contact', active: 'active' },
+        { name: this.$t('nav.features'), path: '#features', active: 'active' },
+        { name: this.$t('nav.support'), path: '/support', active: 'active' },
+        { name: this.$t('nav.contact'), path: '/contact', active: 'active' },
       ],
       color: '',
       background: '',
@@ -198,7 +196,10 @@ export default {
   mounted () {
     window.addEventListener('scroll', this.handleScroll)
   },
-  methods: {
+  compoted(){
+
+  },
+    methods: {
     signClick () {
       this.$router.push('/login')
     },
@@ -302,6 +303,7 @@ export default {
     border-color: #ff6f00;
     width: 100px;
     height: 40px;
+    line-height: 40px;
     border-radius: 5px;
     text-align: center;
     a {
