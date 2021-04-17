@@ -36,13 +36,10 @@
   </div>
 </template>
 <script>
-import { login, getCountryCode } from '@/api/login'
+import { login } from '@/api/login'
 export default {
   name: 'Login',
-  props: {
-
-
-  },
+  props: {},
   data () {
     return {
       username: '',
@@ -72,9 +69,10 @@ export default {
         username: this.username,
         password: this.password
       }
+      /**登录接口 */
       login(requestData)
         .then(function (res) {
-          debugger
+
         })
         .catch(function (err) {
           console.log(err)

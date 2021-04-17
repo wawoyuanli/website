@@ -2,13 +2,13 @@
   <div class="register-wrap">
     <h1 class="registerflag">Register</h1>
     <div class="container">
-      <!--用户名：nickName-->
+      <!--userName-->
       <div class="row">
         <div class="col-lg-6">
-          <label for="nickName" class="control-label">nickName
+          <label for="userName" class="control-label">userName
             <label style="color: red">*</label>
           </label>
-          <input class="form-control" id="nickName" v-model="nickName" @blur="userNameCheck(nickName)" data-toggle="tooltip" data-placement="right"
+          <input class="form-control" id="userName" v-model="userName" @blur="userNameCheck(userName)" data-toggle="tooltip" data-placement="right"
             :title='tipUsername' />
           <div v-show="show" style="margin-top: 10px; color: red">
             {{ errorMessage }}
@@ -131,7 +131,7 @@
           <label> phone:</label>
           <label style="color: red">*</label>
           <input class="form-control control-label-referrer" id="password2" v-model="phonenumber" data-toggle="tooltip" data-placement="right"
-            :title='tipPhonenumber' />
+            :title='tipPhonenumber' type="tel" />
         </div>
       </div>
       <!--PIN 个人识别码-->
@@ -245,13 +245,14 @@ export default {
         { name: 'earth', path: require('../assets/images/earth.png') },
         { name: 'seat', path: require('../assets/images/seat.png') },
       ],
-      nickName: '',
+      userName: '',
       email: '',
       remark: '1583649818@qq.com', //邮箱校验码
       password: '',
       firstName: '',
       lastName: '',
       sex: '0',
+      phonenumber: '',
       pinCode: '',
       birthYear: '',
       referrer: '',
@@ -311,15 +312,25 @@ export default {
     },
     /**获取验证码 */
     sendVerificationCode: function () {
+      const _th = this
+      var reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"); //正则表达式
       let data = {
-        email: '3037806040@qq.com'
+        email: _th.email
       }
+      if (!data.email) {
+        alert('E-mail can not be empty!')
+        return false
+      }
+      if (!reg.test(data.email)) {
+        alert("please enter your vaild email!");
+        return false
+      };
       getCode(data).then(function (res) {
-        debugger
+
       }).catch(function (err) {
         console.log(err)
       })
-      console.log('发送验证码')
+
     },
     clickIcon: function (name) {
       console.log(name)
@@ -335,25 +346,85 @@ export default {
     registerHandler: function () {
       let _th = this
       const data = {
-        loginName: 'hyl123',
-        email: '3037806040@qq.com',
-        password: '123456',
-        surveyFirstName: 'xiaohong',
-        surveyLastName: 'wang',
-        remark: '691223',
-        sex: '1',
-        surveyBirthdayYear: '1996',
-        surveyBirthdayMonth: '10',
-        surveyBirthdayDay: '12',
-        surveyAddress: '中国北京市海淀区1700号',
-        surveyPostcode: '100000',
-        phonenumber: '17100000000',
-        surveyPinCode: '1234',
+        loginName: _th.userName,
+        email: _th.email,
+        password: _th.password,
+        surveyFirstName: _th.surveyFirstName,
+        surveyLastName: _th.surveyLastName,
+        remark: _th.remark,
+        sex: _th.sex,
+        surveyBirthdayYear: _th.surveyBirthdayYear,
+        surveyBirthdayMonth: _th.surveyBirthdayMonth,
+        surveyBirthdayDay: _th.surveyBirthdayDay,
+        surveyAddress: _th.surveyAddress,
+        surveyPostcode: _th.surveyPostcode,
+        phonenumber: _th.phonenumber,
+        surveyPinCode: _th.surveyPinCode,
       }
+      /**注册接口调用 */
+      if (!data.loginName.trim().length) {
+        alert('Username can not be empty')
+        return false
+      };
+      if (!data.email) {
+        alert('E-mail can not be empty')
+        return false
+      };
+      if (!data.password) {
+        alert('password can not be empty')
+        return false
+      };
+      if (!data.surveyFirstName) {
+        alert('firstName can not be empty')
+        return false
+      }
+      if (!data.surveyLastName) {
+        alert('lastName can not be empty')
+        return false
+      };
+      if (!data.remark) {
+        alert('remark can not be empty')
+        return false
+      };
+      if (!data.sex) {
+        alert('sex can not be empty')
+        return false
+      };
+      if (!data.surveyBirthdayYear) {
+        alert('surveyBirthdayYear can not be empty')
+        return false
+      };
+      if (!data.surveyBirthdayMonth) {
+        alert('surveyBirthdayMonth can not be empty')
+        return false
+      };
+      if (!data.surveyBirthdayDay) {
+        alert('surveyBirthdayDay can not be empty')
+        return false
+      };
+      if (!data.surveyAddress) {
+        alert('surveyAddress can not be empty')
+        return false
+      };
+      if (!data.surveyPostcode) {
+        alert('surveyPostcode can not be empty')
+        return false
+      };
+
+      if (!data.phonenumber) {
+        alert('phonenumber can not be empty')
+        return false
+      };
+      if (!data.surveyPinCode) {
+        alert('surveyPinCode can not be empty')
+        return false
+      };
+
+
       registerHandler(data).then(function (res) {
-        _th.$toast('注冊成功')
+        _th.$toast('registration success')
       }).catch(function (err) {
-        _th.$toast('注冊成功')
+        _th.$toast('registration failed')
         console.log(err)
       })
     },
