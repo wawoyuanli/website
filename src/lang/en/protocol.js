@@ -1,5 +1,5 @@
 export default {
-    term: `Genting Consulting General Membership
+    terms: `Genting Consulting General Membership
 
     Revised December 15, 2018
     

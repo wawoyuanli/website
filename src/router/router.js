@@ -50,6 +50,18 @@ export default new Router({
     {
       path: '/faq',
       component: () => import('@/views/faq/index.vue')
+    },
+    {
+      path: '/agreement',
+      component: () => import('@/views/agreement/index.vue')
+    },
+    {
+      path: '/terms',
+      component: () => import('@/views/terms/index.vue')
+    },
+    {
+      path: '/antispam',
+      component: () => import('@/views/antispam/index.vue')
     }
   ]
 })

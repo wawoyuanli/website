@@ -1,10 +1,10 @@
 <template>
-  <div class="privacy">
+  <div class="antispam">
     <Nav id="borderBottom" :color="color" :isActive="isActive"></Nav>
-    <div class="privacy-content">
+    <div class="antispam-content">
       <div class="container">
         <p class="text-left" style="line-height:35px;padding-bottom:20px">
-          {{ $t("protocol.privacy") }}
+          {{ $t("protocol.policy") }}
         </p>
       </div>
     </div>
@@ -32,10 +32,10 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-.privacy {
+.antispam {
   width: 100vw;
   background-color: #ffffff;
-  .privacy-content {
+  .antispam-content {
     width: 90vw;
     text-align: center;
     min-height: 75vh;

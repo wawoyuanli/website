@@ -5,11 +5,19 @@
       <!--userName-->
       <div class="row">
         <div class="col-lg-6">
-          <label for="userName" class="control-label">userName
+          <label for="userName" class="control-label"
+            >userName
             <label style="color: red">*</label>
           </label>
-          <input class="form-control" id="userName" v-model="userName" @blur="userNameCheck(userName)" data-toggle="tooltip" data-placement="right"
-            :title='tipUsername' />
+          <input
+            class="form-control"
+            id="userName"
+            v-model="userName"
+            @blur="userNameCheck(userName)"
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipUsername"
+          />
           <div v-show="show" style="margin-top: 10px; color: red">
             {{ errorMessage }}
           </div>
@@ -18,16 +26,27 @@
       <!--邮箱：email-->
       <div class="row">
         <div class="col-lg-4">
-          <label for="email" class="control-label">Email
+          <label for="email" class="control-label"
+            >Email
             <label style="color: red">*</label>
           </label>
-          <input class="form-control" id="email" v-model="email" data-toggle="tooltip" data-placement="right" :title='tipEmail' />
+          <input
+            class="form-control"
+            id="email"
+            v-model="email"
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipEmail"
+          />
         </div>
         <div class="col-lg-2">
           <label for="sendCode" class="control-label">
             <label style="color: red; opacity: 0"> sendcode</label>
           </label>
-          <button class="btn btn-primary form-control" @click="sendVerificationCode">
+          <button
+            class="btn btn-primary form-control"
+            @click="sendVerificationCode"
+          >
             发送验证码
           </button>
         </div>
@@ -35,44 +54,77 @@
       <!--验证码-->
       <div class="row">
         <div class="col-lg-6">
-          <label for="remark" class="control-label">remark
+          <label for="remark" class="control-label"
+            >remark
             <label style="color: red">*</label>
           </label>
-          <input class="form-control" id="remark" v-model="remark" placeholder="请输入验证码" data-toggle="tooltip" data-placement="right"
-            :title='tipRemark' />
+          <input
+            class="form-control"
+            id="remark"
+            v-model="remark"
+            placeholder="请输入验证码"
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipRemark"
+          />
         </div>
       </div>
       <!--密码-->
       <div class="row">
         <div class="col-lg-6">
-          <label for="password" class="control-label">Password
+          <label for="password" class="control-label"
+            >Password
             <label style="color: red">*</label>
           </label>
-          <input class="form-control" id="password" v-model="password" type="" data-toggle="tooltip" data-placement="right" :title='tipPassword'
+          <input
+            class="form-control"
+            id="password"
+            v-model="password"
+            type=""
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipPassword"
           />
         </div>
       </div>
       <!--firstName lastName-->
       <div class="row">
         <div class="col-lg-3">
-          <label for="firstName" class="control-label">FirstName
+          <label for="firstName" class="control-label"
+            >FirstName
             <label style="color: red">*</label>
           </label>
-          <input type="text" class="form-control" placeholder="First name" v-model="firstName" data-toggle="tooltip" data-placement="right"
-            :title='tipFirstname' />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="First name"
+            v-model="firstName"
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipFirstname"
+          />
         </div>
         <div class="col-lg-3">
-          <label for="lastName" class="control-label">lastName
+          <label for="lastName" class="control-label"
+            >lastName
             <label style="color: red">*</label>
           </label>
-          <input type="text" class="form-control" placeholder="Last name" v-model="lastName" data-toggle="tooltip" data-placement="right"
-            :title='tipLastname' />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Last name"
+            v-model="lastName"
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipLastname"
+          />
         </div>
       </div>
       <!--sex-->
       <div class="row">
         <div class="col-lg-3">
-          <label for="sex" class="control-label">sex
+          <label for="sex" class="control-label"
+            >sex
             <label style="color: red">*</label>
           </label>
           <select id="inputState" class="form-control">
@@ -90,30 +142,51 @@
       <!--出生日期-->
       <div class="row">
         <div class="col-lg-2">
-          <label for="sex" class="control-label">birthday year
+          <label for="sex" class="control-label"
+            >birthday year
             <label style="color: red">*</label>
           </label>
-          <date-picker v-model="dateYear" :config="optionsYear" @dp-hide="showDatePickResult" />
+          <date-picker
+            v-model="dateYear"
+            :config="optionsYear"
+            @dp-hide="selectYear"
+          />
         </div>
         <div class="col-lg-2">
-          <label for="birthdaymonth" class="control-label">birthday month
+          <label for="birthdaymonth" class="control-label"
+            >birthday month
             <label style="color: red">*</label>
           </label>
-          <date-picker v-model="dateMonth" :config="optionsMonth" @dp-hide="showDatePickResult" />
+          <date-picker
+            v-model="dateMonth"
+            :config="optionsMonth"
+            @dp-hide="selectMonth"
+          />
         </div>
         <div class="col-lg-2">
-          <label for="sex" class="control-label">birthday day
+          <label for="sex" class="control-label"
+            >birthday day
             <label style="color: red">*</label>
           </label>
-          <date-picker v-model="dateDay" :config="optionsDay" @dp-hide="showDatePickResult" />
+          <date-picker
+            v-model="dateDay"
+            :config="optionsDay"
+            @dp-hide="selectDay"
+          />
         </div>
       </div>
       <!--address-->
       <div class="row">
         <div class="col-lg-6">
           <label for="referrer" class="control-label">address ： </label>
-          <input class="form-control control-label-referrer" id="password2" v-model="referrer" data-toggle="tooltip" data-placement="right"
-            :title='tipAddress' />
+          <input
+            class="form-control control-label-referrer"
+            id="password2"
+            v-model="referrer"
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipAddress"
+          />
         </div>
       </div>
       <!--postCode 邮编-->
@@ -121,8 +194,14 @@
         <div class="col-lg-6">
           <label> postCode:</label>
           <label style="color: red">*</label>
-          <input class="form-control control-label-referrer" id="password2" v-model="referrer" data-toggle="tooltip" data-placement="right"
-            :title='tipPostcode' />
+          <input
+            class="form-control control-label-referrer"
+            id="password2"
+            v-model="referrer"
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipPostcode"
+          />
         </div>
       </div>
       <!--phone 电话号码-->
@@ -130,8 +209,15 @@
         <div class="col-lg-6">
           <label> phone:</label>
           <label style="color: red">*</label>
-          <input class="form-control control-label-referrer" id="password2" v-model="phonenumber" data-toggle="tooltip" data-placement="right"
-            :title='tipPhonenumber' type="tel" />
+          <input
+            class="form-control control-label-referrer"
+            id="password2"
+            v-model="phonenumber"
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipPhonenumber"
+            type="tel"
+          />
         </div>
       </div>
       <!--PIN 个人识别码-->
@@ -139,25 +225,32 @@
         <div class="col-lg-6">
           <label> pinCode:</label>
           <label style="color: red">*</label>
-          <input class="form-control control-label-referrer" id="pinCode" v-model="pinCode" data-toggle="tooltip" data-placement="right"
-            :title='tipPincode' />
+          <input
+            class="form-control control-label-referrer"
+            id="pinCode"
+            v-model="pinCode"
+            data-toggle="tooltip"
+            data-placement="right"
+            :title="tipPincode"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6">
           <label> Vetification:</label>
         </div>
+        谷歌验证
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-lg-6">
           <div style="display: flex; color: #00acac">
             <p>Click or touch the</p>
             <strong style="margin-left: 4px">{{ iconName }}</strong>
           </div>
         </div>
-      </div>
+      </div> -->
       <!--icon-->
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-lg-6">
           <div style="display: flex; justify-content: space-between">
             <li v-for="(item, index) in iconList" :key="index">
@@ -167,14 +260,19 @@
             <button @click="clickVoiceIcon">voice</button>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-lg-6">Detected country:</div>
       </div>
       <div class="row">
         <div class="col-lg-6">
           <div style="display: flex">
-            <img src="../assets/images/cn.png" alt="china" width="20px;height:10px" style="margin-right: 5px" />
+            <img
+              src="../assets/images/cn.png"
+              alt="china"
+              width="20px;height:10px"
+              style="margin-right: 5px"
+            />
             <p>China</p>
           </div>
         </div>
@@ -185,14 +283,14 @@
             <input id="TermsCheckBox" type="checkbox" name="" />
             <div style="display: flex; margin-left: 5px">
               <p>I have read and accepted</p>
-              <a style="color: #ff6f00" href="#">Terms of Service *</a>
+              <a style="color: #ff6f00" href="/terms">Terms of Service *</a>
             </div>
           </div>
           <div style="display: flex; padding: 4px 0px">
             <input id="TermsCheckBox" type="checkbox" name="" />
             <div style="display: flex; margin-left: 5px">
               <p>I have read and accepted</p>
-              <a style="color: #ff6f00" href="#">Privacy Notice *</a>
+              <a style="color: #ff6f00" href="/privacy">Privacy Notice *</a>
             </div>
           </div>
           <div style="display: flex; padding: 4px 0px">
@@ -210,7 +308,13 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="register-buttons m-t-30">
-            <input type="submit" name="register" value="Register" class="btn btn-primary btn-block btn-lg" @click="registerHandler" />
+            <input
+              type="submit"
+              name="register"
+              value="Register"
+              class="btn btn-primary btn-block btn-lg"
+              @click="registerHandler"
+            />
           </div>
         </div>
       </div>
@@ -218,133 +322,130 @@
   </div>
 </template>
 <script>
-import { checkUsername } from '@/utils/validate.js'
-import datePicker from 'vue-bootstrap-datetimepicker'
-import $ from 'jquery'
-import { registerHandler, getCode } from '@/api/login'
+import "bootstrap/dist/css/bootstrap.css";
+import "pc-bootstrap4-datetimepicker/build/css/bootstrap-datetimepicker.css";
+import datePicker from "vue-bootstrap-datetimepicker";
+import $ from "jquery";
+import { registerHandler, getCode } from "@/api/login";
 export default {
-  name: 'Register',
+  name: "Register",
   components: {
     datePicker,
   },
-  data () {
+  data() {
     return {
-      tipUsername: 'Choose your desired username,It must be 4-20 characters long and can only contain letters and numbers. it must start with a letter',
-      tipPassword: 'Choose your password.It must be 4-80 characters long and can only contain letters,numbers and !@#$%^&*(0-=+.,',
-      tipEmail: 'Choose your desired username.It must be 4-20 characters long and can only contain letters and numbers.it must start width a letter',
-      tipRemark: 'validate code must be six numbers',
-      tipPincode: 'This is your additional security. we will request it before your cashout or password reset.It can only contain only 4 numbers (0-9)',
-      tipFirstname: 'you will input your first name',
-      tipLastname: 'tou will input your last name',
-      tipAddress: 'please input your address',
-      tipPostcode: 'please input your post code',
-      tipPhonenumber: 'plase input your phone number must be 11 letters',
+      startTime: "1990",
+      tipUsername:
+        "Choose your desired username,It must be 4-20 characters long and can only contain letters and numbers. it must start with a letter",
+      tipPassword:
+        "Choose your password.It must be 4-80 characters long and can only contain letters,numbers and !@#$%^&*(0-=+.,",
+      tipEmail:
+        "Choose your desired username.It must be 4-20 characters long and can only contain letters and numbers.it must start width a letter",
+      tipRemark: "validate code must be six numbers",
+      tipPincode:
+        "This is your additional security. we will request it before your cashout or password reset.It can only contain only 4 numbers (0-9)",
+      tipFirstname: "you will input your first name",
+      tipLastname: "tou will input your last name",
+      tipAddress: "please input your address",
+      tipPostcode: "please input your post code",
+      tipPhonenumber: "plase input your phone number must be 11 letters",
 
       iconList: [
-        { name: 'people', path: require('../assets/images/People Plus.png') },
-        { name: 'earth', path: require('../assets/images/earth.png') },
-        { name: 'seat', path: require('../assets/images/seat.png') },
+        { name: "people", path: require("../assets/images/People Plus.png") },
+        { name: "earth", path: require("../assets/images/earth.png") },
+        { name: "seat", path: require("../assets/images/seat.png") },
       ],
-      userName: '',
-      email: '',
-      remark: '1583649818@qq.com', //邮箱校验码
-      password: '',
-      firstName: '',
-      lastName: '',
-      sex: '0',
-      phonenumber: '',
-      pinCode: '',
-      birthYear: '',
-      referrer: '',
-      iconName: 'man',
-      errorMessage: '',
+      userName: "",
+      email: "",
+      remark: "1583649818@qq.com", //邮箱校验码
+      password: "",
+      firstName: "",
+      lastName: "",
+      sex: "0",
+      phonenumber: "",
+      pinCode: "",
+      birthYear: "",
+      referrer: "",
+      iconName: "man",
+      errorMessage: "",
       show: false,
       dateYear: new Date(),
       dateMonth: new Date(),
       dateDay: new Date(),
       optionsYear: {
-        format: 'YYYY',
+        format: "YYYY",
         useCurrent: false,
-        locale: 'zh-cn',
+        locale: "zh-cn",
         tooltips: {
-          selectTime: '',
+          selectTime: "",
         },
       },
       optionsMonth: {
-        format: 'M',
+        format: "MM",
         useCurrent: false,
-        locale: 'zh-cn',
+        locale: "en",
         tooltips: {
-          selectTime: '',
+          selectTime: "",
         },
       },
       optionsDay: {
-        format: 'D',
+        format: "DD",
         useCurrent: false,
-        locale: 'zh-cn',
+        locale: "zh-cn",
         tooltips: {
-          selectTime: '',
+          selectTime: "",
         },
       },
-    }
+    };
   },
-  created: function () {
-    $.extend(true, $.fn.datetimepicker.defaults, {
-      icons: {
-        time: 'far fa-clock',
-        date: 'far fa-calendar',
-        up: 'fas fa-arrow-up',
-        down: 'fas fa-arrow-down',
-        previous: 'fas fa-chevron-left',
-        next: 'fas fa-chevron-right',
-        today: 'fas fa-calendar-check',
-        clear: 'far fa-trash-alt',
-        close: 'far fa-times-circle',
-      },
-    })
-  },
-  mounted () {
-
-  },
+  created: function() {},
+  mounted() {},
   methods: {
-    showDatePickResult: function () {
-      console.log(this.dateYear)
+    selectYear: function() {
+      console.log(this.dateYear);
+    },
+    selectMonth: function() {
+      console.log(this.dateMonth);
+    },
+    selectDay: function() {
+      console.log(this.dateDay);
     },
     /**获取验证码 */
-    sendVerificationCode: function () {
-      const _th = this
-      var reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"); //正则表达式
+    sendVerificationCode: function() {
+      const _th = this;
+      var reg = new RegExp(
+        "^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"
+      ); //正则表达式
       let data = {
-        email: _th.email
-      }
+        email: _th.email,
+      };
       if (!data.email) {
-        alert('E-mail can not be empty!')
-        return false
+        alert("E-mail can not be empty!");
+        return false;
       }
       if (!reg.test(data.email)) {
         alert("please enter your vaild email!");
-        return false
-      };
-      getCode(data).then(function (res) {
-
-      }).catch(function (err) {
-        console.log(err)
-      })
-
+        return false;
+      }
+      getCode(data)
+        .then(function(res) {})
+        .catch(function(err) {
+          console.log(err);
+        });
     },
-    clickIcon: function (name) {
-      console.log(name)
+    clickIcon: function(name) {
+      console.log(name);
     },
-    changeIconHandler: function () { },
-    clickVoiceIcon: function () { },
-    usernameCheck (nickName) {
-      const _th = this
-      var mess = checkUsername(nickName)
-      _th.errorMessage = mess
-      _th.show = true
+    changeIconHandler: function() {},
+    clickVoiceIcon: function() {},
+    usernameCheck(nickName) {
+      const _th = this;
+      var mess = checkUsername(nickName);
+      _th.errorMessage = mess;
+      _th.show = true;
     },
-    registerHandler: function () {
-      let _th = this
+    registerHandler: function() {
+      let _th = this;
       const data = {
         loginName: _th.userName,
         email: _th.email,
@@ -360,76 +461,77 @@ export default {
         surveyPostcode: _th.surveyPostcode,
         phonenumber: _th.phonenumber,
         surveyPinCode: _th.surveyPinCode,
-      }
+      };
       /**注册接口调用 */
       if (!data.loginName.trim().length) {
-        alert('Username can not be empty')
-        return false
-      };
+        alert("Username can not be empty");
+        return false;
+      }
       if (!data.email) {
-        alert('E-mail can not be empty')
-        return false
-      };
+        alert("E-mail can not be empty");
+        return false;
+      }
       if (!data.password) {
-        alert('password can not be empty')
-        return false
-      };
+        alert("password can not be empty");
+        return false;
+      }
       if (!data.surveyFirstName) {
-        alert('firstName can not be empty')
-        return false
+        alert("firstName can not be empty");
+        return false;
       }
       if (!data.surveyLastName) {
-        alert('lastName can not be empty')
-        return false
-      };
+        alert("lastName can not be empty");
+        return false;
+      }
       if (!data.remark) {
-        alert('remark can not be empty')
-        return false
-      };
+        alert("remark can not be empty");
+        return false;
+      }
       if (!data.sex) {
-        alert('sex can not be empty')
-        return false
-      };
+        alert("sex can not be empty");
+        return false;
+      }
       if (!data.surveyBirthdayYear) {
-        alert('surveyBirthdayYear can not be empty')
-        return false
-      };
+        alert("surveyBirthdayYear can not be empty");
+        return false;
+      }
       if (!data.surveyBirthdayMonth) {
-        alert('surveyBirthdayMonth can not be empty')
-        return false
-      };
+        alert("surveyBirthdayMonth can not be empty");
+        return false;
+      }
       if (!data.surveyBirthdayDay) {
-        alert('surveyBirthdayDay can not be empty')
-        return false
-      };
+        alert("surveyBirthdayDay can not be empty");
+        return false;
+      }
       if (!data.surveyAddress) {
-        alert('surveyAddress can not be empty')
-        return false
-      };
+        alert("surveyAddress can not be empty");
+        return false;
+      }
       if (!data.surveyPostcode) {
-        alert('surveyPostcode can not be empty')
-        return false
-      };
+        alert("surveyPostcode can not be empty");
+        return false;
+      }
 
       if (!data.phonenumber) {
-        alert('phonenumber can not be empty')
-        return false
-      };
+        alert("phonenumber can not be empty");
+        return false;
+      }
       if (!data.surveyPinCode) {
-        alert('surveyPinCode can not be empty')
-        return false
-      };
+        alert("surveyPinCode can not be empty");
+        return false;
+      }
 
-
-      registerHandler(data).then(function (res) {
-        _th.$toast('registration success')
-      }).catch(function (err) {
-        _th.$toast('registration failed')
-        console.log(err)
-      })
+      registerHandler(data)
+        .then(function(res) {
+          _th.$toast("registration success");
+        })
+        .catch(function(err) {
+          _th.$toast("registration failed");
+          console.log(err);
+        });
     },
   },
-}
+};
 </script>
 <style scoped lang="less">
 .register-wrap {
@@ -490,4 +592,3 @@ export default {
   }
 }
 </style>
-

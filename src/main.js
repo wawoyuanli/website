@@ -7,6 +7,7 @@ import store from "./store/index.js";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
 
+ 
 import './assets/less/varibles.less'
 import less from 'less'
 Vue.use(less)

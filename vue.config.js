@@ -14,7 +14,7 @@ module.exports = {
       .loader("svg-sprite-loader")
       .options({
         symbolId: "icon-[name]",
-        include: ["./src/icons"]
+        // include: ["./src/icons"]
       });
   },
   configureWebpack: (config) => {
@@ -55,8 +55,8 @@ module.exports = {
     hot: true, // 开启热加载
     hotOnly: false,
     proxy: {
-      [process.env.VUE_APP_API]: {//'http://www.web-jshtml.cn/productapi/token',
-        target: "http://g36469v144.zicp.vip",//"http://www.web-jshtml.cn/productapi/token", //API服务器的地址  http://www.web-jshtml.cn/api
+      [process.env.VUE_APP_API]: { 
+        target: "http://g36469v144.zicp.vip", //API服务器的地址  
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_API]: '' // es5
