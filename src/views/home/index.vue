@@ -10,6 +10,7 @@
       />
     </div>
     <div class="bg-image"></div>
+
     <div class="phone">
       <div class="container">
         <div class="row">
@@ -42,7 +43,7 @@
         style="
 					width: 100%;
 					z-index: 0;
-					border-top: 280px solid transparent;
+					border-top: 200px solid transparent;
 					border-right: 100vw solid #fff;
 				"
       ></div>
@@ -50,7 +51,7 @@
     <a href="#" name="features"></a>
     <a href="#" name="home#features"></a>
     <div class="middle-user-payout">
-      <div class="container">
+      <div class="container" style="padding-top:110px">
         <div class="row">
           <div class="col-lg-12 text-center">
             <div class="section-heading">
@@ -150,9 +151,12 @@
                   style="margin: 0 auto"
                   width="60px"
                 />
-
-                <p class="counter">26912</p>
-
+                <countTo
+                  :startVal="0"
+                  :endVal="26912"
+                  :duration="5600"
+                  class="counter"
+                ></countTo>
                 <p class="mb-0">{{ $t("home.monthly") }}</p>
               </div>
             </div>
@@ -164,8 +168,16 @@
                   style="margin: 0 auto"
                   width="60px"
                 />
-
-                <p class="counter">$3819018</p>
+                <countTo
+                  :startVal="0"
+                  :endVal="3819018"
+                  :duration="5600"
+                  class="counter"
+                ></countTo>
+                <!-- <div style="display:flex;">
+                  <div>$</div>
+               
+                </div> -->
 
                 <p class="mb-0">{{ $t("home.total") }}</p>
               </div>
@@ -179,8 +191,13 @@
                   width="60px"
                 />
 
-                <p class="counter">90</p>
-
+                <countTo
+                  :startVal="0"
+                  :endVal="90"
+                  :duration="5600"
+                  class="counter"
+                  >$</countTo
+                >
                 <p class="mb-0">{{ $t("home.partner") }}</p>
               </div>
             </div>
@@ -193,14 +210,14 @@
       <div class="container" style="margin-top:30px">
         <div class="row">
           <div class="col-md-12">
-            <p class="text-center" style="font-size:30px;padding:20px 0px">
+            <p class="text-center" style="font-size:30px;padding-bottom:40px">
               {{ $t("home.testimonials") }}
             </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;height:530px">
               <img
                 src="@/assets/images/testimonial1.jpeg"
                 class="card-img-top"
@@ -213,7 +230,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;height:530px">
               <img
                 src="@/assets/images/user2.jpg"
                 class="card-img-top"
@@ -226,7 +243,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;height:530px">
               <img
                 src="@/assets/images/user3.jpg"
                 class="card-img-top"
@@ -273,11 +290,14 @@
 <script>
 import Nav from "@c/nav.vue"; //引入导航栏组件
 import Footer from "@c/footer.vue"; //引入底部组件
+import $ from "jquery";
+import countTo from "vue-count-to";
 export default {
   name: "Home",
   components: {
     Nav: Nav,
     Footer: Footer,
+    countTo: countTo,
   },
   data() {
     return {
@@ -289,10 +309,20 @@ export default {
       color: "",
       background: "",
       isActive: false,
+      showCounter: false,
     };
   },
   mounted() {
+    const _th = this;
     window.addEventListener("scroll", this.handleScroll);
+    // $(window).scroll(function() {
+    //   debugger;
+    //   var scrollTop =
+    //     document.documentElement.scrollTop || document.body.scrollTop;
+    //   if (scrollTop >= 1000) {
+    //     _th.showCounter = true;
+    //   }
+    // });
   },
   compoted() {},
   methods: {
@@ -346,6 +376,7 @@ export default {
   }
   .middle-user-payout {
     background: #ffffff;
+    height: 500px;
     .section-heading {
       font-family: "Montserrat", sans-serif;
       font-size: 36px;
@@ -374,8 +405,6 @@ export default {
     }
   }
   .third-part {
-    // height: 200px;
-    // background: linear-gradient(90deg, rgb(31, 117, 167) 0px, rgb(3, 190, 197));
     padding-bottom: 3rem;
     .section-heading {
       font-size: 30px;
@@ -395,7 +424,7 @@ export default {
     // background: linear-gradient(90deg, #4179c3, #84c7f1, #ddedfa);
     // background: rgba(1, 93, 97, 0.6);
     background: linear-gradient(90deg, #4179c3, #84c7f1, #ddedfa);
-    // height: 400px;
+    height: 700px;
     .left {
       font-size: 2rem;
       color: #fff;
@@ -442,7 +471,7 @@ export default {
   /**第四部分 */
   .testimonials {
     // background: linear-gradient(90deg, #4179c3, #84c7f1, #ddedfa);
-    padding-bottom: 40px;
+    padding: 50px 0px;
     // height: 380px;
     .hm {
       margin-top: 25px;

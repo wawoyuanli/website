@@ -1,11 +1,15 @@
 <template>
   <div id="support">
-    <Nav :color="color" :isActive="isActive" id="borderBottom" :navitemlist="list" />
+    <Nav :color="color" :isActive="isActive" id="borderBottom" />
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="content" data-scrollview="true">
-            <div class="container" data-animation="true" data-animation-type="fadeInDown">
+            <div
+              class="container"
+              data-animation="true"
+              data-animation-type="fadeInDown"
+            >
               <h2 class="content-title">Support</h2>
               <p class="text-center">
                 Do you need some help? You are in the right place
@@ -20,7 +24,10 @@
                         </h4>
                         <p class="desc">
                           <a href="/faq">
-                            Check Frequently Asked Questions first. Maybe your issue is a common one and you will find the solution here</a>
+                            Check Frequently Asked Questions first. Maybe your
+                            issue is a common one and you will find the solution
+                            here</a
+                          >
                         </p>
                       </div>
                     </a>
@@ -35,7 +42,9 @@
                         </h4>
                         <p class="desc" id="descright">
                           <a href="/contact">
-                            Finally, if your case is urgent or you can't find any answers, feel free to contact us</a>
+                            Finally, if your case is urgent or you can't find
+                            any answers, feel free to contact us</a
+                          >
                         </p>
                       </div>
                     </a>
@@ -51,29 +60,24 @@
   </div>
 </template>
 <script>
-import Nav from '@c/nav.vue'
-import Footer from '@c/footer.vue'
+import Nav from "@c/nav.vue";
+import Footer from "@c/footer.vue";
 export default {
-  name: 'Support',
+  name: "Support",
   components: {
     Nav: Nav,
     Footer: Footer,
   },
-  data () {
+  data() {
     return {
       isActive: true,
-      color: '#26a4c3',
-      list: [
-        { name: 'Features', path: '/home#features', active: 'active' },
-        { name: 'support', path: '#', active: 'active' },
-        { name: 'Contact', path: '/contact', active: 'active' },
-      ],
-    }
+      color: "#26a4c3",
+    };
   },
-  mounted () {
-    document.getElementById('borderBottom').classList.add('borderBottom')
-  }
-}
+  mounted() {
+    document.getElementById("borderBottom").classList.add("borderBottom");
+  },
+};
 </script>
 <style scoped lang="less">
 #support {

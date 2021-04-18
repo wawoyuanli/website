@@ -1,20 +1,24 @@
 <template>
-
   <div class="contact">
-    <Nav id="borderBottom" :color="color" :isActive="isActive" :navitemlist="list" />
+    <Nav id="borderBottom" :color="color" :isActive="isActive" />
     <div class="content-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="content" data-scrollview='true'>
-              <div class="container" data-animation='true' data-animation-type="fadeInDown">
+            <div class="content" data-scrollview="true">
+              <div
+                class="container"
+                data-animation="true"
+                data-animation-type="fadeInDown"
+              >
                 <h2 class="content-title">Contact</h2>
                 <p class="text-center">
-                  Do you need to contact us? Fill the form below or email us directly: contact@colossalscope.com
+                  Do you need to contact us? Fill the form below or email us
+                  directly: contact@colossalscope.com
                 </p>
                 <div class="row">
                   <div class="col-md-12">
-                    <br/>
+                    <br />
                     <div class="TitanViewElement">
                       <h3>Contact form</h3>
                       <div class="row m-t-30">
@@ -25,7 +29,7 @@
                                 Email:
                               </label>
                               <div class="col-md-6">
-                                <input class="form-control">
+                                <input class="form-control" />
                               </div>
                             </div>
                             <div class="form-group">
@@ -33,39 +37,10 @@
                                 Text:
                               </label>
                               <div class="col-md-6">
-                                <textarea class="form-control" rows="2"></textarea>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <label class="control-label col-md-2">
-                                File:
-                              </label>
-                              <div class="col-md-6">
-                                <span class="btn btn-success fileinput-button">
-                                  <i class="fa fa-plus"></i>
-                                  <span>Add image</span>
-                                </span>
-                                <input type="submit" name="submitbtn" value="Submit" id="submit" class="btn btn-primary">
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <label class="control-lebel col-md-2">
-                                Verification:
-                              </label>
-                              <div class="col-md-6">
-                                <div id="sample-captcha" class="visualCaptcha">
-                                  <p class="visualCaptcha-explanation">
-                                    Click or touch the
-                                    <strong>Truck</strong>
-                                  </p>
-                                </div>
-                                <div style="display: flex; justify-content: space-between">
-                                  <li v-for="(item, index) in iconList" :key="index">
-                                    <img :src="item.path" alt="" />
-                                  </li>
-                                  <button>flush</button>
-                                  <button>voice</button>
-                                </div>
+                                <textarea
+                                  class="form-control"
+                                  rows="2"
+                                ></textarea>
                               </div>
                             </div>
                           </div>
@@ -74,45 +49,47 @@
                     </div>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-md-6 text-center">
+                    <input type="submit" class="btn btn-primary col-md-3 m-5" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
     <Footer></Footer>
   </div>
 </template>
 <script>
-import Nav from '@c/nav.vue'
-import Footer from '@c/footer.vue'
+import Nav from "@c/nav.vue";
+import Footer from "@c/footer.vue";
 export default {
-  name: 'Contact',
+  name: "Contact",
   components: {
     Nav: Nav,
-    Footer: Footer
+    Footer: Footer,
   },
-  data () {
+  data() {
     return {
       iconList: [
-        { name: 'people', path: require('../../assets/images/People Plus.png') },
-        { name: 'earth', path: require('../../assets/images/earth.png') },
-        { name: 'seat', path: require('../../assets/images/seat.png') },
-      ],
-      list: [
-        { name: 'Features', path: '/home' },
-        { name: 'support', path: '/support' },
-        { name: 'Contact', path: '#' },
+        {
+          name: "people",
+          path: require("../../assets/images/People Plus.png"),
+        },
+        { name: "earth", path: require("../../assets/images/earth.png") },
+        { name: "seat", path: require("../../assets/images/seat.png") },
       ],
       isActive: true,
-      color: '#26a4c3'
-    }
+      color: "#26a4c3",
+    };
   },
-  mounted () {
-    document.getElementById('borderBottom').classList.add('borderBottom')
-  }
-}
+  mounted() {
+    document.getElementById("borderBottom").classList.add("borderBottom");
+  },
+};
 </script>
 <style scoped lang="less">
 .contact {
@@ -152,7 +129,7 @@ export default {
           font: normal normal normal 14px/1 FontAwesome;
         }
         .fa-plus:before {
-          content: '\f067';
+          content: "\f067";
         }
       }
       .btn-primary {

@@ -3,7 +3,7 @@ import service from '@/utils/request';
 export function registerHandler (data) {
   return service.request({
     method: "POST",
-    url: "/manager/survey/register",
+    url: "/manager/authorization/sys/register",
     data
   })
 }
@@ -11,7 +11,7 @@ export function registerHandler (data) {
 export function getCode (data) {
   return service.request({
     method: "GET",
-    url: `/manager/survey/sendEmail?email=${data.email}`,
+    url: `/manager/authorization/sys/sendEmail?email=${data.email}`,
     data
   })
 }
@@ -20,19 +20,20 @@ export function getCode (data) {
 export function getCountryCode (data) {
   return service.request({
     method: "GET",
-    url: "/manager/survey/countryCode",
+    url: "/manager/authorization/sys/countryCode",
     data
 
   })
 }
 
 /**
- * 登录http://g36469v144.zicp.vip/manager/index
+ * 登录http://g36469v144.zicp.vip/manager/authorization/sys/index
  */
 export function login (data) {
   return service.request({
     method: "POST",
-    url: "/manager/survey/login", 
+    // headers: {'Content-Type':'application/x-www-form-urlencoded'},
+    url: '/manager/authorization/sys/login',// "/manager/authorization/sys/login", 
     data
   })
 }

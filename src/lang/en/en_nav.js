@@ -1,8 +1,8 @@
 export default {
-    webLogo: 'Col',
+    webLogo: 'Genting Consulting',
     home: 'Home',
-    features: 'Features',
-    support: 'Support',
+    about: 'About Us',
+    FAQ: 'FAQ',
     contact: 'Contact',
     signIn: 'Sign In',
     getStarted: 'Get started',

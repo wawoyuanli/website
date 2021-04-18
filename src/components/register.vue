@@ -5,7 +5,7 @@
       <!--userName-->
       <div class="row">
         <div class="col-lg-6">
-          <label for="userName" class="control-label"
+          <label for="userName" class="control-label mt-2"
             >userName
             <label style="color: red">*</label>
           </label>
@@ -13,7 +13,6 @@
             class="form-control"
             id="userName"
             v-model="userName"
-            @blur="userNameCheck(userName)"
             data-toggle="tooltip"
             data-placement="right"
             :title="tipUsername"
@@ -25,8 +24,8 @@
       </div>
       <!--邮箱：email-->
       <div class="row">
-        <div class="col-lg-4">
-          <label for="email" class="control-label"
+        <div class="col-lg-3">
+          <label for="email" class="control-label mt-2"
             >Email
             <label style="color: red">*</label>
           </label>
@@ -39,30 +38,30 @@
             :title="tipEmail"
           />
         </div>
-        <div class="col-lg-2">
-          <label for="sendCode" class="control-label">
+        <div class="col-lg-3">
+          <label for="sendCode" class="control-label mt-2">
             <label style="color: red; opacity: 0"> sendcode</label>
           </label>
           <button
             class="btn btn-primary form-control"
             @click="sendVerificationCode"
           >
-            发送验证码
+            send the verification code
           </button>
         </div>
       </div>
       <!--验证码-->
       <div class="row">
         <div class="col-lg-6">
-          <label for="remark" class="control-label"
-            >remark
+          <label for="remark" class="control-label mt-2"
+            >Email Verification Code:
             <label style="color: red">*</label>
           </label>
           <input
             class="form-control"
             id="remark"
             v-model="remark"
-            placeholder="请输入验证码"
+            placeholder=""
             data-toggle="tooltip"
             data-placement="right"
             :title="tipRemark"
@@ -72,7 +71,7 @@
       <!--密码-->
       <div class="row">
         <div class="col-lg-6">
-          <label for="password" class="control-label"
+          <label for="password" class="control-label mt-2"
             >Password
             <label style="color: red">*</label>
           </label>
@@ -90,14 +89,14 @@
       <!--firstName lastName-->
       <div class="row">
         <div class="col-lg-3">
-          <label for="firstName" class="control-label"
+          <label for="firstName" class="control-label mt-2"
             >FirstName
             <label style="color: red">*</label>
           </label>
           <input
             type="text"
             class="form-control"
-            placeholder="First name"
+            placeholder=""
             v-model="firstName"
             data-toggle="tooltip"
             data-placement="right"
@@ -105,14 +104,14 @@
           />
         </div>
         <div class="col-lg-3">
-          <label for="lastName" class="control-label"
+          <label for="lastName" class="control-label mt-2"
             >lastName
             <label style="color: red">*</label>
           </label>
           <input
             type="text"
             class="form-control"
-            placeholder="Last name"
+            placeholder=""
             v-model="lastName"
             data-toggle="tooltip"
             data-placement="right"
@@ -123,7 +122,7 @@
       <!--sex-->
       <div class="row">
         <div class="col-lg-3">
-          <label for="sex" class="control-label"
+          <label for="sex" class="control-label mt-2"
             >sex
             <label style="color: red">*</label>
           </label>
@@ -132,17 +131,12 @@
             <option>女</option>
           </select>
         </div>
-        <div class="col-lg-3" style="opacity: 0">
-          <label for="sex" class="control-label">
-            <label style="color: red">*</label>
-          </label>
-          <select id="inputState" class="form-control"></select>
-        </div>
+        <div class="col-lg-3" style="opacity: 0"></div>
       </div>
       <!--出生日期-->
       <div class="row">
         <div class="col-lg-2">
-          <label for="sex" class="control-label"
+          <label for="sex" class="control-label mt-2"
             >birthday year
             <label style="color: red">*</label>
           </label>
@@ -153,7 +147,7 @@
           />
         </div>
         <div class="col-lg-2">
-          <label for="birthdaymonth" class="control-label"
+          <label for="birthdaymonth" class="control-label mt-2"
             >birthday month
             <label style="color: red">*</label>
           </label>
@@ -164,7 +158,7 @@
           />
         </div>
         <div class="col-lg-2">
-          <label for="sex" class="control-label"
+          <label for="sex" class="control-label mt-2"
             >birthday day
             <label style="color: red">*</label>
           </label>
@@ -178,11 +172,11 @@
       <!--address-->
       <div class="row">
         <div class="col-lg-6">
-          <label for="referrer" class="control-label">address ： </label>
+          <label for="referrer" class="control-label mt-2">address ： </label>
           <input
             class="form-control control-label-referrer"
             id="password2"
-            v-model="referrer"
+            v-model="address"
             data-toggle="tooltip"
             data-placement="right"
             :title="tipAddress"
@@ -192,12 +186,12 @@
       <!--postCode 邮编-->
       <div class="row">
         <div class="col-lg-6">
-          <label> postCode:</label>
+          <label class="mt-2"> postCode:</label>
           <label style="color: red">*</label>
           <input
             class="form-control control-label-referrer"
             id="password2"
-            v-model="referrer"
+            v-model="postCode"
             data-toggle="tooltip"
             data-placement="right"
             :title="tipPostcode"
@@ -207,7 +201,7 @@
       <!--phone 电话号码-->
       <div class="row">
         <div class="col-lg-6">
-          <label> phone:</label>
+          <label class="mt-2"> phone:</label>
           <label style="color: red">*</label>
           <input
             class="form-control control-label-referrer"
@@ -217,13 +211,14 @@
             data-placement="right"
             :title="tipPhonenumber"
             type="tel"
+            maxlength="11"
           />
         </div>
       </div>
       <!--PIN 个人识别码-->
       <div class="row">
         <div class="col-lg-6">
-          <label> pinCode:</label>
+          <label class="mt-2"> pinCode:</label>
           <label style="color: red">*</label>
           <input
             class="form-control control-label-referrer"
@@ -241,26 +236,7 @@
         </div>
         谷歌验证
       </div>
-      <!-- <div class="row">
-        <div class="col-lg-6">
-          <div style="display: flex; color: #00acac">
-            <p>Click or touch the</p>
-            <strong style="margin-left: 4px">{{ iconName }}</strong>
-          </div>
-        </div>
-      </div> -->
-      <!--icon-->
-      <!-- <div class="row">
-        <div class="col-lg-6">
-          <div style="display: flex; justify-content: space-between">
-            <li v-for="(item, index) in iconList" :key="index">
-              <img :src="item.path" alt="" @click="clickIcon(item.name)" />
-            </li>
-            <button @click="changeIconHandler">flush</button>
-            <button @click="clickVoiceIcon">voice</button>
-          </div>
-        </div>
-      </div> -->
+
       <div class="row">
         <div class="col-lg-6">Detected country:</div>
       </div>
@@ -270,7 +246,8 @@
             <img
               src="../assets/images/cn.png"
               alt="china"
-              width="20px;height:10px"
+              width="30px"
+              height="20px"
               style="margin-right: 5px"
             />
             <p>China</p>
@@ -279,28 +256,33 @@
       </div>
       <div class="row">
         <div class="col-lg-6">
-          <div style="display: flex; padding: 4px 0px">
+          <div style="display: flex; padding: 4px 0px;align-items:center">
             <input id="TermsCheckBox" type="checkbox" name="" />
             <div style="display: flex; margin-left: 5px">
-              <p>I have read and accepted</p>
+              <div>I have read and accepted</div>
               <a style="color: #ff6f00" href="/terms">Terms of Service *</a>
             </div>
           </div>
-          <div style="display: flex; padding: 4px 0px">
+          <div style="display: flex; padding: 4px 0px;align-items:center">
             <input id="TermsCheckBox" type="checkbox" name="" />
             <div style="display: flex; margin-left: 5px">
-              <p>I have read and accepted</p>
+              <div>I have read and accepted</div>
               <a style="color: #ff6f00" href="/privacy">Privacy Notice *</a>
             </div>
           </div>
-          <div style="display: flex; padding: 4px 0px">
+          <div style="display: flex; padding: 4px 0px;align-items:center">
             <input id="TermsCheckBox" type="checkbox" name="" />
 
             <div style="margin-left: 5px; display: flex">
-              <img src="../assets/images/envelope.png" alt="" width="20px" />
-              <p style="margin-left: 5px">
+              <img
+                src="../assets/images/envelope.png"
+                alt=""
+                width="20px"
+                height="20px"
+              />
+              <div style="margin-left: 5px">
                 I want to receive marketing communication
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -350,14 +332,9 @@ export default {
       tipPostcode: "please input your post code",
       tipPhonenumber: "plase input your phone number must be 11 letters",
 
-      iconList: [
-        { name: "people", path: require("../assets/images/People Plus.png") },
-        { name: "earth", path: require("../assets/images/earth.png") },
-        { name: "seat", path: require("../assets/images/seat.png") },
-      ],
       userName: "",
       email: "",
-      remark: "1583649818@qq.com", //邮箱校验码
+      remark: "", //邮箱校验码
       password: "",
       firstName: "",
       lastName: "",
@@ -366,6 +343,8 @@ export default {
       pinCode: "",
       birthYear: "",
       referrer: "",
+      address: "",
+      postCode: "",
       iconName: "man",
       errorMessage: "",
       show: false,
@@ -402,6 +381,7 @@ export default {
   mounted() {},
   methods: {
     selectYear: function() {
+      this.dateYear;
       console.log(this.dateYear);
     },
     selectMonth: function() {
@@ -450,18 +430,19 @@ export default {
         loginName: _th.userName,
         email: _th.email,
         password: _th.password,
-        surveyFirstName: _th.surveyFirstName,
-        surveyLastName: _th.surveyLastName,
+        surveyFirstName: _th.firstName,
+        surveyLastName: _th.lastName,
         remark: _th.remark,
         sex: _th.sex,
-        surveyBirthdayYear: _th.surveyBirthdayYear,
-        surveyBirthdayMonth: _th.surveyBirthdayMonth,
-        surveyBirthdayDay: _th.surveyBirthdayDay,
-        surveyAddress: _th.surveyAddress,
-        surveyPostcode: _th.surveyPostcode,
+        surveyBirthdayYear: _th.dateYear, //年
+        surveyBirthdayMonth: _th.dateMonth, //月
+        surveyBirthdayDay: _th.dateDay, //日
+        surveyAddress: _th.address,
+        surveyPostcode: _th.postCode,
         phonenumber: _th.phonenumber,
-        surveyPinCode: _th.surveyPinCode,
+        surveyPinCode: _th.pinCode,
       };
+      // debugger;
       /**注册接口调用 */
       if (!data.loginName.trim().length) {
         alert("Username can not be empty");
@@ -523,7 +504,8 @@ export default {
 
       registerHandler(data)
         .then(function(res) {
-          _th.$toast("registration success");
+          _th.$router.push("/login");
+          // _th.$toast("registration success");
         })
         .catch(function(err) {
           _th.$toast("registration failed");

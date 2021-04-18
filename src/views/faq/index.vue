@@ -1,38 +1,33 @@
 <template>
   <div class="faq">
-    <Nav :navitemlist="list" id="borderBottom" :color="color" :isActive="isActive"></Nav>
+    <Nav id="borderBottom" :color="color" :isActive="isActive"></Nav>
     <div class="faq-content">
-      <p>
-        Frequently Asked Questions
-      </p>
+      <h1>
+        Frequently Asked Questions About Our Paid Surveys
+      </h1>
     </div>
     <Footer></Footer>
   </div>
 </template>
 <script>
-import Nav from '@c/nav.vue'
-import Footer from '@c/footer.vue'
+import Nav from "@c/nav.vue";
+import Footer from "@c/footer.vue";
 export default {
-  name: 'Faq',
+  name: "Faq",
   components: {
     Nav: Nav,
-    Footer: Footer
+    Footer: Footer,
   },
-  data () {
+  data() {
     return {
-      list: [
-        { name: 'Features', path: '/home' },
-        { name: 'support', path: '/support' },
-        { name: 'Contact', path: '/contact' },
-      ],
       isActive: true,
-      color: '#26a4c3',
-    }
+      color: "#26a4c3",
+    };
   },
-  mounted () {
-    document.getElementById('borderBottom').classList.add('borderBottom')
-  }
-}
+  mounted() {
+    document.getElementById("borderBottom").classList.add("borderBottom");
+  },
+};
 </script>
 <style lang="less" scoped>
 .faq {
@@ -46,4 +41,3 @@ export default {
   }
 }
 </style>
-

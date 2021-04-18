@@ -5,21 +5,47 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <input class="form-control" data-toggle="tooltip" data-placement="right" :title='tipUsername' v-model="username" @blur="blur(username)"
-              @input="input" />
-            <p v-show="isShow" style="font-size:10px;color:red">{{errMess}} *</p>
+            <label for="userName" class="control-label mt-2"
+              >userName
+              <label style="color: red">*</label>
+            </label>
+            <input
+              class="form-control"
+              data-toggle="tooltip"
+              data-placement="right"
+              :title="tipUsername"
+              v-model="username"
+              @blur="blur(username)"
+              @input="input"
+            />
+            <p v-show="isShow" style="font-size:10px;color:red">
+              {{ errMess }} *
+            </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <input class="form-control" data-toggle="tooltip" data-placement="right" :title='tipPassword' v-model="password" @blur="blur2(password)"
-              @input="input2" />
-            <p v-show="show" style="font-size:10px;color:red">{{errMessPassword}} *</p>
+            <label for="password" class="control-label mt-2"
+              >password
+              <label style="color: red">*</label>
+            </label>
+            <input
+              class="form-control"
+              data-toggle="tooltip"
+              data-placement="right"
+              :title="tipPassword"
+              v-model="password"
+              @blur="blur2(password)"
+              @input="input2"
+            />
+            <p v-show="show" style="font-size:10px;color:red">
+              {{ errMessPassword }} *
+            </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="submit">
+            <div class="submit mt-5">
               <button @click="login" class="btn col-md-12">Log in</button>
             </div>
             <div class="forgot">
@@ -36,78 +62,82 @@
   </div>
 </template>
 <script>
-import { login } from '@/api/login'
+import { login } from "@/api/login";
 export default {
-  name: 'Login',
+  name: "Login",
   props: {},
-  data () {
+  data() {
     return {
-      username: '',
-      password: '',
-      errMess: '',
-      errMessPassword: '',
+      username: "",
+      password: "",
+      errMess: "",
+      errMessPassword: "",
       isShow: false,
       show: false,
-      tipUsername: 'Choose your desired username,It must be 4-20 characters long and can only contain letters and numbers. it must start with a letter',
-      tipPassword: 'Choose your password.It must be 4-80 characters long and can only contain letters,numbers and !@#$%^&*(0-=+.,'
-    }
+      tipUsername:
+        "Choose your desired username,It must be 4-20 characters long and can only contain letters and numbers. it must start with a letter",
+      tipPassword:
+        "Choose your password.It must be 4-80 characters long and can only contain letters,numbers and !@#$%^&*(0-=+.,",
+    };
   },
   methods: {
     /**登录 */
-    login () {
-      if (!this.username.trim()) {
-        this.errMess = '用户名不能为空'
-        this.isShow = true
-        return false
+    login() {
+      const _th = this;
+      if (_th.username && !_th.username.trim().length) {
+        _th.errMess = "用户名不能为空";
+        _th.isShow = true;
+        return false;
       }
-      if (!this.password.trim()) {
-        this.errMessPassword = '密码不能为空'
-        this.show = true
-        return false
+      if (_th.password && !_th.password.trim().length) {
+        _th.errMessPassword = "密码不能为空";
+        _th.show = true;
+        return false;
       }
       let requestData = {
-        username: this.username,
-        password: this.password
-      }
+        username: _th.username,
+        password: _th.password,
+        // rememberMe: false,
+      };
       /**登录接口 */
       login(requestData)
-        .then(function (res) {
-
+        .then(function(res) {
+          window.location.href = process.env.VUE_APP_URL; //登录成功跳转地址
         })
-        .catch(function (err) {
-          console.log(err)
-        })
+        .catch(function(err) {
+          console.log(err);
+        });
     },
-    blur: function (username) {
+    blur: function(username) {
       if (!username) {
-        this.errMess = '用户名不能为空！'
-        this.isShow = true
+        this.errMess = "用户名不能为空！";
+        this.isShow = true;
       }
     },
-    input: function (e) {
+    input: function(e) {
       if (!e.data.trim()) {
-        this.errMess = '用户名不能为空！'
-        this.isShow = true
+        this.errMess = "用户名不能为空！";
+        this.isShow = true;
       } else {
-        this.isShow = false
+        this.isShow = false;
       }
     },
-    blur2: function (password) {
+    blur2: function(password) {
       if (!password.trim()) {
-        this.errMessPassword = '密码不能为空！'
-        this.show = true
+        this.errMessPassword = "密码不能为空！";
+        this.show = true;
       }
     },
-    input2: function (e) {
+    input2: function(e) {
       if (!e.data.trim()) {
-        this.errMessPassword = '用户名不能为空！'
-        this.show = true
+        this.errMessPassword = "用户名不能为空！";
+        this.show = true;
       } else {
-        this.show = false
+        this.show = false;
       }
     },
   },
-}
+};
 </script>
 <style lang="less" scoped>
 .clogin {

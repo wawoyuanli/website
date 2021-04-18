@@ -1,34 +1,29 @@
 <template>
   <div class="tos">
-    <Nav :navitemlist="list" id="borderBottom" :color="color" :isActive="isActive"></Nav>
+    <Nav id="borderBottom" :color="color" :isActive="isActive"></Nav>
     <p class="tos-content">Terms of Service</p>
     <Footer></Footer>
   </div>
 </template>
 <script>
-import Nav from '@c/nav.vue'
-import Footer from '@c/footer.vue'
+import Nav from "@c/nav.vue";
+import Footer from "@c/footer.vue";
 export default {
-  name: 'Tos',
+  name: "Tos",
   components: {
     Nav: Nav,
-    Footer: Footer
+    Footer: Footer,
   },
-  data () {
+  data() {
     return {
-      list: [
-        { name: 'Features', path: '/home#features' },
-        { name: 'support', path: '/support' },
-        { name: 'Contact', path: '/contact' },
-      ],
       isActive: true,
-      color: '#26a4c3',
-    }
+      color: "#26a4c3",
+    };
   },
-  mounted () {
-    document.getElementById('borderBottom').classList.add('borderBottom')
-  }
-}
+  mounted() {
+    document.getElementById("borderBottom").classList.add("borderBottom");
+  },
+};
 </script>
 <style lang="less" scoped>
 .tos {
