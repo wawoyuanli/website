@@ -62,6 +62,10 @@ export default new Router({
     {
       path: '/antispam',
       component: () => import('@/views/antispam/index.vue')
+    },
+    {
+      path: '/resetpwd',
+      component: () => import('@/views/resetpwd/index.vue')
     }
   ]
 })

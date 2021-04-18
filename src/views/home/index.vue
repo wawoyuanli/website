@@ -258,6 +258,90 @@
         </div>
       </div>
     </div>
+    <div class="four-part mt-5 mb-5">
+      <div class="container bg">
+        <div class="row">
+          <div class="col-md-8 text-white">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="h2 mt-5 text-center">
+                  Why sign up to Genting Consulting?
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="h6 mt-3 ">
+                  <p class="text-center" style="color:#829eb0">
+                    Why Genting Consulting Research is unique and reasons behind
+                    it.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row mt-5 ml-5">
+                  <div class="col-md-3 col-sm-3">
+                    <div class="col-md-12">
+                      <div
+                        class="sprite01"
+                        width="100px"
+                        height="100px"
+                        style="background-image:url('https://s3.amazonaws.com/leadgen-prod/10/images/sprite.png')"
+                      ></div>
+                    </div>
+                    <div class="col-md-12">
+                      <p class="h6 text-white mt-4">Cash Payments</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="col-md-12">
+                      <div
+                        class="sprite02"
+                        width="100px"
+                        height="100px"
+                        style="background-image:url('https://s3.amazonaws.com/leadgen-prod/10/images/sprite.png')"
+                      ></div>
+                    </div>
+                    <div class="col-md-12">
+                      <p class="h6 text-white mt-4">Cash Payments</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="col-md-12">
+                      <div
+                        class="sprite03"
+                        width="100px"
+                        height="100px"
+                        style="background-image:url('https://s3.amazonaws.com/leadgen-prod/10/images/sprite.png')"
+                      ></div>
+                    </div>
+                    <div class="col-md-12">
+                      <p class="h6 text-white mt-4">Cash Payments</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="col-md-12">
+                      <div
+                        class="sprite04"
+                        width="100px"
+                        height="100px"
+                        style="background-image:url('https://s3.amazonaws.com/leadgen-prod/10/images/sprite.png')"
+                      ></div>
+                    </div>
+                    <div class="col-md-12">
+                      <p class="h6 text-white mt-4">Cash Payments</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="five-part">
       <div class="w" style="width:30vw;margin:0 auto;margin-bottom:40px">
         <div class="container">
@@ -490,6 +574,40 @@ export default {
           color: #616161;
           margin-top: 15px;
         }
+      }
+    }
+  }
+  .four-part {
+    height: 378px;
+    background: linear-gradient(90deg, #4179c3, #84c7f1, #ddedfa);
+    .bg {
+      background: #124769
+        url(https://s3.amazonaws.com/leadgen-prod/10/images/hm_bg01.png)
+        no-repeat top right;
+      height: 378px;
+      .sprite01 {
+        background-position: -550px 0;
+        width: 70px;
+        height: 70px;
+        background-repeat: no-repeat;
+      }
+      .sprite02 {
+        background-position: -660px 0;
+        width: 70px;
+        height: 70px;
+        background-repeat: no-repeat;
+      }
+      .sprite03 {
+        background-position: -770px 0;
+        width: 70px;
+        height: 70px;
+        background-repeat: no-repeat;
+      }
+      .sprite04 {
+        background-position: -880px 0;
+        width: 70px;
+        height: 70px;
+        background-repeat: no-repeat;
       }
     }
   }
