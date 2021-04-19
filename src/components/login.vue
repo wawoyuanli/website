@@ -49,7 +49,7 @@
               <button @click="login" class="btn col-md-12">Log in</button>
             </div>
             <div class="forgot">
-              <a href="/register"> I forgot my password</a>
+              <a href="/resetpwd"> I forgot my password</a>
             </div>
             <div class="toregister">
               Not a member yet? Click

@@ -134,9 +134,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-              <h2 class="section-heading">
-                <!-- {{ $t("home.our") }} -->
-              </h2>
+               <div class="h5">
+                   {{ $t("home.second_title") }}
+               </div>
             </div>
           </div>
           <div class="row">
@@ -579,7 +579,8 @@ export default {
   }
   .four-part {
     height: 378px;
-    background: linear-gradient(90deg, #4179c3, #84c7f1, #ddedfa);
+      background: #124769;
+    // background: linear-gradient(90deg, #4179c3, #84c7f1, #ddedfa);
     .bg {
       background: #124769
         url(https://s3.amazonaws.com/leadgen-prod/10/images/hm_bg01.png)

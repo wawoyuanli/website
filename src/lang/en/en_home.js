@@ -13,6 +13,7 @@ export default {
   getPaidDesc: 'Watch your account balance grow then request a payout.',
   /**第三部分 */
   our: "Our Achievement",
+  second_title:"Based on your demographics, Genting will provide you with paid research and market research opportunities and will provide you with remuneration.",
   monthly: 'Monthly Active Users',//26912
   total: 'Total Payout To Date', //$3819018
   partner: 'Our Trusted Partners',//90
