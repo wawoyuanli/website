@@ -16,6 +16,8 @@
             data-toggle="tooltip"
             data-placement="right"
             :title="tipUsername"
+            maxlength="30"
+            minlength="6"
           />
           <div v-show="show" style="margin-top: 10px; color: red">
             {{ errorMessage }}
@@ -36,6 +38,8 @@
             data-toggle="tooltip"
             data-placement="right"
             :title="tipEmail"
+            maxlength="30"
+            minlength="0"
           />
         </div>
         <div class="col-lg-3">
@@ -65,6 +69,8 @@
             data-toggle="tooltip"
             data-placement="right"
             :title="tipRemark"
+            maxlength="6"
+            minlength="6"
           />
         </div>
       </div>
@@ -83,6 +89,8 @@
             data-toggle="tooltip"
             data-placement="right"
             :title="tipPassword"
+            maxlength="20"
+            minlength="6"
           />
         </div>
       </div>
@@ -101,6 +109,8 @@
             data-toggle="tooltip"
             data-placement="right"
             :title="tipFirstname"
+            maxlength="30"
+            minlength="0"
           />
         </div>
         <div class="col-lg-3">
@@ -116,6 +126,8 @@
             data-toggle="tooltip"
             data-placement="right"
             :title="tipLastname"
+            maxlength="30"
+            minlength="0"
           />
         </div>
       </div>
@@ -180,6 +192,7 @@
             data-toggle="tooltip"
             data-placement="right"
             :title="tipAddress"
+            maxlength="30"
           />
         </div>
       </div>
@@ -195,6 +208,7 @@
             data-toggle="tooltip"
             data-placement="right"
             :title="tipPostcode"
+            maxlength="10"
           />
         </div>
       </div>
@@ -227,6 +241,7 @@
             data-toggle="tooltip"
             data-placement="right"
             :title="tipPincode"
+            maxlength="4"
           />
         </div>
       </div>
@@ -260,14 +275,14 @@
             <input id="TermsCheckBox" type="checkbox" name="" />
             <div style="display: flex; margin-left: 5px">
               <div>I have read and accepted</div>
-              <a style="color: #ff6f00" href="/terms">Terms of Service *</a>
+              <a style="color: #ff6f00" href="/terms">Terms And Conditions *</a>
             </div>
           </div>
           <div style="display: flex; padding: 4px 0px;align-items:center">
             <input id="TermsCheckBox" type="checkbox" name="" />
             <div style="display: flex; margin-left: 5px">
               <div>I have read and accepted</div>
-              <a style="color: #ff6f00" href="/privacy">Privacy Notice *</a>
+              <a style="color: #ff6f00" href="/privacy">Privacy Policy *</a>
             </div>
           </div>
           <div style="display: flex; padding: 4px 0px;align-items:center">
@@ -308,7 +323,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "pc-bootstrap4-datetimepicker/build/css/bootstrap-datetimepicker.css";
 import datePicker from "vue-bootstrap-datetimepicker";
 import $ from "jquery";
-import { registerHandler, getCode } from "@/api/login";
+import { registerHandler, getCode, getCountryCode } from "@/api/login";
 export default {
   name: "Register",
   components: {
@@ -375,10 +390,22 @@ export default {
           selectTime: "",
         },
       },
+      countryCode: "", //国家码
     };
   },
   created: function() {},
-  mounted() {},
+  mounted() {
+    let _th = this;
+    /**国家码获取 */
+    getCountryCode()
+      .then(function(res) {
+        _th.countryCode = res.data;
+        console.log(res);
+      })
+      .catch(function(err) {
+        console.log("接口请求失败");
+      });
+  },
   methods: {
     selectYear: function() {
       this.dateYear;
@@ -497,9 +524,30 @@ export default {
         alert("phonenumber can not be empty");
         return false;
       }
+      var isPhone = /^[1](([3][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,8,9]))[0-9]{8}$/;
+      // var isMob = /^((\+?86)|(\(\+86\)))?(13[012356789][0-9]{8}|15[012356789][0-9]{8}|18[02356789][0-9]{8}|147[0-9]{8}|1349[0-9]{7})$/;
+      var value = data.phonenumber.trim();
+      if (isPhone.test(data.phonenumber.trim())) {
+        return true;
+      } else {
+        alert(
+          "The phone number format is wrong, please enter the correct number"
+        );
+        return false;
+      }
+
       if (!data.surveyPinCode) {
         alert("surveyPinCode can not be empty");
         return false;
+      }
+      if (/^[a-zA-Z]/.test(data.surveyPinCode)) {
+        alert("Need to enter four digits");
+      }
+      if (/^[\u4e00-\u9fa5]/.test(data.surveyPinCode)) {
+        alert("Need to enter four digits");
+      }
+      if (data.surveyPinCode.length < 4) {
+        alert("Need to enter four digits");
       }
 
       registerHandler(data)

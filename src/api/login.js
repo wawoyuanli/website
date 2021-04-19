@@ -37,4 +37,12 @@ export function login (data) {
     data
   })
 }
+/**修改密码 */
+export function resetPwd(data){
+return service.request({
+  method:'POST',
+  url:"/manager/authorization/sys/changePassowrd",
+  data
+})
+};
 

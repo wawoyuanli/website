@@ -12,7 +12,7 @@
                     <li>
                       <a href="/home" class="text-white decration">Home</a>
                     </li>
-                    <li><a href="/home" class="text-white">About Us</a></li>
+                    <li><a href="#aboutUs" class="text-white">About Us</a></li>
                     <li><a href="/faq" class="text-white">FAQ</a></li>
                     <li>
                       <a href="/contact" class="text-white">Contact Us</a>

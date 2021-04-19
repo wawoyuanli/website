@@ -104,9 +104,11 @@ export default {
   computed: {
     navitemlist() {
       return [
-        { name: this.$t("nav.about"), path: "/home" },
+        { name: this.$t("nav.about"), path: "/home#aboutUs" },
         { name: this.$t("nav.FAQ"), path: "/faq" },
         { name: this.$t("nav.contact"), path: "/contact" },
+        { name: "Privacy", path: "/privacy" },
+        { name: "Reviews", path: "/home#Reviews" },
       ];
     },
   },

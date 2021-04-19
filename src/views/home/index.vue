@@ -118,7 +118,7 @@
         </div>
       </div>
     </div>
-
+    <a href="#" name="aboutUs"></a>
     <div class="middle">
       <div
         class="layer"
@@ -134,9 +134,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-               <div class="h5">
-                   {{ $t("home.second_title") }}
-               </div>
+              <div class="h5">
+                {{ $t("home.second_title") }}
+              </div>
             </div>
           </div>
           <div class="row">
@@ -205,7 +205,7 @@
         </div>
       </div>
     </div>
-
+    <a href="#" name="Reviews"></a>
     <div class="testimonials">
       <div class="container" style="margin-top:30px">
         <div class="row">
@@ -579,7 +579,7 @@ export default {
   }
   .four-part {
     height: 378px;
-      background: #124769;
+    background: #124769;
     // background: linear-gradient(90deg, #4179c3, #84c7f1, #ddedfa);
     .bg {
       background: #124769
