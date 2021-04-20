@@ -51,7 +51,7 @@
           :style="{ color: color }"
           >{{ $t("nav.signIn") }}</a
         >
-        <a class="btn btn-primary btn-lg" href="/register">{{
+        <a class="btn btn-primary btn-lg" href="/registerInfo">{{
           $t("nav.getStarted")
         }}</a>
 
@@ -107,8 +107,8 @@ export default {
         { name: this.$t("nav.about"), path: "/home#aboutUs" },
         { name: this.$t("nav.FAQ"), path: "/faq" },
         { name: this.$t("nav.contact"), path: "/contact" },
-        { name:  this.$t("nav.privacy"), path: "/privacy" },
-        { name:  this.$t("nav.reviews"), path: "/home#Reviews" },
+        { name: this.$t("nav.privacy"), path: "/privacy" },
+        { name: this.$t("nav.reviews"), path: "/home#Reviews" },
       ];
     },
   },

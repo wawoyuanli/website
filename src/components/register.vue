@@ -6,8 +6,8 @@
       </div>
       <!--userName-->
       <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
           <label for="userName" class="mt-2"
             >userName
             <label style="color: red">*</label>
@@ -29,7 +29,7 @@
       </div>
       <!--邮箱：email-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-3">
           <label for="email" class="control-label mt-2"
             >Email
@@ -60,7 +60,7 @@
       </div>
       <!--验证码-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label for="remark" class="control-label mt-2"
             >Email Verification Code:
@@ -81,7 +81,7 @@
       </div>
       <!--密码-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label for="password" class="control-label mt-2"
             >Password
@@ -102,7 +102,7 @@
       </div>
       <!--firstName lastName-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-3">
           <label for="firstName" class="control-label mt-2"
             >FirstName
@@ -140,7 +140,7 @@
       </div>
       <!--sex-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-3">
           <label for="sex" class="control-label mt-2"
             >sex
@@ -155,7 +155,7 @@
       </div>
       <!--出生日期-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-2">
           <label for="sex" class="control-label mt-2"
             >birthday year
@@ -192,7 +192,7 @@
       </div>
       <!--address-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label for="referrer" class="control-label mt-2">address ： </label>
           <input
@@ -208,7 +208,7 @@
       </div>
       <!--postCode 邮编-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label class="mt-2"> postCode:</label>
           <label style="color: red">*</label>
@@ -225,7 +225,7 @@
       </div>
       <!--phone 电话号码-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label class="mt-2"> phone:</label>
           <label style="color: red">*</label>
@@ -243,7 +243,7 @@
       </div>
       <!--PIN 个人识别码-->
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label class="mt-2"> pinCode:</label>
           <label style="color: red">*</label>
@@ -259,7 +259,7 @@
         </div>
       </div>
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label> Vetification:</label>
         </div>
@@ -267,11 +267,11 @@
       </div>
 
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">Detected country:</div>
       </div>
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <div style="display: flex">
             <img
@@ -286,7 +286,7 @@
         </div>
       </div>
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <div style="display: flex; padding: 4px 0px;align-items:center">
             <input id="TermsCheckBox" type="checkbox" name="" />
@@ -320,7 +320,7 @@
         </div>
       </div>
       <div class="row">
-         <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <div class="register-buttons m-t-30">
             <input
@@ -471,6 +471,7 @@ export default {
     },
     registerHandler: function() {
       let _th = this;
+
       const data = {
         loginName: _th.userName,
         email: _th.email,
@@ -487,96 +488,9 @@ export default {
         phonenumber: _th.phonenumber,
         surveyPinCode: _th.pinCode,
       };
+      _th.$emit("register", data);
       // debugger;
       /**注册接口调用 */
-      if (!data.loginName.trim().length) {
-        alert("Username can not be empty");
-        return false;
-      }
-      if (!data.email) {
-        alert("E-mail can not be empty");
-        return false;
-      }
-      if (!data.password) {
-        alert("password can not be empty");
-        return false;
-      }
-      if (!data.surveyFirstName) {
-        alert("firstName can not be empty");
-        return false;
-      }
-      if (!data.surveyLastName) {
-        alert("lastName can not be empty");
-        return false;
-      }
-      if (!data.remark) {
-        alert("remark can not be empty");
-        return false;
-      }
-      if (!data.sex) {
-        alert("sex can not be empty");
-        return false;
-      }
-      if (!data.surveyBirthdayYear) {
-        alert("surveyBirthdayYear can not be empty");
-        return false;
-      }
-      if (!data.surveyBirthdayMonth) {
-        alert("surveyBirthdayMonth can not be empty");
-        return false;
-      }
-      if (!data.surveyBirthdayDay) {
-        alert("surveyBirthdayDay can not be empty");
-        return false;
-      }
-      if (!data.surveyAddress) {
-        alert("surveyAddress can not be empty");
-        return false;
-      }
-      if (!data.surveyPostcode) {
-        alert("surveyPostcode can not be empty");
-        return false;
-      }
-
-      if (!data.phonenumber) {
-        alert("phonenumber can not be empty");
-        return false;
-      }
-      var isPhone = /^[1](([3][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,8,9]))[0-9]{8}$/;
-      // var isMob = /^((\+?86)|(\(\+86\)))?(13[012356789][0-9]{8}|15[012356789][0-9]{8}|18[02356789][0-9]{8}|147[0-9]{8}|1349[0-9]{7})$/;
-      var value = data.phonenumber.trim();
-      if (isPhone.test(data.phonenumber.trim())) {
-        // return true;
-      } else {
-        alert(
-          "The phone number format is wrong, please enter the correct number"
-        );
-        return false;
-      }
-
-      if (!data.surveyPinCode) {
-        alert("surveyPinCode can not be empty");
-        return false;
-      }
-      if (/^[a-zA-Z]/.test(data.surveyPinCode)) {
-        alert("Need to enter four digits");
-      }
-      if (/^[\u4e00-\u9fa5]/.test(data.surveyPinCode)) {
-        alert("Need to enter four digits");
-      }
-      if (data.surveyPinCode.length < 4) {
-        alert("Need to enter four digits");
-      }
-
-      registerHandler(data)
-        .then(function(res) {
-          _th.$router.push("/login");
-          // _th.$toast("registration success");
-        })
-        .catch(function(err) {
-          _th.$toast("registration failed");
-          console.log(err);
-        });
     },
   },
 };

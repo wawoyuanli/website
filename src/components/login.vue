@@ -46,7 +46,15 @@
         <div class="row">
           <div class="col-md-4">
             <div class="submit mt-5">
-              <button @click="login" class="btn col-md-12">Log in</button>
+              <button
+                @click="login"
+                class="btn col-md-12"
+                type="button"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
+                Log in
+              </button>
             </div>
             <div class="forgot">
               <a href="/resetpwd"> I forgot my password</a>
@@ -62,7 +70,7 @@
   </div>
 </template>
 <script>
-import { login } from "@/api/login";
+import $ from "jquery";
 export default {
   name: "Login",
   props: {},
@@ -84,29 +92,7 @@ export default {
     /**登录 */
     login() {
       const _th = this;
-      if (_th.username && !_th.username.trim().length) {
-        _th.errMess = "用户名不能为空";
-        _th.isShow = true;
-        return false;
-      }
-      if (_th.password && !_th.password.trim().length) {
-        _th.errMessPassword = "密码不能为空";
-        _th.show = true;
-        return false;
-      }
-      let requestData = {
-        username: _th.username,
-        password: _th.password,
-        // rememberMe: false,
-      };
-      /**登录接口 */
-      login(requestData)
-        .then(function(res) {
-          window.location.href = process.env.VUE_APP_URL; //登录成功跳转地址
-        })
-        .catch(function(err) {
-          console.log(err);
-        });
+      _th.$emit("login", { username: _th.username, password: _th.password });
     },
     blur: function(username) {
       if (!username) {
@@ -115,7 +101,7 @@ export default {
       }
     },
     input: function(e) {
-      if (!e.data.trim()) {
+      if (!e.data) {
         this.errMess = "用户名不能为空！";
         this.isShow = true;
       } else {
@@ -123,13 +109,13 @@ export default {
       }
     },
     blur2: function(password) {
-      if (!password.trim()) {
+      if (!password) {
         this.errMessPassword = "密码不能为空！";
         this.show = true;
       }
     },
     input2: function(e) {
-      if (!e.data.trim()) {
+      if (!e.data) {
         this.errMessPassword = "用户名不能为空！";
         this.show = true;
       } else {

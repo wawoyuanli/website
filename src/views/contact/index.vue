@@ -29,7 +29,7 @@
                                 Email:
                               </label>
                               <div class="col-md-6">
-                                <input class="form-control" />
+                                <input class="form-control" v-model="email" />
                               </div>
                             </div>
                             <div class="form-group">
@@ -40,6 +40,7 @@
                                 <textarea
                                   class="form-control"
                                   rows="2"
+                                  v-model="text"
                                 ></textarea>
                               </div>
                             </div>
@@ -51,7 +52,11 @@
                 </div>
                 <div class="row">
                   <div class="col-md-6 text-center">
-                    <input type="submit" class="btn btn-primary col-md-3 m-5" />
+                    <input
+                      type="submit"
+                      class="btn btn-primary col-md-3 m-5"
+                      @click="submit"
+                    />
                   </div>
                 </div>
               </div>
@@ -84,10 +89,30 @@ export default {
       ],
       isActive: true,
       color: "#26a4c3",
+      email: "",
+      text: "",
     };
   },
   mounted() {
     document.getElementById("borderBottom").classList.add("borderBottom");
+  },
+  methods: {
+    submit() {
+      var reg = new RegExp(
+        "^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"
+      ); //正则表达式
+      if (!reg.test(this.email)) {
+        alert("E-mail format is incorrect");
+        return false;
+      }
+      if (this.text === "") {
+        alert("Text cannot be empty");
+        return false;
+      }
+      this.email = "";
+      this.text = "";
+      alert("Data submitted");
+    },
   },
 };
 </script>

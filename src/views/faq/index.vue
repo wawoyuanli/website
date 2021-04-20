@@ -21,13 +21,20 @@
               <div class="accordion" id="accordionExample">
                 <div class="card">
                   <div class="card-header bg-white" id="headingOne">
-                    <h2 class="mb-0">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="oneImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickOne(one)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left text-dark"
                         type="button"
                         data-toggle="collapse"
                         data-target="#collapseOne"
-                        aria-expanded="true"
+                        aria-expanded="false"
                         aria-controls="collapseOne"
                         style="font-weight:600"
                       >
@@ -38,7 +45,7 @@
 
                   <div
                     id="collapseOne"
-                    class="collapse show"
+                    class="collapse"
                     aria-labelledby="headingOne"
                     data-parent="#accordionExample"
                   >
@@ -58,7 +65,14 @@
                 </div>
                 <div class="card">
                   <div class="card-header bg-white" id="headingTwo">
-                    <h2 class="mb-0">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="twoImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickTwo(two)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
@@ -105,7 +119,14 @@
                 </div>
                 <div class="card">
                   <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="threeImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickThree(three)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
@@ -137,15 +158,22 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                  <div class="card-header bg-white" id="headingFour">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="fourImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickFour(four)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseThree"
+                        data-target="#collapseFour"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseFour"
                         style="font-weight:600"
                       >
                         How many accounts may I have?
@@ -153,9 +181,9 @@
                     </h2>
                   </div>
                   <div
-                    id="collapseThree"
+                    id="collapseFour"
                     class="collapse"
-                    aria-labelledby="headingThree"
+                    aria-labelledby="headingFour"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -168,15 +196,22 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                  <div class="card-header bg-white" id="headingFive">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="fiveImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickFive(five)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseThree"
+                        data-target="#collapseFive"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseFive"
                         style="font-weight:600"
                       >
                         How long do surveys take to complete?
@@ -184,9 +219,9 @@
                     </h2>
                   </div>
                   <div
-                    id="collapseThree"
+                    id="collapseFive"
                     class="collapse"
-                    aria-labelledby="headingThree"
+                    aria-labelledby="headingFive"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -198,15 +233,22 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                  <div class="card-header bg-white" id="headingSix">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="sixImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickSix(six)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseThree"
+                        data-target="#collapseSix"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseSix"
                         style="font-weight:600"
                       >
                         How long does it take for offers to get approved?
@@ -214,9 +256,9 @@
                     </h2>
                   </div>
                   <div
-                    id="collapseThree"
+                    id="collapseSix"
                     class="collapse"
-                    aria-labelledby="headingThree"
+                    aria-labelledby="headingSix"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -230,15 +272,22 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                  <div class="card-header bg-white" id="headingSeven">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="sevenImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickSeven(seven)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseThree"
+                        data-target="#collapseSeven"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseSeven"
                         style="font-weight:600"
                       >
                         How long are your offers / surveys usually posted?
@@ -246,9 +295,9 @@
                     </h2>
                   </div>
                   <div
-                    id="collapseThree"
+                    id="collapseSeven"
                     class="collapse"
-                    aria-labelledby="headingThree"
+                    aria-labelledby="headingSeven"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -262,15 +311,22 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                  <div class="card-header bg-white" id="headingEight">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="eightImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickEight(eight)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseThree"
+                        data-target="#collapseEight"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseEight"
                         style="font-weight:600"
                       >
                         It’s been over 7 business days since I completed an
@@ -279,9 +335,9 @@
                     </h2>
                   </div>
                   <div
-                    id="collapseThree"
+                    id="collapseEight"
                     class="collapse"
-                    aria-labelledby="headingThree"
+                    aria-labelledby="headingEight"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -299,15 +355,22 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                  <div class="card-header bg-white" id="headingNine">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="nineImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickNine(nine)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseThree"
+                        data-target="#collapseNine"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseNine"
                         style="font-weight:600"
                       >
                         What is the difference between APPROVED and VIEWED
@@ -316,9 +379,9 @@
                     </h2>
                   </div>
                   <div
-                    id="collapseThree"
+                    id="collapseNine"
                     class="collapse"
-                    aria-labelledby="headingThree"
+                    aria-labelledby="headingNine"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -334,15 +397,22 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                  <div class="card-header bg-white" id="headingTen">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="tenImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickTen(ten)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseThree"
+                        data-target="#collapseTen"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseTen"
                         style="font-weight:600"
                       >
                         How do I get paid?
@@ -350,9 +420,9 @@
                     </h2>
                   </div>
                   <div
-                    id="collapseThree"
+                    id="collapseTen"
                     class="collapse"
-                    aria-labelledby="headingThree"
+                    aria-labelledby="headingTen"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -383,15 +453,22 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                  <div class="card-header bg-white" id="headingEleven">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="elevenImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickEleven(eleven)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseThree"
+                        data-target="#collapseEleven"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseEleven"
                         style="font-weight:600"
                       >
                         Do members get paid for referring Panda Research to
@@ -400,9 +477,9 @@
                     </h2>
                   </div>
                   <div
-                    id="collapseThree"
+                    id="collapseEleven"
                     class="collapse"
-                    aria-labelledby="headingThree"
+                    aria-labelledby="headingEleven"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -419,15 +496,22 @@
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header bg-white" id="headingThree">
-                    <h2 class="mb-0">
+                  <div class="card-header bg-white" id="headingTwenty">
+                    <h2 class="mb-0" style="display:flex;align-items:center">
+                      <img
+                        :src="twentyImg"
+                        alt=""
+                        width="20px"
+                        height="20px"
+                        @click="collapseClickTwenty(twenty)"
+                      />
                       <button
                         class="btn btn-link btn-block text-left collapsed text-dark"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseThree"
+                        data-target="#collapseTwenty"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseTwenty"
                         style="font-weight:600"
                       >
                         How do I unsubscribe?
@@ -435,9 +519,9 @@
                     </h2>
                   </div>
                   <div
-                    id="collapseThree"
+                    id="collapseTwenty"
                     class="collapse"
-                    aria-labelledby="headingThree"
+                    aria-labelledby="headingTwenty"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -447,6 +531,14 @@
                       </div>
                     </div>
                   </div>
+                </div>
+                <div
+                  class="mt-1 card text-center p-4 m-4"
+                  style="font-size: 16px; background-color: #f6f6f6"
+                >
+                  PLEASE NOTE: If you still have a question, please feel free to
+                  contact us at Genting Consulting Support. We will respond
+                  promptly.
                 </div>
               </div>
             </div>
@@ -461,6 +553,7 @@
 <script>
 import Nav from "@c/nav.vue";
 import Footer from "@c/footer.vue";
+import $ from "jquery";
 // import "font-awesome/css/font-awesome.min.css";
 export default {
   name: "Faq",
@@ -472,10 +565,169 @@ export default {
     return {
       isActive: true,
       color: "#26a4c3",
+      oneImg: require("@/assets/images/close.png"),
+      twoImg: require("@/assets/images/close.png"),
+      threeImg: require("@/assets/images/close.png"),
+
+      fourImg: require("@/assets/images/close.png"),
+      fiveImg: require("@/assets/images/close.png"),
+      sixImg: require("@/assets/images/close.png"),
+      sevenImg: require("@/assets/images/close.png"),
+      eightImg: require("@/assets/images/close.png"),
+      nineImg: require("@/assets/images/close.png"),
+      tenImg: require("@/assets/images/close.png"),
+      elevenImg: require("@/assets/images/close.png"),
+      twentyImg: require("@/assets/images/close.png"),
+      one: "close",
+      two: "close",
+      three: "close",
+      four: "close",
+      five: "close",
+      six: "close",
+      seven: "close",
+      eight: "close",
+      nine: "close",
+      ten: "close",
+      eleven: "close",
+      twenty: "close",
     };
   },
   mounted() {
     document.getElementById("borderBottom").classList.add("borderBottom");
+  },
+  methods: {
+    collapseClickOne(one) {
+      if (one === "close") {
+        this.oneImg = require("@/assets/images/open.png");
+        $("#collapseOne").collapse("show");
+        this.one = "open";
+      } else {
+        $("#collapseOne").collapse("hide");
+        this.one = "close";
+        this.oneImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickTwo(two) {
+      if (two === "close") {
+        this.twoImg = require("@/assets/images/open.png");
+        $("#collapseTwo").collapse("show");
+        this.two = "open";
+      } else {
+        $("#collapseTwo").collapse("hide");
+        this.two = "close";
+        this.twoImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickThree(three) {
+      if (three === "close") {
+        this.threeImg = require("@/assets/images/open.png");
+        $("#collapseThree").collapse("show");
+        this.three = "open";
+      } else {
+        $("#collapseThree").collapse("hide");
+        this.three = "close";
+        this.threeImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickFour(four) {
+      if (four === "close") {
+        this.fourImg = require("@/assets/images/open.png");
+        $("#collapseFour").collapse("show");
+        this.four = "open";
+      } else {
+        $("#collapseFour").collapse("hide");
+        this.four = "close";
+        this.fourImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickFive(five) {
+      if (five === "close") {
+        this.fiveImg = require("@/assets/images/open.png");
+        $("#collapseFive").collapse("show");
+        this.five = "open";
+      } else {
+        $("#collapseFive").collapse("hide");
+        this.five = "close";
+        this.fiveImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickSix(six) {
+      if (six === "close") {
+        this.sixImg = require("@/assets/images/open.png");
+        $("#collapseSix").collapse("show");
+        this.six = "open";
+      } else {
+        $("#collapseSix").collapse("hide");
+        this.six = "close";
+        this.sixImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickSeven(seven) {
+      if (seven === "close") {
+        this.sevenImg = require("@/assets/images/open.png");
+        $("#collapseSeven").collapse("show");
+        this.seven = "open";
+      } else {
+        $("#collapseSeven").collapse("hide");
+        this.seven = "close";
+        this.sevenImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickEight(eight) {
+      if (eight === "close") {
+        this.eightImg = require("@/assets/images/open.png");
+        $("#collapseEight").collapse("show");
+        this.eight = "open";
+      } else {
+        $("#collapseEight").collapse("hide");
+        this.eight = "close";
+        this.eightImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickNine(nine) {
+      if (nine === "close") {
+        this.nineImg = require("@/assets/images/open.png");
+        $("#collapseEight").collapse("show");
+        this.nine = "open";
+      } else {
+        $("#collapseEight").collapse("hide");
+        this.nine = "close";
+        this.nineImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickTen(ten) {
+      if (ten === "close") {
+        this.tenImg = require("@/assets/images/open.png");
+        $("#collapseTen").collapse("show");
+        this.ten = "open";
+      } else {
+        $("#collapseTen").collapse("hide");
+        this.ten = "close";
+        this.tenImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickEleven(eleven) {
+      if (eleven === "close") {
+        this.elevenImg = require("@/assets/images/open.png");
+        $("#collapseEleven").collapse("show");
+        this.eleven = "open";
+      } else {
+        $("#collapseEleven").collapse("hide");
+        this.eleven = "close";
+        this.elevenImg = require("@/assets/images/close.png");
+      }
+    },
+    collapseClickTwenty(twenty) {
+      if (twenty === "close") {
+        this.twentyImg = require("@/assets/images/open.png");
+        $("#collapseTwenty").collapse("show");
+        this.twenty = "open";
+      } else {
+        $("#collapseTwenty").collapse("hide");
+        this.twenty = "close";
+        this.twentyImg = require("@/assets/images/close.png");
+      }
+    },
   },
 };
 </script>
