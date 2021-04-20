@@ -22,9 +22,9 @@ export default new Router({
       component: () => import('@/views/login/index.vue'),
     },
     {
-      path: '/register',
-      name: 'register',
-      component: () => import('@/views/register/index.vue'),
+      path: '/registerInfo',
+      name: 'registerInfo',
+      component: () => import('@/views/registerInfo/index.vue'),
     },
     {
       path: '/support',
@@ -66,6 +66,10 @@ export default new Router({
     {
       path: '/resetpwd',
       component: () => import('@/views/resetpwd/index.vue')
+    },
+    {
+      path: '/newregister',
+      component: () => import('@/views/newregister/index.vue')
     }
   ]
 })

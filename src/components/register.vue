@@ -1,11 +1,14 @@
 <template>
   <div class="register-wrap">
-    <h1 class="registerflag">Register</h1>
     <div class="container">
+      <div class="row">
+        <div class="col-md-12 h2 text-center">Register</div>
+      </div>
       <!--userName-->
       <div class="row">
+        <div class="col-lg-3"></div>
         <div class="col-lg-6">
-          <label for="userName" class="control-label mt-2"
+          <label for="userName" class="mt-2"
             >userName
             <label style="color: red">*</label>
           </label>
@@ -26,6 +29,7 @@
       </div>
       <!--邮箱：email-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-3">
           <label for="email" class="control-label mt-2"
             >Email
@@ -56,6 +60,7 @@
       </div>
       <!--验证码-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label for="remark" class="control-label mt-2"
             >Email Verification Code:
@@ -76,6 +81,7 @@
       </div>
       <!--密码-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label for="password" class="control-label mt-2"
             >Password
@@ -96,6 +102,7 @@
       </div>
       <!--firstName lastName-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-3">
           <label for="firstName" class="control-label mt-2"
             >FirstName
@@ -133,6 +140,7 @@
       </div>
       <!--sex-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-3">
           <label for="sex" class="control-label mt-2"
             >sex
@@ -147,6 +155,7 @@
       </div>
       <!--出生日期-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-2">
           <label for="sex" class="control-label mt-2"
             >birthday year
@@ -183,6 +192,7 @@
       </div>
       <!--address-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label for="referrer" class="control-label mt-2">address ： </label>
           <input
@@ -198,6 +208,7 @@
       </div>
       <!--postCode 邮编-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label class="mt-2"> postCode:</label>
           <label style="color: red">*</label>
@@ -214,6 +225,7 @@
       </div>
       <!--phone 电话号码-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label class="mt-2"> phone:</label>
           <label style="color: red">*</label>
@@ -231,6 +243,7 @@
       </div>
       <!--PIN 个人识别码-->
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label class="mt-2"> pinCode:</label>
           <label style="color: red">*</label>
@@ -246,6 +259,7 @@
         </div>
       </div>
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <label> Vetification:</label>
         </div>
@@ -253,9 +267,11 @@
       </div>
 
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">Detected country:</div>
       </div>
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <div style="display: flex">
             <img
@@ -270,6 +286,7 @@
         </div>
       </div>
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <div style="display: flex; padding: 4px 0px;align-items:center">
             <input id="TermsCheckBox" type="checkbox" name="" />
@@ -303,6 +320,7 @@
         </div>
       </div>
       <div class="row">
+         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <div class="register-buttons m-t-30">
             <input
@@ -528,7 +546,7 @@ export default {
       // var isMob = /^((\+?86)|(\(\+86\)))?(13[012356789][0-9]{8}|15[012356789][0-9]{8}|18[02356789][0-9]{8}|147[0-9]{8}|1349[0-9]{7})$/;
       var value = data.phonenumber.trim();
       if (isPhone.test(data.phonenumber.trim())) {
-        return true;
+        // return true;
       } else {
         alert(
           "The phone number format is wrong, please enter the correct number"
@@ -565,60 +583,10 @@ export default {
 </script>
 <style scoped lang="less">
 .register-wrap {
-  margin-top: 8rem;
-  box-sizing: border-box;
   min-height: 75vh;
   padding-bottom: 3rem;
   .registerflag {
-    text-align: center;
-    font-size: 2.5rem;
-  }
-  .container {
-    .row {
-      justify-content: center;
-      .col-md-4 {
-        padding: 5px 0px;
-        .form-control {
-          border: 1px solid #ccc;
-          color: #343a40 !important;
-          border-radius: 5px;
-          display: block;
-          // width: 26rem;
-          // height: 2.4rem;
-          padding: 0.375rem 0.75rem;
-          font-size: 1rem;
-          font-weight: 400;
-          color: #495057;
-          background-color: #fff;
-          background-clip: padding-box;
-          transition: border-color 0.15s ease-in-out,
-            box-shadow 0.15s ease-in-out;
-        }
-        .control-label {
-          font-size: 0.875rem;
-          padding: 5px 0px;
-          color: #65686b;
-        }
-        .control-label-referrer {
-          background-color: #ccc;
-        }
-        .register-buttons {
-          .btn-primary {
-            background-color: #ff6f00;
-            border: none;
-            margin-top: 2rem;
-            margin-bottom: 10rem;
-          }
-        }
-      }
-      .col-md-2 {
-        .control-label {
-          font-size: 0.875rem;
-          padding: 5px 0px;
-          color: #65686b;
-        }
-      }
-    }
+    // text-align: center;
   }
 }
 </style>

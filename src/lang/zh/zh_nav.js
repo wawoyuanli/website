@@ -6,5 +6,7 @@ export default {
     contact: '联系我们',
     signIn: '登录',
     getStarted: '开始',
-    changeLanguage:'切换语言'
+    changeLanguage: '切换语言',
+    privacy: '隐私协议',
+    reviews:'评论'
 }

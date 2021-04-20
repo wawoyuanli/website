@@ -7,5 +7,7 @@ export default {
     signIn: 'Sign In',
     getStarted: 'Get started',
     changeLanguage: 'change language',
+    privacy: 'Privacy',
+    reviews:'Reviews'
 
 }

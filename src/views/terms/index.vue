@@ -8,9 +8,9 @@
           <div class="col-md-9 h3">Terms And Conditions</div>
         </div>
         <div class="row">
-          <div class="col-md-2"></div>
+          <div class="col-md-1"></div>
           <div
-            class="col-md-9 border mt-5 text-left ml-2 mb-5 shadow-lg p-3 mb-5 bg-white rounded"
+            class="col-md-10 border mt-5 text-left ml-2 mb-5 shadow-lg p-3 mb-5 bg-white rounded"
           >
             <p class="mt-3 ml-2">Panda Research GENERAL MEMBERSHIP</p>
             <p class="ml-2 mt-1">Revised December 26, 2019</p>
@@ -435,7 +435,15 @@
             <div class="ml-2 mt-2">
               Also read the Panda Research Privacy Policy
             </div>
+            		<div
+							class="mt-1 card text-center p-4 m-4"
+							style="font-size: 16px; background-color: #f6f6f6"
+						>
+							PLEASE NOTE: If you still have a question, please feel free to
+							contact us at Genting Consulting  Support. We will respond promptly.
+						</div>
           </div>
+            
         </div>
       </div>
     </div>
