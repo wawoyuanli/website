@@ -3,14 +3,13 @@
     <Nav id="borderBottom" :color="color" :isActive="isActive"></Nav>
     <div class="terms-content">
       <div class="container">
-        <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-9 h3">Terms And Conditions</div>
+        <div class="row">      
+          <div class="col-md-12 h3">Terms And Conditions</div>
         </div>
         <div class="row">
           <div class="col-md-1"></div>
           <div
-            class="col-md-10 border mt-5 text-left ml-2 mb-5 shadow-lg p-3 mb-5 bg-white rounded"
+            class="col-md-10 border text-left ml-2 mb-5 shadow-lg p-3 mb-5 bg-white rounded"
           >
             <p class="mt-3 ml-2">Panda Research GENERAL MEMBERSHIP</p>
             <p class="ml-2 mt-1">Revised December 26, 2019</p>
@@ -443,7 +442,7 @@
 							contact us at Genting Consulting  Support. We will respond promptly.
 						</div>
           </div>
-            
+             <div class="col-md-1"></div>
         </div>
       </div>
     </div>
