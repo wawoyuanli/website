@@ -18,7 +18,7 @@ Vue.config.productionTip = false
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 Vue.component('font-awesome-icon', FontAwesomeIcon);
-
+import './icons'
 new Vue({
   router,
   store,

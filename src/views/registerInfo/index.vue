@@ -27,19 +27,31 @@
 							<a class="nav-link" href="/faq">{{ $t('nav.FAQ') }}</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/contact" tabindex="-1" aria-disabled="true">{{
-								$t('nav.contact')
-							}}</a>
+							<a
+								class="nav-link"
+								href="/contact"
+								tabindex="-1"
+								aria-disabled="true"
+								>{{ $t('nav.contact') }}</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/privacy" tabindex="-1" aria-disabled="true">{{
-								$t('nav.privacy')
-							}}</a>
+							<a
+								class="nav-link"
+								href="/privacy"
+								tabindex="-1"
+								aria-disabled="true"
+								>{{ $t('nav.privacy') }}</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/home#reviews" tabindex="-1" aria-disabled="true">{{
-								$t('nav.reviews')
-							}}</a>
+							<a
+								class="nav-link"
+								href="/home#reviews"
+								tabindex="-1"
+								aria-disabled="true"
+								>{{ $t('nav.reviews') }}</a
+							>
 						</li>
 					</ul>
 					<a
@@ -101,9 +113,7 @@ export default {
 			isActive: true,
 		}
 	},
-	mounted() {
-
-	},
+	mounted() {},
 	methods: {
 		userBehaviorFun() {
 			this.$refs.dialog.isShowConfirm = false
