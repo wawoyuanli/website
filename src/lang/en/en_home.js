@@ -53,5 +53,14 @@ export default {
   agreement: 'Affiliate Agreement',
   privacy: 'Privacy Policy',
   info: `Don't Sell My Info`,
-  bottom: '© Copyright Genting Consulting, 2008 - 2021 All rights reserved.'
+  bottom: '© Copyright Genting Consulting, 2008 - 2021 All rights reserved.',
+
+  /**为什么要注册云顶咨询？ */
+  why: 'Why sign up to Genting Consulting?',
+  reasons: 'Why Genting Consulting Research is unique and reasons behindit.',
+  cashPayments: "Cash Payments",
+  dataPrivacy: "Data Privacy",
+  supportTeam: "Support Team",
+  anydevices:'Any devices'
+  
 }
