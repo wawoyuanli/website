@@ -300,10 +300,11 @@
 							style="font-size: 16px; background-color: #f6f6f6"
 						>
 							PLEASE NOTE: If you still have a question, please feel free to
-							contact us at Genting Consulting  Support. We will respond promptly.
+							contact us at Genting Consulting Support. We will respond
+							promptly.
 						</div>
 					</div>
-      </div>
+				</div>
 			</div>
 		</div>
 		<Footer></Footer>
@@ -334,7 +335,7 @@ export default {
 	width: 100vw;
 	background-color: #ffffff;
 	.agreement-content {
-		width: 90vw;
+		// width: 90vw;
 		text-align: center;
 		min-height: 75vh;
 		padding-top: 7rem;
