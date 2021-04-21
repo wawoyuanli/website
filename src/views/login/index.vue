@@ -12,7 +12,6 @@
 import Nav from "@c/nav.vue";
 import Login from "@c/login.vue";
 import Footer from "@c/footer.vue"; //引入底部组件
-import $ from "jquery";
 import Dialog from "@c/dialog.vue";
 import { login } from "@/api/login";
 export default {

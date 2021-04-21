@@ -21,11 +21,11 @@
             >
               {{ $t("home.earnMoney") }}
             </h1>
-            <p style="font-size: 1rem; color: #fff; padding: 20px 0px">
+            <p style="font-size: 1.2rem; color: #fff; padding: 20px 0px">
               {{ $t("home.refer") }}
             </p>
             <div class="joinus-btn">
-              <a href="/register">{{ $t("home.join") }}</a>
+              <a href="/registerInfo">{{ $t("home.join") }}</a>
             </div>
           </div>
           <div class="col-lg-6" style="padding-top:7.3rem">
@@ -85,12 +85,12 @@
               <img
                 src="@/assets/images/sign.png"
                 alt=""
-                style="margin: 0 auto"
+                style="margin: 0 auto; "
               />
 
-              <p class="counter">{{ $t("home.signUpFree") }}</p>
+              <p class="counter mt-2" style="font-size:1.3rem">{{ $t("home.signUpFree") }}</p>
 
-              <p class="mb-0">{{ $t("home.signUpDesc") }}</p>
+              <p class="mt-1" style="font-size:1.1rem">{{ $t("home.signUpDesc") }}</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
@@ -100,8 +100,8 @@
                 alt=""
                 style="margin: 0 auto"
               />
-              <p class="counter">{{ $t("home.completeOffers") }}</p>
-              <p class="mb-0">{{ $t("home.completeOffersDesc") }}</p>
+              <p class="counter mt-2" style="font-size:1.3rem">{{ $t("home.completeOffers") }}</p>
+              <p class="mt-1" style="font-size:1.1rem">{{ $t("home.completeOffersDesc") }}</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
@@ -111,8 +111,8 @@
                 alt=""
                 style="margin: 0 auto"
               />
-              <p class="counter">{{ $t("home.getPaid") }}</p>
-              <p class="mb-0">{{ $t("home.getPaidDesc") }}</p>
+              <p class="counter mt-2" style="font-size:1.3rem">{{ $t("home.getPaid") }}</p>
+              <p class="mt-1" style="font-size:1.1rem">{{ $t("home.getPaidDesc") }}</p>
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-              <div class="h5">
+              <div class="mb-5" style="font-size:1.2rem">
                 {{ $t("home.second_title") }}
               </div>
             </div>
@@ -217,7 +217,7 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="card" style="width: 18rem;height:530px">
+            <div class="card" style="width: 18rem;height:530px;margin:0 auto">
               <img
                 src="@/assets/images/testimonial1.jpeg"
                 class="card-img-top"
@@ -230,7 +230,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card" style="width: 18rem;height:530px">
+            <div class="card" style="width: 18rem;height:530px;margin:0 auto">
               <img
                 src="@/assets/images/user2.jpg"
                 class="card-img-top"
@@ -243,7 +243,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card" style="width: 18rem;height:530px">
+            <div class="card" style="width: 18rem;height:530px;margin:0 auto">
               <img
                 src="@/assets/images/user3.jpg"
                 class="card-img-top"
@@ -361,7 +361,7 @@
           <div class="row">
             <div class="col-md-12">
               <button class="btn btn-primary">
-                <a href="/register">{{ $t("nav.getStarted") }}</a>
+                <a href="/registerInfo">{{ $t("nav.getStarted") }}</a>
               </button>
             </div>
           </div>
@@ -651,9 +651,9 @@ export default {
     border: none;
     background-color: #ff6f00;
     border-color: #ff6f00;
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
     border-radius: 5px;
     text-align: center;
     a {

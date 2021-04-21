@@ -687,10 +687,10 @@ export default {
     collapseClickNine(nine) {
       if (nine === "close") {
         this.nineImg = require("@/assets/images/open.png");
-        $("#collapseEight").collapse("show");
+        $("#collapseNine").collapse("show");
         this.nine = "open";
       } else {
-        $("#collapseEight").collapse("hide");
+        $("#collapseNine").collapse("hide");
         this.nine = "close";
         this.nineImg = require("@/assets/images/close.png");
       }
