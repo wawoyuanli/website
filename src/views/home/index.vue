@@ -48,8 +48,8 @@
 				"
 			></div>
 		</div>
-		<a href="#" name="features"></a>
-		<a href="#" name="home#features"></a>
+		<!-- <a href="#" name="features"></a>
+		<a href="#" name="home#features"></a> -->
 		<div class="middle-user-payout">
 			<div class="container" style="padding-top: 110px">
 				<div class="row">
@@ -130,7 +130,8 @@
 				</div>
 			</div>
 		</div>
-		<a href="#" name="aboutUs"></a>
+		<!--aboutUs 页面锚点-->
+		<a name="aboutUs"></a>
 		<div class="middle">
 			<div
 				class="layer"
@@ -186,10 +187,7 @@
 									:duration="5600"
 									class="counter"
 								></countTo>
-								<!-- <div style="display:flex;">
-                  <div>$</div>
-               
-                </div> -->
+	
 
 								<p class="mb-0">{{ $t('home.total') }}</p>
 							</div>
@@ -217,7 +215,8 @@
 				</div>
 			</div>
 		</div>
-		<a href="#" name="Reviews"></a>
+		<!--Reviews 页面锚点-->
+		<a name="Reviews"></a>
 		<div class="testimonials">
 			<div class="container" style="margin-top: 30px">
 				<div class="row">

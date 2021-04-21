@@ -94,11 +94,11 @@ export default {
 	computed: {
 		navitemlist() {
 			return [
-				{ name: this.$t('nav.about'), path: '/home#aboutUs' },
+				{ name: this.$t('nav.about'), path: 'home#aboutUs' },
 				{ name: this.$t('nav.FAQ'), path: '/faq' },
 				{ name: this.$t('nav.contact'), path: '/contact' },
 				{ name: this.$t('nav.privacy'), path: '/privacy' },
-				{ name: this.$t('nav.reviews'), path: '/home#Reviews' },
+				{ name: this.$t('nav.reviews'), path: 'home#Reviews' },
 			]
 		},
 	},
