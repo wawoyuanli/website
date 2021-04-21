@@ -66,10 +66,7 @@ export default new Router({
     {
       path: '/resetpwd',
       component: () => import('@/views/resetpwd/index.vue')
-    },
-    {
-      path: '/newregister',
-      component: () => import('@/views/newregister/index.vue')
     }
+   
   ]
 })
