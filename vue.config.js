@@ -56,7 +56,7 @@ module.exports = {
     hotOnly: false,
     proxy: {
       [process.env.VUE_APP_API]: { 
-        target: 'http://g36469v144.zicp.vip',//'',//'http://g36469v144.zicp.vip',//'http://www.surveyleague.club',//"http://g36469v144.zicp.vip", //API服务器的地址  http://g36469v144.zicp.vip
+        target: 'http://www.surveyleague.club',////'http://www.surveyleague.club',//"http://g36469v144.zicp.vip", //API服务器的地址  http://g36469v144.zicp.vip
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_API]: '' // es5

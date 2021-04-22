@@ -28,6 +28,7 @@ export function getCountryCode(data) {
 }
 
 /**
+ * http://g36469v144.zicp.vip/manager/authorization/sys/login
  * 登录http://g36469v144.zicp.vip/manager/authorization/sys/index
  */
 export function login(data) {

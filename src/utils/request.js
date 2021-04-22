@@ -12,24 +12,13 @@ const service = axios.create({
 service.interceptors.request.use(function (config) {
   config.headers["token"] = getToKen()//= getToKen();
   config.headers["UserName"] = getUserName();
-  // config.getCookies()
-  // debugger
-
   return config
 }, function (error) {
   return Promise.reject(error)
 })
 /**响应拦截 */
 service.interceptors.response.use(function (response) {
-  // let a = getAllResponseHeaders()
-  // xmlHttp.withCredentials = true
-  // axios.defaults.withCredentials=true
-  // document.cookie="pin=test;domain=test.com;";
-  // document.cookie
-  // debugger
-  // response.headers['set-cookie']=response.data.msg
-  // Cookies.set('Cookie',response.data.msg)
-  response.Headers["set-cookie"]=response.data.msg
+  // Cookies.set('JSESSIONID',response.data.msg)
   return response;
 }, function (error) {
   return Promise.reject(error)
