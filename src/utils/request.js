@@ -14,6 +14,7 @@ service.interceptors.request.use(function (config) {
   config.headers["UserName"] = getUserName();
   // config.getCookies()
   // debugger
+
   return config
 }, function (error) {
   return Promise.reject(error)
@@ -28,7 +29,7 @@ service.interceptors.response.use(function (response) {
   // debugger
   // response.headers['set-cookie']=response.data.msg
   // Cookies.set('Cookie',response.data.msg)
-
+  response.Headers["set-cookie"]=response.data.msg
   return response;
 }, function (error) {
   return Promise.reject(error)
