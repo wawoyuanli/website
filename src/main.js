@@ -7,14 +7,15 @@ import store from "./store/index.js";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
 
- 
+// import axios from 'axios'
+// axios.defaults.withCredentials=true
 import './assets/less/varibles.less'
 import less from 'less'
 Vue.use(less)
 /**vue 国际化 */
 import i18n from './lang/i18n.js'
 Vue.config.productionTip = false
-
+// axios.defaults.withCredentials=true
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 Vue.component('font-awesome-icon', FontAwesomeIcon);
