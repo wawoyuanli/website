@@ -95,32 +95,32 @@ export default {
       _th.$emit("login", { username: _th.username, password: _th.password });
     },
     blur: function(username) {
-      if (!username) {
-        this.errMess = "用户名不能为空！";
-        this.isShow = true;
-      }
+      // if (!username) {
+      //   this.errMess = "用户名不能为空！";
+      //   this.isShow = true;
+      // }
     },
     input: function(e) {
-      if (!e.data) {
-        this.errMess = "用户名不能为空！";
-        this.isShow = true;
-      } else {
-        this.isShow = false;
-      }
+      // if (!e.data) {
+      //   this.errMess = "用户名不能为空！";
+      //   this.isShow = true;
+      // } else {
+      //   this.isShow = false;
+      // }
     },
     blur2: function(password) {
-      if (!password) {
-        this.errMessPassword = "密码不能为空！";
-        this.show = true;
-      }
+      // if (!password) {
+      //   this.errMessPassword = "密码不能为空！";
+      //   this.show = true;
+      // }
     },
     input2: function(e) {
-      if (!e.data) {
-        this.errMessPassword = "用户名不能为空！";
-        this.show = true;
-      } else {
-        this.show = false;
-      }
+      // if (!e.data) {
+      //   this.errMessPassword = "用户名不能为空！";
+      //   this.show = true;
+      // } else {
+      //   this.show = false;
+      // }
     },
   },
 };
