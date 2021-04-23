@@ -64,8 +64,8 @@ export default {
 			login(requestData)
 				.then(function (res) {
 					if (res.data.code === 0) {
-						_th.$router.push('/registerInfo')
-						// window.location.href = process.env.VUE_APP_URL //登录成功跳转地址
+						// _th.$router.push('/registerInfo')
+						window.location.href = process.env.VUE_APP_URL //登录成功跳转地址
 					} else if (res.data.code === 500) {
 						_th.$refs.myConfirm.content = res.data.msg
 						_th.$refs.myConfirm.isShowConfirm = true
