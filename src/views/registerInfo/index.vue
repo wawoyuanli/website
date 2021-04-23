@@ -16,7 +16,7 @@
 				<div class="collapse navbar-collapse ml-2" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item active">
-							<a class="nav-link" href="#" style="color: rgb(38, 164, 195)"
+							<a class="nav-link" href="/home" style="color: rgb(38, 164, 195)"
 								>Home <span class="sr-only">(current)</span></a
 							>
 						</li>
@@ -122,11 +122,7 @@ export default {
 		},
 		register(data) {
 			let _th = this
-			_th.$refs.register.checkCode
-			if (!_th.$refs.register.checkCode) {
-				_th.$refs.register.showTip=true
-				return false
-			}
+
 			if (!data.loginName.trim().length) {
 				alert('Username can not be empty')
 				return false
@@ -221,7 +217,10 @@ export default {
 				alert('You have related agreements that have not been read and checked')
 				return false
 			}
-			if (_th.$refs.register) {
+			_th.$refs.register.checkCode
+			if (!_th.$refs.register.checkCode) {
+				_th.$refs.register.showTip = true
+				return false
 			}
 			registerHandler(data)
 				.then(function (res) {

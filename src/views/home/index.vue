@@ -232,14 +232,14 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div
-							class="card"
-							style="width: 18rem; height: 530px; margin: 0 auto"
+							class="card card shadow p-3 mb-5 bg-white rounded"
+							style="width: 18rem; height: 440px; margin: 0 auto;line-height:40px"
 						>
-							<img
+							<!-- <img
 								src="@/assets/images/testimonial1.jpeg"
 								class="card-img-top"
 								alt="..."
-							/>
+							/> -->
 							<div class="card-body">
 								<p class="card-text">{{ $t('home.user1Text') }}</p>
 								<p class="card-text">{{ $t('home.user1') }}</p>
@@ -248,14 +248,14 @@
 					</div>
 					<div class="col-md-4">
 						<div
-							class="card"
-							style="width: 18rem; height: 530px; margin: 0 auto"
+							class="card card shadow p-3 mb-5 bg-white rounded"
+							style="width: 18rem; height: 440px; margin: 0 auto;line-height:40px"
 						>
-							<img
+							<!-- <img
 								src="@/assets/images/user2.jpg"
 								class="card-img-top"
 								alt="..."
-							/>
+							/> -->
 							<div class="card-body">
 								<p class="card-text">{{ $t('home.user2Text') }}</p>
 								<p class="card-text">{{ $t('home.user2') }}</p>
@@ -264,14 +264,14 @@
 					</div>
 					<div class="col-md-4">
 						<div
-							class="card"
-							style="width: 18rem; height: 530px; margin: 0 auto"
+							class="card shadow p-3 mb-5 bg-white rounded"
+							style="width: 18rem; height: 440px; margin: 0 auto;line-height:40px "
 						>
-							<img
+							<!-- <img
 								src="@/assets/images/user3.jpg"
 								class="card-img-top"
 								alt="..."
-							/>
+							/> -->
 							<div class="card-body">
 								<p class="card-text">{{ $t('home.user3Text') }}</p>
 								<p class="card-text">{{ $t('home.user3') }}</p>
