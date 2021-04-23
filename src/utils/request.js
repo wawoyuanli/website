@@ -18,6 +18,9 @@ service.interceptors.request.use(function (config) {
 })
 /**响应拦截 */
 service.interceptors.response.use(function (response) {
+  // let client = new XMLHttpRequest()
+  // let a = client.getResponseHeader('set-cookie')
+  // debugger
   // Cookies.set('JSESSIONID',response.data.msg)
   return response;
 }, function (error) {

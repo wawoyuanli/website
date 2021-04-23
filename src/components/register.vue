@@ -262,13 +262,20 @@
 			<div class="row">
 				<div class="col-lg-3"></div>
 				<div class="col-lg-6">
-					<label> Vetification:</label>
+					<label class="h6 mt-3"> Vetification:</label>
+					<div style="color: red" class="p-2" v-if="showTip">
+						{{ validate }}
+					</div>
+
+					<re-captcha
+						:sitekey="sitekey"
+						@getValidateCode="getValidateCode"
+					></re-captcha>
 				</div>
-				谷歌验证
 			</div>
 			<div class="row">
 				<div class="col-lg-3"></div>
-				<div class="col-lg-6">Detected country:</div>
+				<div class="col-lg-6 mt-4">Detected country:</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-3"></div>
@@ -364,11 +371,13 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'pc-bootstrap4-datetimepicker/build/css/bootstrap-datetimepicker.css'
 import datePicker from 'vue-bootstrap-datetimepicker'
 import $ from 'jquery'
-import { registerHandler, getCode, getCountryCode } from '@/api/login'
+import { getCode, getCountryCode } from '@/api/login'
+import ReCaptcha from '@c/reCaptcha'
 export default {
 	name: 'Register',
 	components: {
 		datePicker,
+		ReCaptcha,
 	},
 	data() {
 		return {
@@ -433,6 +442,11 @@ export default {
 				},
 			},
 			countryCode: 'CA', //国家码
+			//6Lduy5QaAAAAAMY3jsB2FhBYxEo96d59qf
+			sitekey: process.env.VUE_APP_SITEKEY,
+			checkCode: false,
+			validate: 'Perform man-machine authentication',
+			showTip: false,
 		}
 	},
 	created: function () {},
@@ -492,20 +506,8 @@ export default {
 					console.log(err)
 				})
 		},
-		clickIcon: function (name) {
-			console.log(name)
-		},
-		changeIconHandler: function () {},
-		clickVoiceIcon: function () {},
-		usernameCheck(nickName) {
-			const _th = this
-			var mess = checkUsername(nickName)
-			_th.errorMessage = mess
-			_th.show = true
-		},
 		registerHandler: function () {
 			let _th = this
-
 			const data = {
 				loginName: _th.userName,
 				email: _th.email,
@@ -524,10 +526,22 @@ export default {
 				checkbox1: $('#checkbox1').is(':checked'),
 				checkbox2: $('#checkbox2').is(':checked'),
 				checkbox3: $('#checkbox3').is(':checked'),
+				
 			}
 			_th.$emit('register', data)
 			// debugger;
 			/**注册接口调用 */
+		},
+
+		getValidateCode(code) {
+			// debugger
+			if (code) {
+				//认证成功
+				this.checkCode = code
+			} else {
+				//认证失败
+				this.checkCode = code
+			}
 		},
 	},
 }

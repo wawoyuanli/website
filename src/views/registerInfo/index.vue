@@ -87,7 +87,7 @@
 			</div>
 		</nav>
 		<div class="register">
-			<Register @register="register" />
+			<Register @register="register" ref="register" />
 		</div>
 		<Dialog ref="dialog" @userBehavior="userBehaviorFun"></Dialog>
 		<Footer />
@@ -98,6 +98,7 @@ import Nav from '@c/nav.vue'
 import Register from '@c/register.vue'
 import Footer from '@c/footer.vue' //引入底部组件
 import Dialog from '@c/dialog.vue'
+import ReCaptcha from '@c/reCaptcha'
 export default {
 	name: 'RegisterPage',
 	components: {
@@ -105,6 +106,7 @@ export default {
 		Register: Register,
 		Footer: Footer,
 		Dialog,
+		ReCaptcha,
 	},
 	data() {
 		return {
@@ -120,6 +122,11 @@ export default {
 		},
 		register(data) {
 			let _th = this
+			_th.$refs.register.checkCode
+			if (!_th.$refs.register.checkCode) {
+				_th.$refs.register.showTip=true
+				return false
+			}
 			if (!data.loginName.trim().length) {
 				alert('Username can not be empty')
 				return false
@@ -214,7 +221,8 @@ export default {
 				alert('You have related agreements that have not been read and checked')
 				return false
 			}
-
+			if (_th.$refs.register) {
+			}
 			registerHandler(data)
 				.then(function (res) {
 					if (res.data.code === 0) {
