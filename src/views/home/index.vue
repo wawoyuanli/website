@@ -25,7 +25,7 @@
 							{{ $t('home.refer') }}
 						</p>
 						<div class="joinus-btn">
-							<a href="/registerInfo">{{ $t('home.join') }}</a>
+							<a href="#/registerInfo">{{ $t('home.join') }}</a>
 						</div>
 					</div>
 					<div class="col-lg-6" style="padding-top: 7.3rem">
@@ -131,7 +131,7 @@
 			</div>
 		</div>
 		<!--aboutUs 页面锚点-->
-		<a name="aboutUs"></a>
+		<a name="#aboutUs"></a>
 		<div class="middle">
 			<div
 				class="layer"
@@ -449,7 +449,7 @@ export default {
 	compoted() {},
 	methods: {
 		signClick() {
-			this.$router.push('/login')
+			this.$router.push('#/login')
 		},
 		handleScroll() {
 			const _th = this

@@ -10,12 +10,12 @@
                 <div style="margin-top:20px">
                   <ul>
                     <li>
-                      <a href="/home" class="text-white decration">Home</a>
+                      <a href="#/home" class="text-white decration">Home</a>
                     </li>
-                    <li><a href="#aboutUs" class="text-white">About Us</a></li>
-                    <li><a href="/faq" class="text-white">FAQ</a></li>
+                    <li><a href="#/home#aboutUs" class="text-white">About Us</a></li>
+                    <li><a href="#/faq" class="text-white">FAQ</a></li>
                     <li>
-                      <a href="/contact" class="text-white">Contact Us</a>
+                      <a href="#/contact" class="text-white">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -25,22 +25,22 @@
                 <div style="margin-top:20px">
                   <ul>
                     <li>
-                      <a href="/terms" class="text-white"
+                      <a href="#/terms" class="text-white"
                         >Terms And Conditions</a
                       >
                     </li>
                     <li>
-                      <a href="/antispam" class="text-white"
+                      <a href="#/antispam" class="text-white"
                         >Anti-Spam Policy</a
                       >
                     </li>
                     <li>
-                      <a href="/agreement" class="text-white"
+                      <a href="#/agreement" class="text-white"
                         >Affiliate Agreement</a
                       >
                     </li>
                     <li>
-                      <a href="/privacy" class="text-white">Privacy Policy</a>
+                      <a href="#/privacy" class="text-white">Privacy Policy</a>
                     </li>
                     <li>
                       <a href="#" class="text-white"> Don't Sell My Info </a>

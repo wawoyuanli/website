@@ -5,7 +5,7 @@
 		id="mainNav"
 	>
 		<div class="container">
-			<a href="/home" class="navbar-brand">
+			<a href="#/home" class="navbar-brand">
 				<strong :style="{ color: color }" class="h3">{{
 					$t('nav.webLogo')
 				}}</strong>
@@ -17,7 +17,7 @@
 					<li class="nav-item">
 						<a
 							class="nav-link js-scroll-trigger actived"
-							href="/home"
+							href="#/home"
 							:style="{ color: color }"
 							>{{ $t('nav.home') }}
 							<span class="sr-only">(current)</span>
@@ -38,11 +38,11 @@
 				</ul>
 				<a
 					class="btn btn-outline-primary btn-lg mr-3"
-					href="/login"
+					href="#/login"
 					:style="{ color: color }"
 					>{{ $t('nav.signIn') }}</a
 				>
-				<a class="btn btn-primary btn-lg" href="/registerInfo">{{
+				<a class="btn btn-primary btn-lg" href="#/registerInfo">{{
 					$t('nav.getStarted')
 				}}</a>
 
@@ -95,11 +95,11 @@ export default {
 	computed: {
 		navitemlist() {
 			return [
-				{ name: this.$t('nav.about'), path: 'home#aboutUs' },
-				{ name: this.$t('nav.reviews'), path: 'home#Reviews' },
-				{ name: this.$t('nav.FAQ'), path: '/faq' },
-				{ name: this.$t('nav.contact'), path: '/contact' },
-				{ name: this.$t('nav.privacy'), path: '/privacy' },
+				{ name: this.$t('nav.about'), path: '#/home#about' },
+				{ name: this.$t('nav.reviews'), path: '#/home#reviews' },
+				{ name: this.$t('nav.FAQ'), path: '#/faq' },
+				{ name: this.$t('nav.contact'), path: '#/contact' },
+				{ name: this.$t('nav.privacy'), path: '#/privacy' },
 			]
 		},
 	},

@@ -16,12 +16,12 @@
 				<div class="collapse navbar-collapse ml-2" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item active">
-							<a class="nav-link" href="/home" style="color: rgb(38, 164, 195)"
+							<a class="nav-link" href="#/home" style="color: rgb(38, 164, 195)"
 								>Home <span class="sr-only">(current)</span></a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/home#about">{{ $t('nav.about') }}</a>
+							<a class="nav-link" href="#/home#about">{{ $t('nav.about') }}</a>
 						</li>
 						<li class="nav-item">
 							<a
@@ -33,7 +33,7 @@
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/faq">{{ $t('nav.FAQ') }}</a>
+							<a class="nav-link" href="#/faq">{{ $t('nav.FAQ') }}</a>
 						</li>
 						<li class="nav-item">
 							<a
@@ -47,7 +47,7 @@
 						<li class="nav-item">
 							<a
 								class="nav-link"
-								href="/privacy"
+								href="#/privacy"
 								tabindex="-1"
 								aria-disabled="true"
 								>{{ $t('nav.privacy') }}</a
@@ -56,11 +56,11 @@
 					</ul>
 					<a
 						class="btn btn-lg mr-3 ml-4 border-0"
-						href="/login"
+						href="#/login"
 						:style="{ color: color, fontSize: '1.5rem' }"
 						>{{ $t('nav.signIn') }}</a
 					>
-					<a class="btn btn-primary btn-lg border-0" href="/registerInfo">{{
+					<a class="btn btn-primary btn-lg border-0" href="#/registerInfo">{{
 						$t('nav.getStarted')
 					}}</a>
 					<div class="dropdown ml-5">

@@ -57,11 +57,11 @@
               </button>
             </div>
             <div class="forgot">
-              <a href="/resetpwd"> I forgot my password</a>
+              <a href="#/resetpwd"> I forgot my password</a>
             </div>
             <div class="toregister">
               Not a member yet? Click
-              <a href="/registerInfo">here</a> to register.
+              <a href="#/registerInfo">here</a> to register.
             </div>
           </div>
         </div>
