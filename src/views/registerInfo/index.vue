@@ -5,7 +5,7 @@
 		>
 			<a
 				class="navbar-brand"
-				href="/home"
+				href="#/home"
 				style="color: rgb(38, 164, 195); margin-left: 160px"
 			>
 				<strong class="h3">
@@ -21,12 +21,12 @@
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#/home#about">{{ $t('nav.about') }}</a>
+							<a class="nav-link" :href="'#/home?maodian=about'">{{ $t('nav.about') }}</a>
 						</li>
 						<li class="nav-item">
 							<a
 								class="nav-link"
-								href="/home#reviews"
+								:href="'#/home?maodian=reviews'"
 								tabindex="-1"
 								aria-disabled="true"
 								>{{ $t('nav.reviews') }}</a
@@ -38,7 +38,7 @@
 						<li class="nav-item">
 							<a
 								class="nav-link"
-								href="/contact"
+								href="#/contact"
 								tabindex="-1"
 								aria-disabled="true"
 								>{{ $t('nav.contact') }}</a

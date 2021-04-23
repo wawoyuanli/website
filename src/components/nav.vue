@@ -6,43 +6,71 @@
 	>
 		<div class="container">
 			<a href="#/home" class="navbar-brand">
-				<strong :style="{ color: color }" class="h3">{{
-					$t('nav.webLogo')
-				}}</strong>
+				<div :style="{ color: color }" class="h3">{{ $t('nav.webLogo') }}</div>
 			</a>
 
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<!--Main menu-->
-				<ul class="navbar-nav ml-auto mr-3">
+				<ul class="navbar-nav ml-3">
 					<li class="nav-item">
 						<a
-							class="nav-link js-scroll-trigger actived"
+							class="nav-link js-scroll-trigger actived text-center"
 							href="#/home"
 							:style="{ color: color }"
 							>{{ $t('nav.home') }}
 							<span class="sr-only">(current)</span>
 						</a>
 					</li>
-					<li
-						class="nav-item"
-						v-for="(item, index) in navitemlist"
-						:key="index"
-					>
+					<li class="nav-item">
 						<a
+							:href="'#/home?maodian=about'"
 							class="nav-link js-scroll-trigger"
-							:href="item.path"
 							:class="{ navitemcolor: isActive }"
-							>{{ item.name }}
+							@click="aboutUrlClick('#about')"
+							>{{ $t('nav.about') }}
+						</a>
+					</li>
+					<li class="nav-item">
+						<a
+							:href="'#/home?maodian=reviews'"
+							class="nav-link js-scroll-trigger"
+							:class="{ navitemcolor: isActive }"
+							@click="reviewsUrlClick('#reviews')"
+							>{{ $t('nav.reviews') }}
+						</a>
+					</li>
+					<li class="nav-item">
+						<a
+							href="#/faq"
+							class="nav-link js-scroll-trigger"
+							:class="{ navitemcolor: isActive }"
+							>{{ $t('nav.FAQ') }}
+						</a>
+					</li>
+					<li class="nav-item">
+						<a
+							href="#/contact"
+							class="nav-link js-scroll-trigger"
+							:class="{ navitemcolor: isActive }"
+							>{{ $t('nav.contact') }}
+						</a>
+					</li>
+					<li class="nav-item">
+						<a
+							href="#/privacy"
+							class="nav-link js-scroll-trigger"
+							:class="{ navitemcolor: isActive }"
+							>{{ $t('nav.privacy') }}
 						</a>
 					</li>
 				</ul>
 				<a
-					class="btn btn-outline-primary btn-lg mr-3"
+					class="btn btn-outline-primary"
 					href="#/login"
 					:style="{ color: color }"
 					>{{ $t('nav.signIn') }}</a
 				>
-				<a class="btn btn-primary btn-lg" href="#/registerInfo">{{
+				<a class="btn btn-primarys btn-lg ml-4" href="#/registerInfo">{{
 					$t('nav.getStarted')
 				}}</a>
 
@@ -72,6 +100,7 @@
 </template>
 
 <script>
+import { goAnchor, getQueryString } from '../utils/common.js'
 export default {
 	name: 'Nav',
 	props: {
@@ -91,7 +120,13 @@ export default {
 	data() {
 		return {}
 	},
-	mounted() {},
+	mounted() {
+		// let maodian = getQueryString('maodian') //进入页面，如果带有锚点参数，则跳转至锚点地方，参数值就是id名
+		// console.info('*****', maodian)
+		// if (maodian) {
+		// 	goAnchor('#' + maodian,this)
+		// }
+	},
 	computed: {
 		navitemlist() {
 			return [
@@ -112,6 +147,12 @@ export default {
 		changeLanguage(type) {
 			this.$i18n.locale = type
 			localStorage.setItem('lang', type)
+		},
+		aboutUrlClick(selector) {
+			this.$emit('aboutUrlClick', selector)
+		},
+		reviewsUrlClick(selector) {
+			this.$emit('reviewsUrlClick', selector)
 		},
 	},
 
@@ -139,7 +180,7 @@ export default {
 }
 @keyframes mymove {
 	100% {
-		height: 1000px;
+		height: 100px;
 	}
 	80% {
 		height: 80px;
@@ -156,6 +197,10 @@ export default {
 		.collapse {
 			.navbar-nav {
 				.nav-item {
+					width: 93px;
+					a {
+						text-align: center;
+					}
 					.nav-link:hover {
 						opacity: 1;
 					}
@@ -174,6 +219,7 @@ export default {
 				}
 			}
 			.btn-outline-primary {
+				width:140px;
 				border: 1px solid #fff;
 				color: #fff;
 				font-size: 1.5rem;
@@ -183,6 +229,12 @@ export default {
 				color: rgb(10, 10, 10);
 				background-color: #fff;
 				border: none;
+			}
+			.btn-primarys{
+				width: 150px;
+				color: #fff;
+				background-color: #ff6f00;
+				border-color: #ff6f00;
 			}
 			.btn-primary,
 			.btn-success {

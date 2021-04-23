@@ -7,6 +7,8 @@
 				id="nav"
 				:isActive="isActive"
 				:color="color"
+				@aboutUrlClick="aboutUrlClick"
+				@reviewsUrlClick="reviewsUrlClick"
 			/>
 		</div>
 		<div class="bg-image"></div>
@@ -131,7 +133,7 @@
 			</div>
 		</div>
 		<!--aboutUs 页面锚点-->
-		<a name="#aboutUs"></a>
+		<a name="about" id="about"></a>
 		<div class="middle">
 			<div
 				class="layer"
@@ -187,7 +189,6 @@
 									:duration="5600"
 									class="counter"
 								></countTo>
-	
 
 								<p class="mb-0">{{ $t('home.total') }}</p>
 							</div>
@@ -216,7 +217,7 @@
 			</div>
 		</div>
 		<!--Reviews 页面锚点-->
-		<a name="Reviews"></a>
+		<a name="Reviews" id="reviews"></a>
 		<div class="testimonials">
 			<div class="container" style="margin-top: 30px">
 				<div class="row">
@@ -233,7 +234,12 @@
 					<div class="col-md-4">
 						<div
 							class="card card shadow p-3 mb-5 bg-white rounded"
-							style="width: 18rem; height: 440px; margin: 0 auto;line-height:40px"
+							style="
+								width: 18rem;
+								height: 440px;
+								margin: 0 auto;
+								line-height: 40px;
+							"
 						>
 							<!-- <img
 								src="@/assets/images/testimonial1.jpeg"
@@ -249,7 +255,12 @@
 					<div class="col-md-4">
 						<div
 							class="card card shadow p-3 mb-5 bg-white rounded"
-							style="width: 18rem; height: 440px; margin: 0 auto;line-height:40px"
+							style="
+								width: 18rem;
+								height: 440px;
+								margin: 0 auto;
+								line-height: 40px;
+							"
 						>
 							<!-- <img
 								src="@/assets/images/user2.jpg"
@@ -265,7 +276,12 @@
 					<div class="col-md-4">
 						<div
 							class="card shadow p-3 mb-5 bg-white rounded"
-							style="width: 18rem; height: 440px; margin: 0 auto;line-height:40px "
+							style="
+								width: 18rem;
+								height: 440px;
+								margin: 0 auto;
+								line-height: 40px;
+							"
 						>
 							<!-- <img
 								src="@/assets/images/user3.jpg"
@@ -414,6 +430,7 @@ import Nav from '@c/nav.vue' //引入导航栏组件
 import Footer from '@c/footer.vue' //引入底部组件
 import $ from 'jquery'
 import countTo from 'vue-count-to'
+// import { goAnchor, getQueryString } from '@/utils/common.js'
 export default {
 	name: 'Home',
 	components: {
@@ -435,16 +452,14 @@ export default {
 		}
 	},
 	mounted() {
-		const _th = this
-		window.addEventListener('scroll', this.handleScroll)
-		// $(window).scroll(function() {
-		//   debugger;
-		//   var scrollTop =
-		//     document.documentElement.scrollTop || document.body.scrollTop;
-		//   if (scrollTop >= 1000) {
-		//     _th.showCounter = true;
-		//   }
-		// });
+		var _th = this
+		window.addEventListener('scroll', _th.handleScroll)
+		// let maodian = _th.getQueryString('about')
+		// console.info('*****', maodian)
+		// if (maodian) {
+		// 	debugger
+		// 	_th.goAnchor('#' + maodian, _th)
+		// }
 	},
 	compoted() {},
 	methods: {
@@ -464,6 +479,43 @@ export default {
 				_th.isActive = true
 				_th.color = '#ff6f00'
 			}
+		},
+		aboutUrlClick(selector) {
+			var anchor = document.querySelector(selector)
+			//   没有动画
+			document.documentElement.scrollTop = anchor.offsetTop
+			//   有动画
+			// this.scrollTo(anchor.offsetTop, 530)
+		},
+		reviewsUrlClick(selector) {
+			var anchor = document.querySelector(selector)
+			document.documentElement.scrollTop = anchor.offsetTop
+		},
+		scrollTo(y, duration) {
+			/* y:目标纵坐标,duration:时间(毫秒) */
+
+			var scrollTop = document.body.scrollTop /* 页面当前滚动距离 */
+
+			var distance =
+				y - scrollTop /* 结果大于0,说明目标在下方,小于0,说明目标在上方 */
+
+			var scrollCount = duration / 10 /* 10毫秒滚动一次,计算滚动次数 */
+
+			var everyDistance = parseInt(
+				distance / scrollCount
+			) /* 滚动距离除以滚动次数计算每次滚动距离 */
+
+			for (
+				var index = 1;
+				index <= scrollCount;
+				index++ /* 循环设置scrollBy事件,在duration之内,完成滚动效果 */
+			) {
+				setTimeout(function () {
+					window.scrollBy(0, everyDistance)
+				}, 10 * index)
+			}
+			let deviation = y - scrollCount * everyDistance
+			window.scrollBy(0, deviation)
 		},
 	},
 }
