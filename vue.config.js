@@ -16,6 +16,20 @@ module.exports = {
         symbolId: "icon-[name]",
         include: ["src/icons"]
       });
+    config.module
+      .rule('expose1')
+      .test(require.resolve('jquery'))
+      .use()
+      .loader('expose-loader')
+      .options("jQuery")
+      .end()
+    config.module
+      .rule('expose2')
+      .test(require.resolve('jquery'))
+      .use()
+      .loader('expose-loader')
+      .options("$")
+      .end()
   },
   configureWebpack: (config) => {
     config.resolve = { // 配置解析别名
@@ -55,7 +69,7 @@ module.exports = {
     hot: true, // 开启热加载
     hotOnly: false,
     proxy: {
-      [process.env.VUE_APP_API]: { 
+      [process.env.VUE_APP_API]: {
         target: 'http://www.surveyleague.club',////'http://www.surveyleague.club',//"http://g36469v144.zicp.vip", //API服务器的地址  http://g36469v144.zicp.vip
         changeOrigin: true,
         pathRewrite: {
