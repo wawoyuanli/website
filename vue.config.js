@@ -16,20 +16,20 @@ module.exports = {
         symbolId: "icon-[name]",
         include: ["src/icons"]
       });
-    config.module
-      .rule('expose1')
-      .test(require.resolve('jquery'))
-      .use()
-      .loader('expose-loader')
-      .options("jQuery")
-      .end()
-    config.module
-      .rule('expose2')
-      .test(require.resolve('jquery'))
-      .use()
-      .loader('expose-loader')
-      .options("$")
-      .end()
+    // config.module
+    //   .rule('expose1')
+    //   .test(require.resolve('jquery'))
+    //   .use()
+    //   .loader('expose-loader')
+    //   .options("jQuery")
+    //   .end()
+    // config.module
+    //   .rule('expose2')
+    //   .test(require.resolve('jquery'))
+    //   .use()
+    //   .loader('expose-loader')
+    //   .options("$")
+    //   .end()
   },
   configureWebpack: (config) => {
     config.resolve = { // 配置解析别名
