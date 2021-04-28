@@ -226,8 +226,7 @@ export default {
     Cookies are Safe! Cookies used by Genting Consulting can only be seen by Genting Consulting, and cannot in any way cause harm to your computer. Because we cannot properly track user actions without the use of Cookies (to ensure Users are credited for completing Offers, referring friends, etc), our Web Site will not function properly for Users who have Cookies disabled. Cookies help you gain fast access back to your paid surveys. Age Requirement The gentingconsulting.com service is unavailable to persons under the age of 18
     Data Security: To prevent unauthorized access, maintain data accuracy, and ensure the correct use of information, gentingconsulting.com has used appropriate industry standard procedures to safeguard the confidentiality of your personal information, such as firewall, encryption, token authentication, application proxies, monitoring technology, and adaptive analysis of network traffic to track abuse of our network and its data. However, no data transmitted over the Internet can be 100% secure. As a result, while we strive to protect your personal information, gentingconsulting.com cannot guarantee the security of any information that you transmit to us or from our sponsors and you do so at your own risk.
     
-    CALIFORNIA USER CONSUMER RIGHTS
-    In accordance with California Civil Code Sec. 1789.3, California resident users are entitled to know that they may file grievances and complaints with California Department of Consumer Affairs, 400 R Street, STE 1080, Sacramento, CA 95814; or by phone at 916-445-1254 or 800-952-5210; or by email to dca@dca.ca.gov
+    USER CONSUMER RIGHTS
     External Links: gentingconsulting.com is not responsible for any content or privacy policies of web sites not operated by gentingconsulting.com.
     Opting-Out: gentingconsulting.com members are opted-in to receive gentingconsulting.com newsletters at the time of enrollment. You may opt-out of by following the directions enclosed in the newsletter.
     Canceling: You may cancel your Membership at anytime by unsubscribing here. If you decide to cancel your membership and later wish to re-enroll, you will be assigned a new account ID and you will not receive credit for earnings made using your previous account. gentingconsulting.com reserves the right to terminate or suspend any account at any time with or without  gentingconsulting.com does not tolerate any abuse, harassment, or fraudulent activity aimed towards other members or gentingconsulting.com. Changes To The Privacy Policy: By registering to use the gentingconsulting.com service, you agree to accept this privacy policy and are aware that gentingconsulting.com's privacy policy may change from time to time. We strongly advise our members to check back from time to time. We also welcome any feedback from you; please click here to contact us if you have any comments regarding the information or improvements that can be made to this privacy policy.
@@ -235,24 +234,9 @@ export default {
     
     Or Write To Us At:
     
-    Genting Consulting
-    337 Garden Oaks Blvd #29779
-    Houston, TX 77018, United States
-    
-    CALIFORNIA CONSUMER PRIVACY ACT (CCPA)
-    Californian consumers have certain rights under the California Consumer Privacy Act (CCPA) AB 375. For us to comply with some of these rights, we must be able to reasonably verify a consumer's identity. These rights include:
-    
-    The right of Californians to know what personal information is being collected about them
-    The right of Californians to know whether their personal information is sold or disclosed and to whom
-    The right of Californians to say no to the sale of their personal information
-    The right of Californians to access their personal information
-    The right to data portability. Californians have the right to request their personal information that they provided to us and use them for their own purposes. We will provide Californians their personal information within 30 days of their request
-    The right of Californians of the deletion of their personal information
-    The right of Californians of equal service, price, and not being discriminated against even if they exercise their privacy rights
-    One or more designated means for Californian consumers to submit requests under the CCPA including (at minimum) a toll-free telephone number, and if the business maintains an Internet website, a website address
-    The right of Californians to designate an authorized agent to make a request on their behalf. When designating an authorized agent, you must provide a valid power of attorney, the requester's valid government issued identification, and the authorized agent's valid government issued identification.
-    These rights include the right to request what personal information we collect and disclose about consumers.
-    If California users would like to make a CCPA Privacy Rights request or have any questions or suggestions regarding our privacy policy, please email us at: service@gentingconsulting.com.
+    Genting Consulting Inc
+    615 W 138TH ST 
+    NEW YORK, NY 10031, United States
     
     You Have the Right Not to Have Your Personal Information Sold
     
