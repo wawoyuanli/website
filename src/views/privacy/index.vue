@@ -14,16 +14,16 @@
 						class="col-md-10 border mt-5 text-left ml-2 mb-5 shadow-lg p-3 mb-5 bg-white rounded"
 					>
 						<div class="mt-4" style="font-size: 14px">
-							Revised December 26, 2019
+							Revised December 26, 2020
 						</div>
 						<div class="mt-2" style="font-size: 14px">
 							Your privacy is very important to us. We hope the following
-							statement will help you understand how Panda Research .com
+							statement will help you understand how gentingconsulting.com
 							collects, uses, and safeguards the personal information you
 							provide to us on our Web site.
 						</div>
 						<div class="mt-2" style="font-size: 14px">
-							Panda Research .com has created this privacy policy to demonstrate
+							gentingconsulting.com has created this privacy policy to demonstrate
 							our commitment to the privacy of users like you because your
 							privacy is of utmost importance to us.
 						</div>
@@ -32,7 +32,7 @@
 						</div>
 						<div class="mt-1" style="font-size: 14px">
 							1.Information Collected All Users must provide the following
-							information in order to join PandaResearch: name, mailing address,
+							information in order to join Genting Consulting: name, mailing address,
 							phone number, email address, username, and password. Users may be
 							required to provide subsequent demographic information in order to
 							receive Signup Bonus(es) and/or qualify for other promotions.
@@ -42,7 +42,7 @@
 						</div>
 						<div class="mt-1" style="font-size: 14px">
 							2. Means of Collection Currently, the only way to join
-							PandaResearch is through one of our signup forms. We do not
+							Genting Consulting is through one of our signup forms. We do not
 							acquire Users through purchase, co-registration, or any other
 							means; however, we may do so at any time in the future.
 						</div>
@@ -50,17 +50,17 @@
 							I. USE OF INFORMATION
 						</div>
 						<div class="mt-1" style="font-size: 14px">
-							1.Use of Information User information is used by PandaResearch in
+							1.Use of Information User information is used by Genting Consulting in
 							all of the following, but not limited to, ways:(a) E-Mail Address
 							is used to send paid email advertisements and important
-							announcements about PandaResearch to User(b) User will have to
+							announcements about Genting Consulting to User(b) User will have to
 							provide US verified primary PayPal Account to receive payments.(c)
 							Demographic information is used to target advertisements to
 							User(d) Username and Password are used for User protection to
 							restrict access to their account
 						</div>
 						<div class="mt-1" style="font-size: 14px">
-							2.Sharing of Information PandaResearch does not rent, sell, or
+							2.Sharing of Information Genting Consulting does not rent, sell, or
 							share User information, except in the following circumstances:
 						</div>
 						<div class="mt-1" style="font-size: 14px">
@@ -84,69 +84,69 @@
 							enhance the service provided to our Users
 						</div>
 						<div class="mt-1" style="font-size: 14px">
-							(f) All emails you receive from Pandaresearch will come from
-							Pandaresearch, so you may easily distinguish our emails. We will
+							(f) All emails you receive from Genting Consulting will come from
+							Genting Consulting, so you may easily distinguish our emails. We will
 							never share your email with third party marketing companies. Your
 							email will only be shared with Restoration Media for Job Alerts
-							and Pandaresearch mailing partner.
+							and Genting Consulting mailing partner.
 						</div>
 						<div class="mt-1" style="font-size: 14px; font-weight: 600">
 							I.CO-REGISTRATION
 						</div>
 						<div class="mt-2" style="font-size: 14px">
-							1.Definition PandaResearch signup pages may contain
+							1.Definition Genting Consulting signup pages may contain
 							co-registration checkboxes, where Users can choose to
 							"co-register" for other Web Sites during their registration with
-							PandaResearch by checking the checkbox next to the co-registration
+							Genting Consulting by checking the checkbox next to the co-registration
 							Offer. Users are not required to select any co-registration boxes
-							to join PandaResearch; however, they may be required to do so in
+							to join Genting Consulting; however, they may be required to do so in
 							order to qualify for Signup Bonus(es) and/or other promotions.
 						</div>
 						<div class="mt-1" style="font-size: 14px">
 							2.Information Sharing When a User co-registers for an Offer by
 							checking the co-registration checkbox, any information they
-							provide to PandaResearch may be shared with the Advertiser
-							associated with the co-registration Offer. PandaResearch cannot
+							provide to Genting Consulting may be shared with the Advertiser
+							associated with the co-registration Offer. Genting Consulting cannot
 							control what Advertisers subsequently do with that information.
 						</div>
 						<div class="mt-2" style="font-size: 14px; font-weight: 600">
 							I. COOKIES
 						</div>
 						<div class="mt-1" style="font-size: 14px">
-							1. Referral and Affiliate Tracking PandaResearch uses cookies in
+							1. Referral and Affiliate Tracking Genting Consulting uses cookies in
 							order to track new User registrations. This ensures Users are
 							properly credited for referring other Users, as well as to track
 							earnings for our Affiliates.
 						</div>
 						<div class="mt-1" style="font-size: 14px">
-							2. User Recognition After a User has logged into the PandaResearch
+							2. User Recognition After a User has logged into the Genting Consulting
 							Member's Section, cookies are used to remember their Username and
 							Password so they do not need to be entered during every visit to
 							our Web Site. Users can logout of the Member's Section if they do
 							not wish to have this information saved.
 						</div>
 						<div class="mt-1" style="font-size: 14px">
-							3. Cookies are Safe! Cookies used by PandaResearch can only be
-							seen by PandaResearch, and cannot in any way cause harm to your
+							3. Cookies are Safe! Cookies used by Genting Consulting can only be
+							seen by Genting Consulting, and cannot in any way cause harm to your
 							computer. Because we cannot properly track user actions without
 							the use of Cookies (to ensure Users are credited for completing
 							Offers, referring friends, etc), our Web Site will not function
 							properly for Users who have Cookies disabled. Cookies help you
 							gain fast access back to your paid surveys. Age Requirement The
-							Panda Research .com service is unavailable to persons under the
+							gentingconsulting.com service is unavailable to persons under the
 							age of 18
 						</div>
 						<div class="mt-1" style="font-size: 14px">
 							4. Data Security: To prevent unauthorized access, maintain data
-							accuracy, and ensure the correct use of information, Panda
-							Research .com has used appropriate industry standard procedures to
+							accuracy, and ensure the correct use of information, gentingconsulting.com
+							has used appropriate industry standard procedures to
 							safeguard the confidentiality of your personal information, such
 							as firewall, encryption, token authentication, application
 							proxies, monitoring technology, and adaptive analysis of network
 							traffic to track abuse of our network and its data. However, no
 							data transmitted over the Internet can be 100% secure. As a
 							result, while we strive to protect your personal information,
-							Panda Research .com cannot guarantee the security of any
+							gentingconsulting.com cannot guarantee the security of any
 							information that you transmit to us or from our sponsors and you
 							do so at your own risk.
 						</div>
@@ -161,13 +161,12 @@
 							916-445-1254 or 800-952-5210; or by email to dca@dca.ca.gov
 						</div>
 						<div class="mt-1" style="font-size: 14px">
-							2.External Links: Panda Research .com is not responsible for any
-							content or privacy policies of web sites not operated by Panda
-							Research .com.
+							2.External Links: gentingconsulting.com is not responsible for any
+							content or privacy policies of web sites not operated by gentingconsulting.com.
 						</div>
 						<div class="mt-1" style="font-size: 14px">
-							3.Opting-Out: Panda Research .com members are opted-in to receive
-							Panda Research .com newsletters at the time of enrollment. You may
+							3.Opting-Out: gentingconsulting.com members are opted-in to receive
+							gentingconsulting.com newsletters at the time of enrollment. You may
 							opt-out of by following the directions enclosed in the newsletter.
 						</div>
 						<div class="mt-1" style="font-size: 14px">
@@ -175,25 +174,24 @@
 							unsubscribing here. If you decide to cancel your membership and
 							later wish to re-enroll, you will be assigned a new account ID and
 							you will not receive credit for earnings made using your previous
-							account. Panda Research .com reserves the right to terminate or
-							suspend any account at any time with or without notice. Panda
-							Research .com does not tolerate any abuse, harassment, or
-							fraudulent activity aimed towards other members or Panda Research
-							.com. Changes To The Privacy Policy: By registering to use the
-							Panda Research .com service, you agree to accept this privacy
-							policy and are aware that Panda Research .com's privacy policy may
+							account. gentingconsulting.com reserves the right to terminate or
+							suspend any account at any time with or without notice. gentingconsulting.com
+							 does not tolerate any abuse, harassment, or
+							fraudulent activity aimed towards other members or gentingconsulting.com.
+							Changes To The Privacy Policy: By registering to use the
+							gentingconsulting.com service, you agree to accept this privacy
+							policy and are aware that gentingconsulting.com's privacy policy may
 							change from time to time. We strongly advise our members to check
 							back from time to time. We also welcome any feedback from you;
 							please click here to contact us i
 						</div>
 						<div class="mt-1" style="font-size: 14px">
 							Contact Information: If users have any questions or suggestions
-							regarding our privacy policy, please contact us at: PandaResearch
-							Support
+							regarding our privacy policy, please contact us at: Contact Us
 						</div>
 						<div class="mt-2" style="font-size: 14px">Or Write To Us At:</div>
 						<div class="mt-2" style="font-size: 14px">
-							Panda Research 337 Garden Oaks Blvd #29779 Houston, TX 77018,
+							Genting Consulting Inc 615 W 138TH ST NEW YORK, NY 10031,
 							United States
 						</div>
 						<div class="mt-1" style="font-size: 14px; font-weight: 600">
@@ -254,7 +252,7 @@
 							information we collect and disclose about consumers. If California
 							users would like to make a CCPA Privacy Rights request or have any
 							questions or suggestions regarding our privacy policy, please
-							contact us at: Contact CCPA or call 312-212-0044.
+							email us at: service@gentingconsulting.com.
 						</div>
 						<div class="mt-1" style="font-size: 14px">
 							You Have the Right Not to Have Your Personal Information Sold
@@ -655,7 +653,7 @@
 						>
 							PLEASE NOTE: If you still have a question, please feel free to
 							contact us at Genting Consulting Support. We will respond
-							promptly. Alternatively you may reach us at 312-212-0044.
+							promptly. Alternatively you may email us at: service@gentingconsulting.com.
 						</div>
 					</div>
 					<div class="col-md-1"></div>

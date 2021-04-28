@@ -252,7 +252,7 @@ export default {
     One or more designated means for Californian consumers to submit requests under the CCPA including (at minimum) a toll-free telephone number, and if the business maintains an Internet website, a website address
     The right of Californians to designate an authorized agent to make a request on their behalf. When designating an authorized agent, you must provide a valid power of attorney, the requester's valid government issued identification, and the authorized agent's valid government issued identification.
     These rights include the right to request what personal information we collect and disclose about consumers.
-    If California users would like to make a CCPA Privacy Rights request or have any questions or suggestions regarding our privacy policy, please contact us at: Contact CCPA  or call 312-212-0044.
+    If California users would like to make a CCPA Privacy Rights request or have any questions or suggestions regarding our privacy policy, please email us at: service@gentingconsulting.com.
     
     You Have the Right Not to Have Your Personal Information Sold
     

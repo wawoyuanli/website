@@ -14,7 +14,7 @@
                 <h2 class="content-title">Contact</h2>
                 <p class="text-center">
                   Do you need to contact us? Fill the form below or email us
-                  directly: contact@colossalscope.com
+                  directly: service@gentingconsulting.com
                 </p>
                 <div class="row">
                   <div class="col-md-12">

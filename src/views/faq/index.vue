@@ -95,9 +95,8 @@
                   >
                     <div class="card-body">
                       <div class="panel">
-                        To be eligible for Panda Research, you must meet the
-                        following criteria: You must be 18 years old and reside
-                        in the United States Account information must be
+                        To be eligible for Genting Consulting, you must meet the
+                        following criteria: You must be 18 years old and Account information must be
                         accurate and complete. You must register using your
                         valid e-mail address. Signing up through a proxy server
                         is strictly prohibited. Proxies are no allowed and will
@@ -264,7 +263,7 @@
                     <div class="card-body">
                       <div class="panel">
                         After you have successfully met all the advertiser’s
-                        requirements you will earn credit from Panda Research.
+                        requirements you will earn credit from Genting Consulting.
                         Credit(s) can be applied upwards of 7 business days
                         after advertiser approval to reach your account
                       </div>
@@ -471,7 +470,7 @@
                         aria-controls="collapseEleven"
                         style="font-weight:600"
                       >
-                        Do members get paid for referring Panda Research to
+                        Do members get paid for referring Genting Consulting to
                         friends?
                       </button>
                     </h2>
@@ -484,12 +483,12 @@
                   >
                     <div class="card-body">
                       <div class="panel">
-                        YES! You can refer your friends to Panda Research and
+                        YES! You can refer your friends to Genting Consulting and
                         earn 10% of their offer earnings for the life of their
-                        account. For example, you refer Bob to Panda Research,
+                        account. For example, you refer Bob to Genting Consulting,
                         Bob becomes a member and completes $30.00 in offers and
-                        $20.00 in Panda Mails. Once Bob requests payment for
-                        $50.00, Panda Research will immediately credit $3.00
+                        $20.00 in Genting Consulting Mails. Once Bob requests payment for
+                        $50.00, Genting Consulting will immediately credit $3.00
                         (10% of Offer Earnings) into your account.
                       </div>
                     </div>
