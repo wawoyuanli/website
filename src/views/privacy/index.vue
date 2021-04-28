@@ -151,7 +151,7 @@
 							do so at your own risk.
 						</div>
 						<div class="mt-2" style="font-size: 14px; font-weight: 600">
-							I. CALIFORNIA USER CONSUMER RIGHTS
+							I. ALL USER CONSUMER RIGHTS
 						</div>
 						<div class="mt-1" style="font-size: 14px">
 							1.In accordance with California Civil Code Sec. 1789.3, California
@@ -652,7 +652,7 @@
 							style="font-size: 14px; background-color: #f6f6f6"
 						>
 							PLEASE NOTE: If you still have a question, please feel free to
-							contact us at Genting Consulting Support. We will respond
+							contact us at Genting Consulting Contact Us. We will respond
 							promptly. Alternatively you may email us at: service@gentingconsulting.com.
 						</div>
 					</div>
