@@ -28,7 +28,7 @@ export default {
   user2Text: `Thank you very much for your invitation. 
     Each of us has the right to express our own opinions,
     which is the foundation of a democratic and free society and can help others.
-    This is a very sacred thing`,
+    This is a very sacred thing.`,
   user3: 'Allen (Florida, US)',
   user3Text: `My friend introduced me here,
     and I registered it for the first time with the attitude of trying.

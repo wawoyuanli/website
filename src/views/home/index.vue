@@ -241,14 +241,9 @@
 								line-height: 40px;
 							"
 						>
-							<!-- <img
-								src="@/assets/images/testimonial1.jpeg"
-								class="card-img-top"
-								alt="..."
-							/> -->
 							<div class="card-body">
 								<p class="card-text">{{ $t('home.user1Text') }}</p>
-								<p class="card-text">{{ $t('home.user1') }}</p>
+								<p class="card-text h6">{{ $t('home.user1') }}</p>
 							</div>
 						</div>
 					</div>
@@ -262,14 +257,10 @@
 								line-height: 40px;
 							"
 						>
-							<!-- <img
-								src="@/assets/images/user2.jpg"
-								class="card-img-top"
-								alt="..."
-							/> -->
 							<div class="card-body">
 								<p class="card-text">{{ $t('home.user2Text') }}</p>
-								<p class="card-text">{{ $t('home.user2') }}</p>
+								<br/>
+								<p class="card-text h6">{{ $t('home.user2') }}</p>
 							</div>
 						</div>
 					</div>
@@ -283,14 +274,9 @@
 								line-height: 40px;
 							"
 						>
-							<!-- <img
-								src="@/assets/images/user3.jpg"
-								class="card-img-top"
-								alt="..."
-							/> -->
 							<div class="card-body">
 								<p class="card-text">{{ $t('home.user3Text') }}</p>
-								<p class="card-text">{{ $t('home.user3') }}</p>
+								<p class="card-text h6">{{ $t('home.user3') }}</p>
 							</div>
 						</div>
 					</div>
