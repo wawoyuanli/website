@@ -53,7 +53,7 @@ export default {
   agreement: 'Affiliate Agreement',
   privacy: 'Privacy Policy',
   info: `Don't Sell My Info`,
-  bottom: '© Copyright Genting Consulting, 2008 - 2021 All rights reserved.',
+  bottom: '© 2021 Genting Consulting Inc. All rights reserved.',
 
   /**为什么要注册云顶咨询？ */
   why: 'Why sign up to Genting Consulting?',
