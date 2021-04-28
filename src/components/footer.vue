@@ -61,7 +61,7 @@
         <div class="row">
           <div class="col-md-12">
             <p class="text-center" style="padding-top:40px;font-size:14px">
-              © Copyright Genting Consulting, 2008 - 2021 All rights reserved.
+              © 2021 Genting Consulting Inc. All rights reserved.
             </p>
           </div>
         </div>
