@@ -16,49 +16,49 @@
 							through unsolicited emailing (i.e. SPAMMING), newsgroup postings,
 							or any other method of mass communication. Failure to comply will
 							result in immediate termination of your membership with
-							PandaResearch and may result in legal prosecution.
+							Genting Consulting and may result in legal prosecution.
 						</div>
 						<div class="mt-3 ml-2">
-							PandaResearch strictly enforces anti-spamming laws. Spamming is an
+							Genting Consulting strictly enforces anti-spamming laws. Spamming is an
 							internationally monitored crime that has severe criminal and civil
 							penalties. Any member caught spamming will not only have their
 							account terminated immediately and lose any past, present and
 							future earnings, but shall also be held liable for Spamming as we
 							shall cooperate with any authorities and investigations that may
-							arise from the Spamming incident. PandaResearch may charge a fee
+							arise from the Spamming incident. Genting Consulting may charge a fee
 							per email sent. Multiple signups shall be grounds for immediate
 							termination of all involved accounts. Signing up multiple times
 							from the same computer also constitutes fraud.
 						</div>
 						<div class="mt-2 ml-2">
-							PandaResearch will file charges for recovery of any earnings
+							Genting Consulting will file charges for recovery of any earnings
 							received from multiple signups.
 						</div>
 						<div class="mt-3 ml-2">
 							Popular Member questions regarding SPAM:
 						</div>
 						<div class="mt-2 ml-2">
-							Q :- Is it okay to put my PandaResearch paid surveys link on free
+							Q :- Is it okay to put my Genting Consulting paid surveys link on free
 							offline bulletin boards that allow it, or online forums/boards
 							that SPECIFICALLY allow it? A :- Sure!
 						</div>
 						<div class="mt-2 ml-2">
-							Q :- Is it okay to deface public property with PandaResearch links
-							or randomly post flyers with a PandaResearch link all over the
+							Q :- Is it okay to deface public property with Genting Consulting links
+							or randomly post flyers with a Genting Consulting link all over the
 							place? A :- No
 						</div>
 						<div class="mt-2 ml-2">
 							Q :- Is it okay to tell people that I already know such as my
-							friends, relatives and acquaintances about PandaResearch? A :-
+							friends, relatives and acquaintances about Genting Consulting? A :-
 							Sure!
 						</div>
 						<div class="mt-2 ml-2">
-							Q :- Is it okay to advertise PandaResearch at my website or at
-							another website that agreed to post my PandaResearch link or
+							Q :- Is it okay to advertise Genting Consulting at my website or at
+							another website that agreed to post my Genting Consulting link or
 							banner? A :- Sure!
 						</div>
 						<div class="mt-2 ml-2">
-							Q :- Is it okay to send emails with a PandaResearch link to people
+							Q :- Is it okay to send emails with a Genting Consulting link to people
 							that I don't know? A :- No
 						</div>
 						<div class="mt-2 ml-2">
