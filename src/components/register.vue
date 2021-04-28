@@ -9,7 +9,7 @@
 				<div class="col-md-3"></div>
 				<div class="col-md-6">
 					<label for="userName" class="mt-2"
-						>userName
+						>Username
 						<label style="color: red">*</label>
 					</label>
 					<input
@@ -123,7 +123,7 @@
 				</div>
 				<div class="col-lg-3">
 					<label for="lastName" class="control-label mt-2"
-						>lastName
+						>LastName
 						<label style="color: red">*</label>
 					</label>
 					<input
@@ -144,7 +144,7 @@
 				<div class="col-lg-3"></div>
 				<div class="col-lg-3">
 					<label for="sex" class="control-label mt-2"
-						>sex
+						>Sex
 						<label style="color: red">*</label>
 					</label>
 					<select id="inputState" class="form-control">
@@ -159,7 +159,7 @@
 				<div class="col-lg-3"></div>
 				<div class="col-lg-2">
 					<label for="sex" class="control-label mt-2"
-						>birthday year
+						>Birthday year
 						<label style="color: red">*</label>
 					</label>
 					<date-picker
@@ -170,7 +170,7 @@
 				</div>
 				<div class="col-lg-2">
 					<label for="birthdaymonth" class="control-label mt-2"
-						>birthday month
+						>Birthday month
 						<label style="color: red">*</label>
 					</label>
 					<date-picker
@@ -181,7 +181,7 @@
 				</div>
 				<div class="col-lg-2">
 					<label for="sex" class="control-label mt-2"
-						>birthday day
+						>Birthday day
 						<label style="color: red">*</label>
 					</label>
 					<date-picker
@@ -195,7 +195,7 @@
 			<div class="row">
 				<div class="col-lg-3"></div>
 				<div class="col-lg-6">
-					<label for="referrer" class="control-label mt-2">address ： </label>
+					<label for="referrer" class="control-label mt-2">Address ： </label>
 					<input
 						class="form-control control-label-referrer"
 						id="password2"
@@ -211,7 +211,7 @@
 			<div class="row">
 				<div class="col-lg-3"></div>
 				<div class="col-lg-6">
-					<label class="mt-2"> postCode:</label>
+					<label class="mt-2"> PostCode:</label>
 					<label style="color: red">*</label>
 					<input
 						class="form-control control-label-referrer"
@@ -228,7 +228,7 @@
 			<div class="row">
 				<div class="col-lg-3"></div>
 				<div class="col-lg-6">
-					<label class="mt-2"> phone:</label>
+					<label class="mt-2"> Phone:</label>
 					<label style="color: red">*</label>
 					<input
 						class="form-control control-label-referrer"
@@ -246,7 +246,7 @@
 			<div class="row">
 				<div class="col-lg-3"></div>
 				<div class="col-lg-6">
-					<label class="mt-2"> pinCode:</label>
+					<label class="mt-2"> PinCode:</label>
 					<label style="color: red">*</label>
 					<input
 						class="form-control control-label-referrer"

@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-md-4">
             <label for="userName" class="control-label mt-2"
-              >userName
+              >Username
               <label style="color: red">*</label>
             </label>
             <input
@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-md-4">
             <label for="password" class="control-label mt-2"
-              >password
+              >Password
               <label style="color: red">*</label>
             </label>
             <input
