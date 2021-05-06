@@ -381,7 +381,6 @@ export default {
   },
   data() {
     return {
-      sendCode: "send the verification code",
       disabled: false,
       tipUsername:
         "Choose your desired username,It must be 4-20 characters long and can only contain letters and numbers. it must start with a letter",
@@ -447,6 +446,8 @@ export default {
       checkCode: false,
       validate: "Perform man-machine authentication",
       showTip: false,
+      seconds: 60,
+      sendCode: "get verification code",
     };
   },
   created: function() {},
@@ -474,6 +475,20 @@ export default {
     selectDay: function() {
       console.log(this.dateDay);
     },
+    countDown() {
+      let clock = setInterval(() => {
+        if (this.seconds < 1) {
+          this.disabled = false;
+          this.sendCode = "get verification code";
+          this.seconds = 60;
+
+          clearInterval(clock);
+        } else {
+          this.disabled = true;
+          this.sendCode = `resend in ${this.seconds--} seconds`;
+        }
+      }, 1000);
+    },
     /**获取验证码 */
     sendVerificationCode: function() {
       const _th = this;
@@ -491,18 +506,20 @@ export default {
         alert("please enter your vaild email!");
         return false;
       }
-      _th.sendCode = "sending...";
       _th.disabled = true;
+      _th.countDown();
+      // _th.sendCode = "sending...";
+
       getCode(data)
         .then(function(res) {
           if (res.data.code === 0) {
-            _th.sendCode = "send the verification code";
-            _th.disabled = false;
+            // _th.sendCode = "send the verification code";
+            // _th.disabled = false;
           }
         })
         .catch(function(err) {
-          _th.sendCode = "send the verification code";
-          _th.disabled = false;
+          // _th.sendCode = "send the verification code";
+          // _th.disabled = false;
           console.log(err);
         });
     },
