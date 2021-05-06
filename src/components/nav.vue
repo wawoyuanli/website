@@ -92,6 +92,21 @@
 						<a class="dropdown-item" href="#" @click="changeLanguage('zh')"
 							>中文</a
 						>
+						<a class="dropdown-item" href="#" @click="changeLanguage('ge')"
+							>German</a
+						>
+						<a class="dropdown-item" href="#" @click="changeLanguage('fr')"
+							>French</a
+						>
+						<a class="dropdown-item" href="#" @click="changeLanguage('sp')"
+							>Spanish</a
+						>
+						<a class="dropdown-item" href="#" @click="changeLanguage('jp')"
+							>Japanese</a
+						>
+						<a class="dropdown-item" href="#" @click="changeLanguage('In')"
+							>Indian</a
+						>
 					</div>
 				</div>
 			</div>
