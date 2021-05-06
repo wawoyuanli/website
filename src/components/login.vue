@@ -30,6 +30,7 @@
               <label style="color: red">*</label>
             </label>
             <input
+              type="password"
               class="form-control"
               data-toggle="tooltip"
               data-placement="right"
