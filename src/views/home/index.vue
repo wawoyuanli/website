@@ -408,15 +408,13 @@
 				</div>
 			</div>
 		</div>
-		1
-		<DatePicker/>
 		<Footer />
 	</div>
 </template>
 <script>
 import Nav from '@c/nav.vue' //引入导航栏组件
 import Footer from '@c/footer.vue' //引入底部组件
-import  DatePicker from '@c/datepicker.vue'
+// import  DatePicker from '@c/datepicker.vue'
 import $ from 'jquery'
 import countTo from 'vue-count-to'
 // import { goAnchor, getQueryString } from '@/utils/common.js'
@@ -426,7 +424,7 @@ export default {
 		Nav: Nav,
 		Footer: Footer,
 		countTo: countTo,
-		DatePicker:DatePicker
+		// DatePicker:DatePicker
 	},
 	data() {
 		return {
