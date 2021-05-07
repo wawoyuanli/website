@@ -38,77 +38,37 @@
                 <thead>
                   <tr>
                     <th scope="col">Name of the company:</th>
-                    <th scope="col">Opinion Capital Inc</th>
+                    <th scope="col">Genting Consulting Inc</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">National company registration number:</th>
-                    <td>Mark</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">74233 1523</th>
-                    <td>Jacob</td>
-                  </tr>
                   <tr>
                     <th scope="row">VAT number:</th>
                     <td>74233 1523 RT0001</td>
                   </tr>
                   <tr>
                     <th scope="row">Country of operation:</th>
-                    <td>Canada</td>
+                    <td>America</td>
                   </tr>
                   <tr>
                     <th scope="row">E-mail address:</th>
-                    <td>info@opinioncapital.com</td>
+                    <td>contact@gentingconsulting.com</td>
                   </tr>
                   <tr>
                     <th scope="row">Phone number:</th>
-                    <td>+1 514 217 1875</td>
+                    <td>(302) 402-3875</td>
                   </tr>
                   <tr>
                     <th scope="row">Postal address:</th>
                     <td>
-                      1988 de la Plantation, Saint-Lazare, Quebec, Canada, J7T
-                      3B4
+                      615 W 138TH ST NEW YORK, NY 10031
                     </td>
                   </tr>
                   <tr>
                     <th scope="row">E-mail address to customer support:</th>
                     <td>
-                      privacy@OpinionCapital.com
+                      service@gentingconsulting.com
                     </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">E-mail address to customer support:</th>
-                    <td>
-                      privacy@OpinionCapital.com
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="h5">
-                Contact details for the Controller’s representative:
-              </div>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">Name:</th>
-                    <th scope="col">Vincent Dupuy</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Title:</th>
-                    <td>Personal Data Responsible</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">E-mail address:</th>
-                    <td>info@opinioncapital.com</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Phone number:</th>
-                    <td>+1 514 217 1875</td>
                   </tr>
                 </tbody>
               </table>
