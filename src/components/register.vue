@@ -532,6 +532,7 @@ export default {
 				surveyPostcode: _th.postCode,
 				phonenumber: _th.phonenumber,
 				surveyPinCode: _th.pinCode,
+				checkCode:_th.checkCode,
 				checkbox1: $('#checkbox1').is(':checked'),
 				checkbox2: $('#checkbox2').is(':checked'),
 				checkbox3: $('#checkbox3').is(':checked'),

@@ -33,7 +33,7 @@
                 questions about our processing of personal data or this Privacy
                 Notice.
               </p>
-              <div class="h5">Contact Details to the Controller</div>
+              <div class="h5 mt-2">Contact Details to the Controller</div>
               <table class="table table-striped">
                 <thead>
                   <tr>

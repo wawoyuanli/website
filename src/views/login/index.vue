@@ -55,6 +55,10 @@ export default {
 				// _th.$refs.login.errMess = 'password can not be blank'
 				return false
 			}
+			if(!data.checkCode){
+              alert(`Verify You're Human`)
+			  return false
+			}
 			let requestData = {
 				username: data.username,
 				password: data.password,
