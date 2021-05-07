@@ -17,7 +17,7 @@
                   directly: service@gentingconsulting.com
                 </p>
                 <p class="text-left">
-                  You can also use mail to contact us, our address is 615 W 138TH ST NEW YORK, NY 10031
+                  Our postal address is 615 W 138TH ST NEW YORK, NY 10031
                 </p>
                 <div class="row">
                   <div class="col-md-12">

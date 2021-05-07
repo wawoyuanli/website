@@ -185,7 +185,7 @@
 								/>
 								<countTo
 									:startVal="0"
-									:endVal="7408381"
+									:endVal="3408381"
 									:duration="5600"
 									class="counter"
 								></countTo>
