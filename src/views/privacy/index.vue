@@ -43,8 +43,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">VAT number:</th>
-                    <td>74233 1523 RT0001</td>
+                    <th scope="row">Employer Identification Number:</th>
+                    <td>86-3723893</td>
                   </tr>
                   <tr>
                     <th scope="row">Country of operation:</th>
