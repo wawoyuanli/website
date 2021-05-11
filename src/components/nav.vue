@@ -1,127 +1,348 @@
 <template>
   <!--导航栏组件-->
-  <nav
-    class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink"
-    id="mainNav"
-  >
-    <div class="container">
-      <a href="#/home" class="navbar-brand">
-        <div :style="{ color: color }" class="h3">{{ $t("nav.webLogo") }}</div>
-      </a>
-
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <!--Main menu-->
-        <ul class="navbar-nav ml-3">
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger actived text-center"
-              href="#/home"
-              :style="{ color: color }"
-              >{{ $t("nav.home") }}
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              :href="'#/home?maodian=about'"
-              class="nav-link js-scroll-trigger"
-              :class="{ navitemcolor: isActive }"
-              @click="aboutUrlClick('#about')"
-              >{{ $t("nav.about") }}
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              :href="'#/home?maodian=reviews'"
-              class="nav-link js-scroll-trigger"
-              :class="{ navitemcolor: isActive }"
-              @click="reviewsUrlClick('#reviews')"
-              >{{ $t("nav.reviews") }}
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              href="#/faq"
-              class="nav-link js-scroll-trigger"
-              :class="{ navitemcolor: isActive }"
-              >{{ $t("nav.FAQ") }}
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              href="#/contact"
-              class="nav-link js-scroll-trigger"
-              :class="{ navitemcolor: isActive }"
-              >{{ $t("nav.contact") }}
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              href="#/privacy"
-              class="nav-link js-scroll-trigger"
-              :class="{ navitemcolor: isActive }"
-              >{{ $t("nav.privacy") }}
-            </a>
-          </li>
-        </ul>
-        <a
-          class="btn btn-outline-primary"
-          href="#/login"
-          :style="{ color: color }"
-          >{{ $t("nav.signIn") }}</a
-        >
-        <a class="btn btn-primarys btn-lg ml-4" href="#/registerInfo">{{
-          $t("nav.getStarted")
-        }}</a>
-
-        <div class="dropdown">
-          <button
-            class="btn btn-primary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            {{ $t("nav.changeLanguage") }}
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#" @click="changeLanguage('en')"
-              >English</a
-            >
-            <a class="dropdown-item" href="#" @click="changeLanguage('zh')"
-              >中文</a
-            >
-            <a class="dropdown-item" href="#" @click="changeLanguage('ge')"
-              >German</a
-            >
-            <a class="dropdown-item" href="#" @click="changeLanguage('fr')"
-              >French</a
-            >
-            <a class="dropdown-item" href="#" @click="changeLanguage('sp')"
-              >Spanish</a
-            >
-            <a class="dropdown-item" href="#" @click="changeLanguage('jp')"
-              >Japanese</a
-            >
-            <a class="dropdown-item" href="#" @click="changeLanguage('In')"
-              >Indian</a
-            >
+  <div class="container-fluid  fixed-top">
+    <div class="row">
+      <div class="col-md-4 pt-2" v-if="lang == 'en' || lang === 'zh'">
+        <a href="#/home" class="navbar-brand col-md-12">
+          <div :style="{ color: color }" class="h3 text-center">
+            {{ $t("nav.webLogo") }}
           </div>
-        </div>
+        </a>
+      </div>
+      <div class="col-md-3 pt-2" v-if="lang === 'fr' || lang === 'ge'">
+        <a href="#/home" class="navbar-brand col-md-12">
+          <div :style="{ color: color }" class="h3 text-center">
+            {{ $t("nav.webLogo") }}
+          </div>
+        </a>
+      </div>
+      <!--中文 英文 显示样式-->
+      <div class="col-md-2" v-if="lang === 'en' || lang === 'zh'"></div>
+      <div class="col-md-6" v-if="lang === 'en' || lang === 'zh'">
+        <nav
+          class="navbar navbar-expand-lg navbar-light navbar-shrink"
+          id="mainNav"
+        >
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link actived h6 "
+                  href="#/home"
+                  :style="{ color: color }"
+                  >{{ $t("nav.home") }}
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  :href="'#/home?maodian=about'"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  @click="aboutUrlClick('#about')"
+                  >{{ $t("nav.about") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  :href="'#/home?maodian=reviews'"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  @click="reviewsUrlClick('#reviews')"
+                  >{{ $t("nav.reviews") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#/faq"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  >{{ $t("nav.FAQ") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#/contact"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  >{{ $t("nav.contact") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#/privacy"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  >{{ $t("nav.privacy") }}
+                </a>
+              </li>
+            </ul>
+            <a
+              class="btn h4"
+              href="#/login"
+              :style="{ color: color }"
+              id="signin"
+              >{{ $t("nav.signIn") }}</a
+            >
+            <a
+              class="btn btn-primary ml-4 border-0"
+              href="#/registerInfo"
+              style="background-color:#ff6f00"
+              >{{ $t("nav.getStarted") }}</a
+            >
+
+            <div class="dropdown ml-4">
+              <button
+                class="btn btn-primary dropdown-toggle border-0"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style="background-color:#ff6f00"
+              >
+                {{ $t("nav.changeLanguage") }}
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" @click="changeLanguage('en')"
+                  >English</a
+                >
+                <a class="dropdown-item" href="#" @click="changeLanguage('zh')"
+                  >中文</a
+                >
+                <a class="dropdown-item" href="#" @click="changeLanguage('ge')"
+                  >Deutsche</a
+                >
+                <a class="dropdown-item" href="#" @click="changeLanguage('fr')"
+                  >Französisch</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!---->
+      <!-- <div class="col-md-2" v-show="lang === 'ge'"></div> -->
+      <div class="col-md-9" v-if="lang === 'ge'">
+        <nav
+          class="navbar navbar-expand-lg navbar-light navbar-shrink"
+          id="mainNav"
+        >
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link actived h6 "
+                  href="#/home"
+                  :style="{ color: color }"
+                  >{{ $t("nav.home") }}
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  :href="'#/home?maodian=about'"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  @click="aboutUrlClick('#about')"
+                  >{{ $t("nav.about") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  :href="'#/home?maodian=reviews'"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  @click="reviewsUrlClick('#reviews')"
+                  >{{ $t("nav.reviews") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#/faq"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  >{{ $t("nav.FAQ") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#/contact"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  >{{ $t("nav.contact") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#/privacy"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  >{{ $t("nav.privacy") }}
+                </a>
+              </li>
+            </ul>
+            <a
+              class="btn h4"
+              href="#/login"
+              :style="{ color: color }"
+              id="signin"
+              >{{ $t("nav.signIn") }}</a
+            >
+            <a
+              class="btn btn-primary ml-4 border-0"
+              href="#/registerInfo"
+              style="background-color:#ff6f00"
+              >{{ $t("nav.getStarted") }}</a
+            >
+
+            <div class="dropdown ml-4">
+              <button
+                class="btn btn-primary dropdown-toggle border-0"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style="background-color:#ff6f00"
+              >
+                {{ $t("nav.changeLanguage") }}
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" @click="changeLanguage('en')"
+                  >English</a
+                >
+                <a class="dropdown-item" href="#" @click="changeLanguage('zh')"
+                  >中文</a
+                >
+                <a class="dropdown-item" href="#" @click="changeLanguage('ge')"
+                  >Deutsche</a
+                >
+                <a class="dropdown-item" href="#" @click="changeLanguage('fr')"
+                  >Französisch</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--fr-->
+      <div class="col-md-9" v-if="lang === 'fr'">
+        <nav
+          class="navbar navbar-expand-lg navbar-light navbar-shrink"
+          id="mainNav"
+        >
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link actived h6 "
+                  href="#/home"
+                  :style="{ color: color }"
+                  >{{ $t("nav.home") }}
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  :href="'#/home?maodian=about'"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  @click="aboutUrlClick('#about')"
+                  >{{ $t("nav.about") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  :href="'#/home?maodian=reviews'"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  @click="reviewsUrlClick('#reviews')"
+                  >{{ $t("nav.reviews") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#/faq"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  >{{ $t("nav.FAQ") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#/contact"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  >{{ $t("nav.contact") }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#/privacy"
+                  class="nav-link h6"
+                  :class="{ navitemcolor: isActive }"
+                  >{{ $t("nav.privacy") }}
+                </a>
+              </li>
+            </ul>
+            <a
+              class="btn h4"
+              href="#/login"
+              :style="{ color: color }"
+              id="signin"
+              >{{ $t("nav.signIn") }}</a
+            >
+            <a
+              class="btn btn-primary ml-4 border-0"
+              href="#/registerInfo"
+              style="background-color:#ff6f00"
+              >{{ $t("nav.getStarted") }}</a
+            >
+
+            <div class="dropdown ml-4">
+              <button
+                class="btn btn-primary dropdown-toggle border-0"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style="background-color:#ff6f00"
+              >
+                {{ $t("nav.changeLanguage") }}
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" @click="changeLanguage('en')"
+                  >English</a
+                >
+                <a class="dropdown-item" href="#" @click="changeLanguage('zh')"
+                  >中文</a
+                >
+                <a class="dropdown-item" href="#" @click="changeLanguage('ge')"
+                  >Deutsche</a
+                >
+                <a class="dropdown-item" href="#" @click="changeLanguage('fr')"
+                  >Französisch</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
-  </nav>
+  </div>
 </template>
 
 <script>
 import { goAnchor, getQueryString } from "../utils/common.js";
 export default {
   name: "Nav",
+  inject: ["reload"],
   props: {
     color: {
       type: String,
-      default: "",
+      default: "#fff",
     },
     background: {
       type: String,
@@ -133,14 +354,13 @@ export default {
     },
   },
   data() {
-    return {};
+    return {
+      lang: "",
+    };
   },
   mounted() {
-    // let maodian = getQueryString('maodian') //进入页面，如果带有锚点参数，则跳转至锚点地方，参数值就是id名
-    // console.info('*****', maodian)
-    // if (maodian) {
-    // 	goAnchor('#' + maodian,this)
-    // }
+    let lang = localStorage.getItem("lang");
+    this.lang = lang;
   },
   computed: {
     navitemlist() {
@@ -163,6 +383,9 @@ export default {
     changeLanguage(type) {
       this.$i18n.locale = type;
       localStorage.setItem("lang", type);
+      // location.reload();
+      // this.$forceUpdate();
+      this.reload();
     },
     aboutUrlClick(selector) {
       this.$emit("aboutUrlClick", selector);
@@ -202,66 +425,52 @@ export default {
     height: 80px;
   }
 }
-
-.fixed-top {
-  .container {
-    .navbar-brand {
-      color: #fff;
-      // font-size: 1.7rem;
-    }
-
-    .collapse {
-      .navbar-nav {
-        .nav-item {
-          width: 93px;
-          a {
-            text-align: center;
-          }
-          .nav-link:hover {
-            opacity: 1;
-          }
-          .nav-link {
-            color: #fff;
-            opacity: 0.8;
-            font-size: 1.1rem;
-          }
-          .navitemcolor {
-            color: rgb(17, 15, 15);
-          }
-          .actived {
-            opacity: 1;
-            font-size: 1.1rem;
-          }
+.container-fluid {
+  .navbar-brand {
+    color: #fff;
+  }
+  .collapse {
+    .navbar-nav {
+      .nav-item {
+        // width: 93px;
+        a {
+          color: #ffffff;
+        }
+        .nav-link:hover {
+          opacity: 1;
+        }
+        .nav-link {
+          color: #fff;
+          opacity: 0.8;
+          font-size: 1.1rem;
+        }
+        .navitemcolor {
+          color: rgb(17, 15, 15);
+        }
+        .actived {
+          opacity: 1;
         }
       }
-      .btn-outline-primary {
-        width: 140px;
-        border: 1px solid #fff;
-        color: #fff;
-        font-size: 1.5rem;
-      }
-      .btn-outline-primary:hover,
-      .btn-outline-primary:focus {
-        color: rgb(10, 10, 10);
-        background-color: #fff;
-        border: none;
-      }
-      .btn-primarys {
-        width: 150px;
-        color: #fff;
-        background-color: #ff6f00;
-        border-color: #ff6f00;
-      }
-      .btn-primary,
-      .btn-success {
-        color: #fff;
-        background-color: #ff6f00;
-        border-color: #ff6f00;
-      }
-      .dropdown {
-        margin-left: 3rem !important;
-      }
+    }
+    .btn-outline-primary {
+      width: 140px;
+      border: 1px solid #fff;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+    .btn-outline-primary:hover,
+    .btn-outline-primary:focus {
+      color: rgb(10, 10, 10);
+      background-color: #fff;
+      border: none;
+    }
+    .dropdown {
+      margin-left: 3rem !important;
     }
   }
+}
+#signin {
+  color: #fff;
+  font-size: 18px;
 }
 </style>

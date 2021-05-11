@@ -736,17 +736,17 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-.privacy {
-  width: 100vw;
-  background-color: #ffffff;
-  font-family: "Gotham-Book";
-  .privacy-content {
-    text-align: center;
-    min-height: 75vh;
-    padding-top: 7rem;
-    .card {
-      font-family: "Gotham-Book";
-    }
-  }
-}
+// .privacy {
+//   width: 100vw;
+//   background-color: #ffffff;
+//   font-family: "Gotham-Book";
+//   .privacy-content {
+//     text-align: center;
+//     min-height: 75vh;
+//     padding-top: 7rem;
+//     .card {
+//       font-family: "Gotham-Book";
+//     }
+//   }
+// }
 </style>

@@ -252,6 +252,20 @@
       <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
+          <label class="mt-2"> Referral Links:</label>
+          <label style="color: red">*</label>
+          <input
+            class="form-control"
+            id="pinCode"
+            v-model="link"
+            :title="tipPincode"
+            maxlength="4"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
           <label class="h6 mt-3"> Vetification:</label>
           <div style="color: red" class="p-2" v-if="showTip">
             {{ validate }}
@@ -408,32 +422,7 @@ export default {
       dateYear: new Date(),
       dateMonth: new Date(),
       dateDay: new Date(),
-      optionsYear: {
-        format: "YYYY",
-        useCurrent: false,
-        locale: "zh-cn",
-        tooltips: {
-          selectTime: "",
-        },
-      },
-      optionsMonth: {
-        format: "MM",
-        useCurrent: false,
-        locale: "en",
-        tooltips: {
-          selectTime: "",
-        },
-      },
-      optionsDay: {
-        format: "DD",
-        useCurrent: false,
-        locale: "zh-cn",
-        tooltips: {
-          selectTime: "",
-        },
-      },
       countryCode: "CA", //国家码
-      //6Lduy5QaAAAAAMY3jsB2FhBYxEo96d59qf
       sitekey: process.env.VUE_APP_SITEKEY,
       checkCode: false,
       validate: "Perform man-machine authentication",
@@ -443,11 +432,22 @@ export default {
       time1: new Date().getFullYear().toString(),
       time2: (new Date().getMonth() + 1).toString(),
       time3: new Date().getDate().toString(),
+      link: "",
+      navitemlist: [
+        { name: this.$t("nav.features"), path: "#features", active: "active" },
+        { name: this.$t("nav.support"), path: "/support", active: "active" },
+        { name: this.$t("nav.contact"), path: "/contact", active: "active" },
+      ],
+      color: "",
+      background: "",
+      isActive: false,
+      showCounter: false,
     };
   },
   created: function() {},
   mounted() {
     let _th = this;
+    window.addEventListener("scroll", _th.handleScroll);
 
     /**国家码获取 */
     getCountryCode()
@@ -460,6 +460,20 @@ export default {
       });
   },
   methods: {
+    handleScroll() {
+      const _th = this;
+      let scrollTop = window.pageYOffset;
+      //设置背景颜色的透明读
+      if (scrollTop < 10) {
+        document.getElementById("nav").classList.remove("nav-bg");
+        _th.color = "#fff";
+        _th.isActive = false;
+      } else if (scrollTop > 10) {
+        document.getElementById("nav").classList.add("nav-bg");
+        _th.isActive = true;
+        _th.color = "#ff6f00";
+      }
+    },
     selectYear: function() {
       this.dateYear;
       console.log(this.dateYear);
