@@ -96,22 +96,22 @@
                     <div class="card-body">
                       <div class="panel">
                         To be eligible for Genting Consulting, you must meet the
-                        following criteria: You must be 18 years old and Account information must be
-                        accurate and complete. You must register using your
-                        valid e-mail address. Signing up through a proxy server
-                        is strictly prohibited. Proxies are no allowed and will
-                        be traced and all guilty parties will be blacklisted.
-                        Turn off any website accelerators you may use. You will
-                        get paid if you meet all our criteria. If you do not
-                        follow our rules or our Terms and Conditions, you won’t
-                        be eligible for payment and your account will be
-                        removed. In addition, please use a reputable browser
-                        such as Chrome, Firefox, Safari, or Internet Explorer.
-                        If you are not using a reputable browser, we cannot
-                        guarantee that you will be eligible to view or complete
-                        our offers and surveys properly. We also cannot
-                        guarantee credits if you are not using a reputable
-                        browser.
+                        following criteria: You must be 18 years old and Account
+                        information must be accurate and complete. You must
+                        register using your valid e-mail address. Signing up
+                        through a proxy server is strictly prohibited. Proxies
+                        are no allowed and will be traced and all guilty parties
+                        will be blacklisted. Turn off any website accelerators
+                        you may use. You will get paid if you meet all our
+                        criteria. If you do not follow our rules or our Terms
+                        and Conditions, you won’t be eligible for payment and
+                        your account will be removed. In addition, please use a
+                        reputable browser such as Chrome, Firefox, Safari, or
+                        Internet Explorer. If you are not using a reputable
+                        browser, we cannot guarantee that you will be eligible
+                        to view or complete our offers and surveys properly. We
+                        also cannot guarantee credits if you are not using a
+                        reputable browser.
                       </div>
                     </div>
                   </div>
@@ -263,9 +263,10 @@
                     <div class="card-body">
                       <div class="panel">
                         After you have successfully met all the advertiser’s
-                        requirements you will earn credit from Genting Consulting.
-                        Credit(s) can be applied upwards of 7 business days
-                        after advertiser approval to reach your account
+                        requirements you will earn credit from Genting
+                        Consulting. Credit(s) can be applied upwards of 7
+                        business days after advertiser approval to reach your
+                        account
                       </div>
                     </div>
                   </div>
@@ -483,13 +484,14 @@
                   >
                     <div class="card-body">
                       <div class="panel">
-                        YES! You can refer your friends to Genting Consulting and
-                        earn 10% of their offer earnings for the life of their
-                        account. For example, you refer Bob to Genting Consulting,
-                        Bob becomes a member and completes $30.00 in offers and
-                        $20.00 in Genting Consulting Mails. Once Bob requests payment for
-                        $50.00, Genting Consulting will immediately credit $3.00
-                        (10% of Offer Earnings) into your account.
+                        YES! You can refer your friends to Genting Consulting
+                        and earn 10% of their offer earnings for the life of
+                        their account. For example, you refer Bob to Genting
+                        Consulting, Bob becomes a member and completes $30.00 in
+                        offers and $20.00 in Genting Consulting Mails. Once Bob
+                        requests payment for $50.00, Genting Consulting will
+                        immediately credit $3.00 (10% of Offer Earnings) into
+                        your account.
                       </div>
                     </div>
                   </div>
@@ -731,7 +733,7 @@ export default {
 </script>
 <style lang="less" scoped>
 .faq {
-  width: 100vw;
+  // width: 100vw;
   background-color: #ffffff;
   .pt {
     padding-top: 8rem;

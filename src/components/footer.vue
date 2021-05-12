@@ -1,91 +1,91 @@
 <template>
-	<div class="container-fluid bg-dark p-0 m-0">
-		<div class="row pt-5 pb-5 ">
-			<div class="col-md-4 text-right p-0 m-0">
-				<ul class="">
-					<li>
-						<a href="#/home" class="text-white text-decoration-none h4">Home</a>
-					</li>
-					<li class="mt-3">
-						<a href="#/home#aboutUs" class="text-white text-decoration-none"
-							>About Us</a
-						>
-					</li>
-					<li class="mt-2">
-						<a href="#/faq" class="text-white text-decoration-none">FAQ</a>
-					</li>
-					<li class="mt-2">
-						<a href="#/contact" class="text-white text-decoration-none"
-							>Contact Us</a
-						>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-4 p-0 m-0"></div>
-			<div class="col-md-4 text-left p-0 m-0">
-				<div class="support text-light h4">{{ $t('home.support') }}</div>
-				<ul class="text-left">
-					<li class="mt-3">
-						<a href="#/terms" class="text-white text-decoration-none"
-							>Terms And Conditions</a
-						>
-					</li>
-					<li class="mt-2">
-						<a href="#/antispam" class="text-white text-decoration-none"
-							>Anti-Spam Policy</a
-						>
-					</li>
-					<li class="mt-2">
-						<a href="#/agreement" class="text-white text-decoration-none"
-							>Affiliate Agreement</a
-						>
-					</li>
-					<li class="mt-2">
-						<a href="#/privacy" class="text-white text-decoration-none"
-							>Privacy Policy</a
-						>
-					</li>
-					<li class="mt-2">
-						<a href="#" class="text-white text-decoration-none">
-							Don't Sell My Info
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="row pb-5 p-0 m-0">
-			<div class="col-md-3 p-0 m-0"></div>
-			<div class="col-md-6 border-bottom p-0 m-0"></div>
-			<div class="col-md-3 p-0 m-0"></div>
-		</div>
-		<div class="row pb-3 p-0 m-0">
-			<div class="col-md-3 p-0 m-0"></div>
-			<div class="col-md-6 p-0 m-0 text-center text-white">
-				© 2021 Genting Consulting Inc. All rights reserved.
-			</div>
-			<div class="col-md-3 p-0 m-0"></div>
-		</div>
-	</div>
+  <div class="container-fluid bg-dark">
+    <div class="row pt-5 pb-5 ">
+      <div class="col-md-4 text-right">
+        <ul class="">
+          <li>
+            <a href="#/home" class="text-white text-decoration-none h4">Home</a>
+          </li>
+          <li class="mt-3">
+            <a href="#/home#aboutUs" class="text-white text-decoration-none"
+              >About Us</a
+            >
+          </li>
+          <li class="mt-2">
+            <a href="#/faq" class="text-white text-decoration-none">FAQ</a>
+          </li>
+          <li class="mt-2">
+            <a href="#/contact" class="text-white text-decoration-none"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4 text-left">
+        <div class="support text-light h4">{{ $t("home.support") }}</div>
+        <ul class="text-left">
+          <li class="mt-3">
+            <a href="#/terms" class="text-white text-decoration-none"
+              >Terms And Conditions</a
+            >
+          </li>
+          <li class="mt-2">
+            <a href="#/antispam" class="text-white text-decoration-none"
+              >Anti-Spam Policy</a
+            >
+          </li>
+          <li class="mt-2">
+            <a href="#/agreement" class="text-white text-decoration-none"
+              >Affiliate Agreement</a
+            >
+          </li>
+          <li class="mt-2">
+            <a href="#/privacy" class="text-white text-decoration-none"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="mt-2">
+            <a href="#" class="text-white text-decoration-none">
+              Don't Sell My Info
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row pb-5">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 border-bottom"></div>
+      <div class="col-md-3"></div>
+    </div>
+    <div class="row pb-3">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 text-center text-white">
+        © 2021 Genting Consulting Inc. All rights reserved.
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
 </template>
 <script>
-import $ from 'jquery'
+import $ from "jquery";
 export default {
-	name: 'Footer',
-	data() {
-		return {
-			color: '#fff',
-		}
-	},
-	mounted() {},
-	methods: {
-		mouseOver: function () {
-			this.color = '#ff6f00'
-		},
-		mouseLeave: function () {
-			this.color = '#fff'
-		},
-	},
-}
+  name: "Footer",
+  data() {
+    return {
+      color: "#fff",
+    };
+  },
+  mounted() {},
+  methods: {
+    mouseOver: function() {
+      this.color = "#ff6f00";
+    },
+    mouseLeave: function() {
+      this.color = "#fff";
+    },
+  },
+};
 </script>
 <style lang="less" scoped>
 // .col,
