@@ -2,7 +2,7 @@
 	<div class="antispam">
 		<Nav id="borderBottom" :color="color" :isActive="isActive"></Nav>
 		<div class="antispam-content">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12 h3">Anti-Spam Policy</div>
 				</div>

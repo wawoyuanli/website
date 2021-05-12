@@ -1,7 +1,7 @@
 <template>
   <div id="support">
     <Nav :color="color" :isActive="isActive" id="borderBottom" />
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
           <div class="content" data-scrollview="true">

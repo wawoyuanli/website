@@ -2,7 +2,7 @@
 	<div class="agreement">
 		<Nav id="borderBottom" :color="color" :isActive="isActive"></Nav>
 		<div class="agreement-content">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12 h3 text-center">
 						Affiliate Terms and Conditions
@@ -332,12 +332,12 @@ export default {
 </script>
 <style lang="less" scoped>
 .agreement {
-	width: 100vw;
+	// width: 100vw;
 	background-color: #ffffff;
 	.agreement-content {
 		// width: 90vw;
-		text-align: center;
-		min-height: 75vh;
+		// text-align: center;
+		// min-height: 75vh;
 		padding-top: 7rem;
 	}
 }

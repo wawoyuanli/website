@@ -2,10 +2,10 @@
   <div class="privacy">
     <Nav id="borderBottom" :color="color" :isActive="isActive"></Nav>
     <div class="privacy-content">
-      <div class="container">
+      <div class="container-fluid">
         <!--title-->
         <div class="row">
-          <div class="col-md-12 h3">Privacy Policy Agreement</div>
+          <div class="col-md-12 h3 text-center">Privacy Policy Agreement</div>
         </div>
         <!--content-->
         <div class="row">
@@ -736,17 +736,10 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-// .privacy {
-//   width: 100vw;
-//   background-color: #ffffff;
-//   font-family: "Gotham-Book";
-//   .privacy-content {
-//     text-align: center;
-//     min-height: 75vh;
-//     padding-top: 7rem;
-//     .card {
-//       font-family: "Gotham-Book";
-//     }
-//   }
-// }
+.privacy{
+  .privacy-content{
+    margin-top: 8rem;
+  }
+}
+ 
 </style>

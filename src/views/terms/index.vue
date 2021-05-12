@@ -2,7 +2,7 @@
 	<div class="terms">
 		<Nav id="borderBottom" :color="color" :isActive="isActive"></Nav>
 		<div class="terms-content">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12 h3 mb-3">Terms And Conditions</div>
 				</div>

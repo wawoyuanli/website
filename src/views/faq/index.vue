@@ -1,7 +1,7 @@
 <template>
   <div class="faq">
     <Nav id="borderBottom" :color="color" :isActive="isActive"></Nav>
-    <div class="container pt">
+    <div class="container-fluid pt">
       <div class="row">
         <div class="col-md-12">
           <div class="title">
@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="container mt-5 mb-5">
+    <div class="container-fluid mt-5 mb-5">
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center">
