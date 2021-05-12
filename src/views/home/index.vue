@@ -20,28 +20,38 @@
     <div class="row">
       <div class="col-md-12 phone">
         <div class="row">
-          <div class="col-md-8 text-center">
-            <h1 class="h3 text-white col-md-8">
+          <div class="col-md-2"></div>
+          <div class="col-md-6 text-center mt-5">
+            <h1 class="h2 text-white col-md-8 text-left">
               {{ $t("home.earnMoney") }}
             </h1>
-            <p class="text-white h5">
+            <p class="text-white h5 text-left mt-3">
               {{ $t("home.refer") }}
             </p>
-            <div class="joinus-btn col-md-4 mt-4">
-              <a href="#/registerInfo">{{ $t("home.join") }}</a>
+            <div class="joinus-btn col-md-3 mt-4">
+              <a href="#/registerInfo" class="text-decoration-none">{{
+                $t("home.join")
+              }}</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <img src="../../assets/images/yun_03.png" alt="" class="w-100" />
+
+          <div class="col-md-2">
+            <img
+              src="../../assets/images/yun_03.png"
+              alt=""
+              style="width:300px;height:300px"
+            />
           </div>
         </div>
+        <div class="row phone mb-5"></div>
+        <div class="row phone pt-5 mb-5"></div>
         <div
           class="layer phone"
           style="
 						width: 100%;
 						z-index: 0;
 						border-top: 200px solid transparent;
-						border-right: 1888px solid #fff;
+						border-right:100vw solid #fff;
 					"
         ></div>
       </div>
@@ -122,14 +132,14 @@
     <a name="about" id="about"></a>
     <!--Our Achievement-->
     <div class="row">
-      <div class="col-md-12 middle">
+      <div class="col-md-12 middle p-0 m-0">
         <div
           class="layer"
           style="
 						width: 100%;
 						z-index: 100;
 						border-bottom: 200px solid transparent;
-						border-left: 1888px solid #fff;
+						border-left: 100vw solid #fff;
 					"
         ></div>
         <div class="container-fluid">
@@ -158,7 +168,7 @@
                       :startVal="0"
                       :endVal="159182"
                       :duration="5600"
-                      class="counter h5"
+                      class="counter h4"
                     ></countTo>
                     <p class="mt-2" style="font-size: 20px">
                       {{ $t("home.monthly") }}
@@ -177,7 +187,7 @@
                       :startVal="0"
                       :endVal="3408381"
                       :duration="5600"
-                      class="counter h5"
+                      class="counter h4"
                     ></countTo>
 
                     <p class="mt-2" style="font-size: 20px">
@@ -198,7 +208,7 @@
                       :startVal="0"
                       :endVal="62"
                       :duration="5600"
-                      class="counter h5"
+                      class="counter h4"
                       >$</countTo
                     >
                     <p class="mt-2" style="font-size: 20px">
@@ -217,16 +227,16 @@
     </div>
     <!--Reviews 页面锚点-->
     <a name="Reviews" id="reviews"></a>
-    <div class="row">
+    <div class="row mb-5 pb-5">
       <div class="col-md-12">
-        <p class="text-center mt-5 pt-5 mb-5 pb-5" style="font-size: 30px">
+        <p class="text-center mt-4 pt-4  pb-5" style="font-size: 30px">
           {{ $t("home.testimonials") }}
         </p>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-4">
               <div
-                class="card card shadow mb-5 bg-white rounded"
+                class="card card shadow  bg-white rounded"
                 style="width: 18rem; margin: 0 auto; line-height: 40px"
               >
                 <div class="card-body">
@@ -264,7 +274,7 @@
     </div>
     <!--Why sign up to Genting Consulting?-->
     <div class="row">
-      <div class="col-md-12 pr-0">
+      <div class="col-md-12 p-0">
         <div class="container-fluid">
           <div class="row four-part">
             <div class="col-md-12 bg">
