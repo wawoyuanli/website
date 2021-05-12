@@ -9,7 +9,14 @@
           </div>
         </a>
       </div>
-      <div class="col-md-3 pt-2" v-if="lang === 'fr' || lang === 'ge'">
+      <div class="col-md-3 pt-2" v-if="lang === 'ge'">
+        <a href="#/home" class="navbar-brand col-md-12">
+          <div :style="{ color: color }" class="h3 text-center">
+            {{ $t("nav.webLogo") }}
+          </div>
+        </a>
+      </div>
+       <div class="col-md-2 pt-2" v-if="lang === 'fr'">
         <a href="#/home" class="navbar-brand col-md-12">
           <div :style="{ color: color }" class="h3 text-center">
             {{ $t("nav.webLogo") }}
@@ -17,7 +24,7 @@
         </a>
       </div>
       <!--中文 英文 显示样式-->
-      <div class="col-md-2" v-if="lang === 'en' || lang === 'zh'"></div>
+      <div class="col-md-1" v-if="lang === 'en' || lang === 'zh'"></div>
       <div class="col-md-6" v-if="lang === 'en' || lang === 'zh'">
         <nav
           class="navbar navbar-expand-lg navbar-light navbar-shrink"
@@ -227,7 +234,7 @@
         </nav>
       </div>
       <!--fr-->
-      <div class="col-md-9" v-if="lang === 'fr'">
+      <div class="col-md-10" v-if="lang === 'fr'">
         <nav
           class="navbar navbar-expand-lg navbar-light navbar-shrink"
           id="mainNav"
@@ -236,7 +243,7 @@
             <ul class="navbar-nav ml-3">
               <li class="nav-item">
                 <a
-                  class="nav-link actived h6 "
+                  class="nav-link actived h6"
                   href="#/home"
                   :style="{ color: color }"
                   >{{ $t("nav.home") }}
@@ -359,7 +366,7 @@ export default {
     };
   },
   mounted() {
-    let lang = localStorage.getItem("lang");
+    let lang = localStorage.getItem("lang") || 'en';
     this.lang = lang;
   },
   computed: {

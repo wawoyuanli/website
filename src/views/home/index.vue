@@ -26,7 +26,7 @@
             <p style="font-size: 1.2rem; color: #fff; padding: 20px 0px">
               {{ $t("home.refer") }}
             </p>
-            <div class="joinus-btn">
+            <div class="joinus-btn col-md-4 mt-4">
               <a href="#/registerInfo">{{ $t("home.join") }}</a>
             </div>
           </div>
@@ -720,7 +720,7 @@ export default {
     border: none;
     background-color: #ff6f00;
     border-color: #ff6f00;
-    width: 110px;
+    // width: 110px;
     height: 50px;
     line-height: 50px;
     border-radius: 5px;

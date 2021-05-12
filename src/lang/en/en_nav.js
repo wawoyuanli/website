@@ -1,11 +1,11 @@
 export default {
     webLogo: 'Genting Consulting',
     home: 'Home',
-    about: 'About Us',
+    about: 'AboutUs',
     FAQ: 'FAQ',
     contact: 'Contact',
-    signIn: 'Sign In',
-    getStarted: 'Get started',
+    signIn: 'SignIn',
+    getStarted: 'GetStarted',
     changeLanguage: 'change language',
     privacy: 'Privacy',
     reviews:'Reviews'

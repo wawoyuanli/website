@@ -1,6 +1,6 @@
 export default {
   webLogo: 'Conseil Genting',
-  home: `Page d'accueil`,
+  home: "Page d'accueil",
   about: 'à propos de nous',
   FAQ: 'FAQ',
   contact: 'Nous contacter',
