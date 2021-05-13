@@ -235,8 +235,8 @@
         <div class="row">
           <div class="col-md-4">
             <div
-              class="card  shadow  bg-white rounded"
-              style="width: 18rem; margin: 0 auto; line-height: 40px"
+              class="card  shadow  bg-white rounded col-md-7"
+              style="margin: 0 auto; line-height: 40px"
             >
               <div class="card-body">
                 <p class="card-text">{{ $t("home.user1Text") }}</p>
@@ -246,8 +246,8 @@
           </div>
           <div class="col-md-4">
             <div
-              class="card  shadow mb-5 bg-white rounded"
-              style="width: 18rem; margin: 0 auto; line-height: 40px"
+              class="card  shadow mb-5 bg-white rounded col-md-7"
+              style="margin: 0 auto; line-height: 40px"
             >
               <div class="card-body">
                 <p class="card-text">{{ $t("home.user2Text") }}</p>
@@ -258,12 +258,12 @@
           </div>
           <div class="col-md-4">
             <div
-              class="card shadow mb-5 bg-white rounded"
-              style="width: 18rem; margin: 0 auto; line-height: 40px"
+              class="card shadow mb-5 bg-white rounded col-md-7"
+              style="margin: 0 auto; line-height: 40px"
             >
               <div class="card-body">
                 <p class="card-text">{{ $t("home.user3Text") }}</p>
-                <br />
+                <!-- <br /> -->
                 <p class="card-text h6">{{ $t("home.user3") }}</p>
               </div>
             </div>
