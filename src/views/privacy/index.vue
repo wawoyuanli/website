@@ -14,7 +14,7 @@
             class="col-md-10 border mt-5 text-left ml-2 mb-5 shadow-lg p-3 mb-5 bg-white rounded"
           >
             <div class="mt-4" style="font-size: 14px">
-              Revised December 26, 2019
+              Revised May 6, 2021
             </div>
             <div class="mt-2" style="font-size: 14px">
               Your privacy is very important to us. We hope the following
