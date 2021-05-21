@@ -55,10 +55,7 @@
                         available offers and surveys that they qualify for. Once
                         a member takes an initial screening, members are
                         redirected to the client’s site to begin completing the
-                        offer or survey. In addition, when a clients provides us
-                        with new opportunities, we will send out invitations to
-                        members who MAY qualify. The e-mail / SMS message will
-                        contain a link for the user to go to the offer.
+                        offer or survey. 
                       </div>
                     </div>
                   </div>
