@@ -11,41 +11,45 @@
             :color="color"
             @aboutUrlClick="aboutUrlClick"
             @reviewsUrlClick="reviewsUrlClick"
+            class=""
+            style="background-color:#14184b"
           />
         </div>
       </div>
     </div>
-    <div class="row phone" style="height: 16rem"></div>
+    <!-- <div class="pt-5 mt-2 "></div> -->
 
-    <div class="row">
-      <div class="col-md-12 phone">
+    <div class="row homebg">
+      <div class="col-md-12 top">
         <div class="row">
           <div class="col-md-2"></div>
-          <div class="col-md-6 text-center mt-5">
+          <div class="col-md-6 text-center">
+            <div class="pt-5 mt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
             <h1 class="h2 text-white col-md-8 text-left">
               {{ $t("home.earnMoney") }}
             </h1>
             <p class="text-white h5 text-left mt-3">
               {{ $t("home.refer") }}
             </p>
-            <div class="joinus-btn col-md-3 mt-4">
+            <div class="joinus-btn col-md-3 mt-5">
               <a href="#/registerInfo" class="text-decoration-none">{{
                 $t("home.join")
               }}</a>
             </div>
           </div>
-
-          <div class="col-md-2">
+          <div class="col-md-2 mt-5 pt-5">
             <img
-              src="../../assets/images/yun_03.png"
+              src="../../assets/images/flower01.png"
               alt=""
-              style="width:300px;height:300px"
+              style="width:391px;height:470px"
             />
           </div>
         </div>
         <div class="row phone mb-5"></div>
         <div class="row phone pt-5 mb-5"></div>
-        <div
+        <!-- <div
           class="layer phone"
           style="
 						width: 100%;
@@ -53,13 +57,13 @@
 						border-top: 200px solid transparent;
 						border-right:100vw solid #fff;
 					"
-        ></div>
+        ></div> -->
       </div>
     </div>
-    <div class="bg-white row pt-5 pb-5"></div>
-    <div class="row bg-white pb-4 pt-5">
+    <div class="row pt-5 pb-5"></div>
+    <div class="row  pb-4 pt-5">
       <div class="col-md-12 text-center">
-        <div class="section-heading h2" style="color:#00074e">
+        <div class="section-heading h2" style="color:#5140bd">
           {{ $t("home.easyTitle") }}
         </div>
       </div>
@@ -86,16 +90,20 @@
         </div>
       </div>
     </div>
-    <div class="row bg-white">
+    <div class="row">
       <div class="col-md-4 text-center">
         <div class="mx-auto mb-3 mb-lg-0">
-          <img src="@/assets/images/sign.png" alt="" style="margin: 0 auto" />
+          <img
+            src="@/assets/images/signup.png"
+            alt=""
+            style="margin: 0 auto;width:107px"
+          />
 
-          <p class="counter mt-2 h5">
+          <p class="counter mt-2 h5" style="color:#6647c0">
             {{ $t("home.signUpFree") }}
           </p>
 
-          <p class="mt-1 text-center">
+          <p class="mt-1 text-center" style="color:#6647c0">
             {{ $t("home.signUpDesc") }}
           </p>
         </div>
@@ -103,37 +111,41 @@
       <div class="col-md-4 text-center">
         <div class="mx-auto mb-3">
           <img
-            src="@/assets/images/complete.png"
+            src="@/assets/images/complete offer.png"
             alt=""
-            style="margin: 0 auto"
+            style="margin: 0 auto;width:107px"
           />
-          <p class="counter mt-2 h5">
+          <p class="counter mt-2 h5" style="color:#6647c0">
             {{ $t("home.completeOffers") }}
           </p>
-          <p class="mt-1" style="font-size: 1.1rem">
+          <p class="mt-1" style="font-size: 1.1rem;color:#6647c0">
             {{ $t("home.completeOffersDesc") }}
           </p>
         </div>
       </div>
       <div class="col-md-4 text-center">
         <div class="mb-3">
-          <img src="@/assets/images/get.png" alt="" style="margin: 0 auto" />
-          <p class="counter mt-3 h5">
+          <img
+            src="@/assets/images/money.png"
+            alt=""
+            style="margin: 0 auto;width:107px"
+          />
+          <p class="counter mt-3 h5" style="color:#6647c0">
             {{ $t("home.getPaid") }}
           </p>
-          <p class="mt-1" style="font-size: 1.1rem">
+          <p class="mt-1" style="font-size: 1.1rem;color:#6647c0">
             {{ $t("home.getPaidDesc") }}
           </p>
         </div>
       </div>
     </div>
-    <div class="bg-white row pt-5 pb-5"></div>
+    <div class=" row pt-5 pb-5"></div>
     <!--aboutUs 页面锚点-->
     <a name="about" id="about"></a>
     <!--Our Achievement-->
     <div class="row">
-      <div class="col-md-12 middle p-0 m-0">
-        <div
+      <div class="col-md-12 middle pt-5 m-0">
+        <!-- <div
           class="layer"
           style="
 						width: 100%;
@@ -141,17 +153,17 @@
 						border-bottom: 200px solid transparent;
 						border-left: 100vw solid #fff;
 					"
-        ></div>
+        ></div> -->
         <div class="container-fluid">
           <div class="row pt-5 pb-5"></div>
           <div class="row">
             <div class="col-md-12">
-              <div class="text-center section-heading">
+              <div class="text-center section-heading" style="color:#f5af19">
                 {{ $t("home.our") }}
               </div>
               <div
                 class="mb-5 text-center col-md-7"
-                style="font-size: 1.2rem; margin: 0 auto"
+                style="font-size: 1.2rem; margin: 0 auto;color:#fff"
               >
                 {{ $t("home.second_title") }}
               </div>
@@ -159,7 +171,7 @@
                 <div class="col-md-4 text-center">
                   <div class="mb-3">
                     <img
-                      src="@/assets/images/users (1).png"
+                      src="@/assets/images/USERS FLOW.png"
                       alt=""
                       style="margin: 0 auto"
                       width="60px"
@@ -168,9 +180,10 @@
                       :startVal="0"
                       :endVal="159182"
                       :duration="5600"
-                      class="counter h4"
+                      class="counter h4 text-white"
+                      style=""
                     ></countTo>
-                    <p class="mt-2" style="font-size: 20px">
+                    <p class="mt-2 text-white" style="font-size: 20px">
                       {{ $t("home.monthly") }}
                     </p>
                   </div>
@@ -178,7 +191,7 @@
                 <div class="col-md-4 text-center">
                   <div class="mx-auto mb-3 mb-lg-0">
                     <img
-                      src="@/assets/images/card (1).png"
+                      src="@/assets/images/payout.png"
                       alt=""
                       style="margin: 0 auto"
                       width="60px"
@@ -187,10 +200,10 @@
                       :startVal="0"
                       :endVal="3408381"
                       :duration="5600"
-                      class="counter h4"
+                      class="counter h4 text-white"
                     ></countTo>
 
-                    <p class="mt-2" style="font-size: 20px">
+                    <p class="mt-2 text-white" style="font-size: 20px">
                       {{ $t("home.total") }}
                     </p>
                   </div>
@@ -198,7 +211,7 @@
                 <div class="col-md-4 text-center">
                   <div class="mb-3">
                     <img
-                      src="@/assets/images/cloud-partner.png"
+                      src="@/assets/images/PARTNERSHIP.png"
                       alt=""
                       style="margin: 0 auto"
                       width="60px"
@@ -208,10 +221,10 @@
                       :startVal="0"
                       :endVal="62"
                       :duration="5600"
-                      class="counter h4"
+                      class="counter h4 text-white"
                       >$</countTo
                     >
-                    <p class="mt-2" style="font-size: 20px">
+                    <p class="mt-2 text-white" style="font-size: 20px">
                       {{ $t("home.partner") }}
                     </p>
                   </div>
@@ -365,7 +378,7 @@
       </div>
     </div>
     <!--What are you waiting for?-->
-    <div class="row phone mt-5 mb-5">
+    <div class="row linerColor mt-5 mb-5">
       <div class="col-md-12">
         <div class="row pt-3"></div>
         <p
@@ -431,8 +444,8 @@ export default {
     };
   },
   mounted() {
-    var _th = this;
-    window.addEventListener("scroll", _th.handleScroll);
+    // var _th = this;
+    // window.addEventListener("scroll", _th.handleScroll);
   },
   compoted() {},
   methods: {
@@ -495,16 +508,17 @@ export default {
 </script>
 <style scoped lang="less">
 .home {
-  // .row {
-  // 	margin-left: 0px;
-
-  // 	margin-right: 0px;
-  // }
-  .phone {
-    background: linear-gradient(90deg, #4179c3, #84c7f1, #ddedfa);
+  .homebg {
+    background-image: url("../../assets/images/banner.png");
+    background-size: 100vw 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding-top: 65px;
+  }
+  .top {
   }
   .middle-user-payout {
-    background: #ffffff;
+    // background: #ffffff;
     .ht {
       height: 32px;
     }
@@ -524,7 +538,18 @@ export default {
   }
 
   .middle {
-    background: linear-gradient(90deg, #4179c3, #84c7f1, #ddedfa);
+    background: #4568dc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #b06ab3,
+      #4568dc
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #b06ab3,
+      #4568dc
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     .left {
       font-size: 2rem;
       color: #fff;
@@ -588,6 +613,11 @@ export default {
       font-size: 1.4rem;
       color: white;
     }
+  }
+  .linerColor {
+    // background: #4b6cb7;
+    // background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+    // background: linear-gradient(to right, #182848, #4b6cb7);
   }
 }
 </style>
