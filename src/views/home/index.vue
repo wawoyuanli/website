@@ -174,7 +174,7 @@
                       src="@/assets/images/USERS FLOW.png"
                       alt=""
                       style="margin: 0 auto"
-                      width="60px"
+                      width="85px"
                     />
                     <countTo
                       :startVal="0"
@@ -194,7 +194,7 @@
                       src="@/assets/images/payout.png"
                       alt=""
                       style="margin: 0 auto"
-                      width="60px"
+                      width="85px"
                     />
                     <countTo
                       :startVal="0"
@@ -214,7 +214,7 @@
                       src="@/assets/images/PARTNERSHIP.png"
                       alt=""
                       style="margin: 0 auto"
-                      width="60px"
+                      width="85px"
                     />
 
                     <countTo
