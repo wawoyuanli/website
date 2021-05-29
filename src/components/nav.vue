@@ -4,21 +4,21 @@
     <div class="row">
       <div class="col-md-4 pt-2" v-if="lang == 'en' || lang === 'zh'">
         <a href="#/home" class="navbar-brand col-md-12">
-          <div :style="{ color: color }" class="h3 text-center">
+          <div :style="{ color: color }" class="h3 text-center text-white">
             {{ $t("nav.webLogo") }}
           </div>
         </a>
       </div>
       <div class="col-md-3 pt-2" v-if="lang === 'ge'">
         <a href="#/home" class="navbar-brand col-md-12">
-          <div :style="{ color: color }" class="h3 text-center">
+          <div :style="{ color: color }" class="h3 text-center text-white">
             {{ $t("nav.webLogo") }}
           </div>
         </a>
       </div>
-       <div class="col-md-2 pt-2" v-if="lang === 'fr'">
+      <div class="col-md-2 pt-2" v-if="lang === 'fr'">
         <a href="#/home" class="navbar-brand col-md-12">
-          <div :style="{ color: color }" class="h3 text-center">
+          <div :style="{ color: color }" class="h3 text-center text-white">
             {{ $t("nav.webLogo") }}
           </div>
         </a>
@@ -34,7 +34,7 @@
             <ul class="navbar-nav ml-3">
               <li class="nav-item">
                 <a
-                  class="nav-link actived h6 "
+                  class="nav-link actived h6 text-white "
                   href="#/home"
                   :style="{ color: color }"
                   >{{ $t("nav.home") }}
@@ -44,7 +44,7 @@
               <li class="nav-item">
                 <a
                   :href="'#/home?maodian=about'"
-                  class="nav-link h6"
+                  class="nav-link h6 text-white"
                   :class="{ navitemcolor: isActive }"
                   @click="aboutUrlClick('#about')"
                   >{{ $t("nav.about") }}
@@ -53,7 +53,7 @@
               <li class="nav-item">
                 <a
                   :href="'#/home?maodian=reviews'"
-                  class="nav-link h6"
+                  class="nav-link h6 text-white"
                   :class="{ navitemcolor: isActive }"
                   @click="reviewsUrlClick('#reviews')"
                   >{{ $t("nav.reviews") }}
@@ -62,7 +62,7 @@
               <li class="nav-item">
                 <a
                   href="#/faq"
-                  class="nav-link h6"
+                  class="nav-link h6 text-white"
                   :class="{ navitemcolor: isActive }"
                   >{{ $t("nav.FAQ") }}
                 </a>
@@ -70,7 +70,7 @@
               <li class="nav-item">
                 <a
                   href="#/contact"
-                  class="nav-link h6"
+                  class="nav-link h6 text-white"
                   :class="{ navitemcolor: isActive }"
                   >{{ $t("nav.contact") }}
                 </a>
@@ -78,14 +78,14 @@
               <li class="nav-item">
                 <a
                   href="#/privacy"
-                  class="nav-link h6"
+                  class="nav-link h6 text-white"
                   :class="{ navitemcolor: isActive }"
                   >{{ $t("nav.privacy") }}
                 </a>
               </li>
             </ul>
             <a
-              class="btn h4"
+              class="btn h4 text-white"
               href="#/login"
               :style="{ color: color }"
               id="signin"
@@ -366,7 +366,7 @@ export default {
     };
   },
   mounted() {
-    let lang = localStorage.getItem("lang") || 'en';
+    let lang = localStorage.getItem("lang") || "en";
     this.lang = lang;
   },
   computed: {
@@ -433,6 +433,7 @@ export default {
   }
 }
 .container-fluid {
+  background-color: #14184b;
   .navbar-brand {
     color: #fff;
   }

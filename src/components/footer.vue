@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid bg-dark">
+  <div class="container-fluid">
     <div class="row pt-5 pb-5 ">
       <div class="col-md-4 text-right">
         <ul class="">
@@ -88,6 +88,9 @@ export default {
 };
 </script>
 <style lang="less" scoped>
+.container-fluid {
+  background-color: #14184b;
+}
 // .col,
 // .col-1,
 // .col-10,

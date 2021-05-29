@@ -411,7 +411,7 @@
       </div>
     </div>
     <div class="row">
-      <Footer />
+      <Footer class="" />
     </div>
   </div>
 </template>
