@@ -22,11 +22,11 @@
 						<div class="ml-3 mt-3">
 							This agreement contains the complete terms and conditions that
 							apply to an individual's or entity's participation in the
-							gentingconsulting.com Affiliate Program (the "Program"). As used in
-							this Agreement, "we" means gentingconsulting.com, and "you" means the
+							oyasurvey.com Affiliate Program (the "Program"). As used in
+							this Agreement, "we" means oyasurvey.com, and "you" means the
 							applicant. "Site" means a World Wide Web site and, depending on
-							the context, refers either to gentingconsulting.com located at the URL
-							www.gentingconsulting.com, or to the site that you will link to our
+							the context, refers either to oyasurvey.com located at the URL
+							www.oyasurvey.com, or to the site that you will link to our
 							site (and which you will identify in your Program application).
 						</div>
 						<div class="ml-3 mt-3" style="font-size: 14px; font-weight: 600">
@@ -45,7 +45,7 @@
 							discrimination based on race, sex, religion, nationality,
 							disability, sexual orientation, or age; Promote illegal
 							activities; Attempt to copy and/or assume the creative or business
-							identity of gentingconsulting.com in any manner; and/or, Otherwise
+							identity of oyasurvey.com in any manner; and/or, Otherwise
 							violate intellectual property rights. Utilize parasite software
 							Spam
 						</div>
@@ -67,10 +67,10 @@
 							Once you have been notified that your site has been accepted into
 							the Program, you may provide on your site one or more of the
 							various links to our site that will be made available to you
-							through our Affiliate Web Site. gentingconsulting.com will
+							through our Affiliate Web Site. oyasurvey.com will
 							occasionally change the appearance and type of
 							links/Banners/Creative made available to Affiliates.
-							gentingconsulting.com may change the appearance of these links and may
+							oyasurvey.com may change the appearance of these links and may
 							make changes to their appearance at any time without your prior
 							consent or notification.
 						</div>
@@ -117,8 +117,8 @@
 						</div>
 						<div class="ml-3 mt-1">
 							Customers who buy products through this Program will be deemed to
-							be customers of gentingconsulting.com. Accordingly, all
-							gentingconsulting.com rules, policies, and operating procedures
+							be customers of oyasurvey.com. Accordingly, all
+							oyasurvey.com rules, policies, and operating procedures
 							concerning customer orders, customer service, and product sales
 							will apply to those customers. We may change our policies and
 							operating procedures at any time. For example, we will determine
@@ -127,14 +127,14 @@
 							availability may vary from time to time.
 						</div>
 						<div class="ml-3 mt-3">
-							It is further the policy of gentingconsulting.com that marketing of
+							It is further the policy of oyasurvey.com that marketing of
 							any of its products by way of "SPAM" e-mail is prohibited. Any and
 							all affiliates (and prospective affiliates) who participate in the
 							use of "SPAM" e-mailing for anything pertaining to the business of
 							selling orchids will be disqualified from our affiliate program
-							without notice.gentingconsulting.com will not accept responsibility
+							without oyasurvey.com will not accept responsibility
 							for any "SPAM" e-mails sent by an affiliate pertaining to
-							gentingconsulting.com. SPAM, for the purposes of this agreement is
+							oyasurvey.com. SPAM, for the purposes of this agreement is
 							defined as the sending of unsolicited e-mail on the internet. From
 							the sender's point of view, it is a form of bulk mail, often to a
 							list culled from subscribers to a usenet discussion group or
@@ -201,11 +201,11 @@
 							without cause, by giving the other party written notice of
 							termination. Upon the termination of this Agreement for any
 							reason, you will immediately cease use of, and remove from your
-							site, all links to our site, and all gentingconsulting.com trademarks,
+							site, all links to our site, and all oyasurvey.com trademarks,
 							trade dress and logos, and all other materials provided by or on
 							behalf of us to you pursuant hereto or in connection with the
 							Program. You are only eligible to earn referral fees on our sales
-							of gentingconsulting.com products occurring during the term, and
+							of oyasurvey.com products occurring during the term, and
 							referral fees earned through the date of termination will remain
 							payable only if the related orders are not cancelled or returned.
 							We may withhold your final payment for a reasonable time to ensure
@@ -253,7 +253,7 @@
 							13. Indemnity.
 						</div>
 						<div class="ml-3 mt-1">
-							You agree to release, indemnify and hold gentingconsulting.com, its
+							You agree to release, indemnify and hold oyasurvey.com, its
 							contractors, agents, employees, officers, directors and affiliates
 							harmless from any and all liabilities, claims and expenses
 							including legal fees, of third parties relating to or rising under
@@ -261,13 +261,13 @@
 							limitation infringement by you or someone else (such as your
 							website host) of any intellectual property or other proprietary
 							right of any person or entity, or from the violation of any of
-							gentingconsulting.com operating rule or policy relating to the use of
-							the images provided. When gentingconsulting.com is threatened with
-							suit by a third party, gentingconsulting.com may seek written
+							oyasurvey.com operating rule or policy relating to the use of
+							the images provided. When oyasurvey.com is threatened with
+							suit by a third party, oyasurvey.com may seek written
 							assurances from you concerning your promise to indemnify
-							gentingconsulting.com; your failure to provide that assurance may be
-							considered by gentingconsulting.com to be a breach of your Agreement
-							and subject to termination by gentingconsulting.com.
+							oyasurvey.com; your failure to provide that assurance may be
+							considered by oyasurvey.com to be a breach of your Agreement
+							and subject to termination by oyasurvey.com.
 						</div>
 						<div class="ml-3 mt-3" style="font-size: 14px; font-weight: 600">
 							14. Disclaimers

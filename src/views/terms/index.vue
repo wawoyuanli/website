@@ -18,7 +18,7 @@
               participate.
             </div>
             <div class="ml-2 mt-2">
-              OYA Survey, ("Gentingconsulting.com" or "we") may revise
+              OYA Survey, ("oyasurvey.com" or "we") may revise
               these terms from time to time, at our sole discretion, by updating
               this posting. Unless otherwise provided below, the revised terms
               will take effect when they are posted. Your continued use of the
@@ -49,8 +49,8 @@
               information; First name, Last name, Email address, Phone number
               and Mailing Address to OYA Survey. Member must provide
               this same valid accurate information to advertiser or partner when
-              completing any offer presented by or in conjunction with Genting
-              Consulting. OYA Survey reserves the right to terminate any
+              completing any offer presented by or in conjunction with OYA
+              Survey. OYA Survey reserves the right to terminate any
               account containing untruthful information or providing untruthful
               information to its advertisers or Partners in the process of
               completing any offer presented.
@@ -63,12 +63,12 @@
             </div>
             <div class="ml-2 mt-2">
               A.4) OYA Survey NEWSLETTER AND OTHER EMAILS. By signing up
-              for OYA Survey, you are opting-in to receive Genting
-              Consulting newsletters and other special offer emails. If you do
+              for OYA Survey, you are opting-in to receive OYA
+              Survey newsletters and other special offer emails. If you do
               not wish to receive these emails, you may opt-out at any time, by
               clicking on the opt-out link in the email messages you receive
-              from OYA Survey. OYA Survey Mail: The Genting
-              Consulting Mails are our way of showing appreciation to our
+              from OYA Survey. OYA Survey Mail: The OYA
+              Survey Mails are our way of showing appreciation to our
               members. As an attempt to keep fraud in check, kindly understand
               that no credit will be given to members that are confirming these
               emails through mobile devices such as cell phones. There is a $25
@@ -90,14 +90,14 @@
               any Members without prior notice for (a) any violation of any
               provision of this Agreement; (b) aiding in or promoting
               circumvention of the OYA Survey Service; (c) acting
-              against the business interests or reputation of Genting
-              Consulting; (d) otherwise acting unlawfully in relationship to
-              OYA Survey, the OYA Survey website or the Genting
-              Consulting Service; (e) breach of our Spamming Policy; (f)
+              against the business interests or reputation of OYA
+              Survey; (d) otherwise acting unlawfully in relationship to
+              OYA Survey, the OYA Survey website or the OYA
+              Survey Service; (e) breach of our Spamming Policy; (f)
               inactivity (defined as the failure to earn any cash incentive in
               your OYA Survey account) for a continuous six-month
-              period; or (g) any other reason at the discretion of Genting
-              Consulting. If your account is terminated by OYA Survey,
+              period; or (g) any other reason at the discretion of OYA
+              Survey. If your account is terminated by OYA Survey,
               You may not re-enroll or join under a new account unless formally
               invited to do so by OYA Survey. (See Section I. below for
               more information about termination of accounts.) You may cancel
@@ -117,16 +117,16 @@
               presentations. Member also agrees not to make any attempt to earn
               or redeem earnings in a manner inconsistent with this Agreement,
               including without limitation attempting to earn earnings through
-              other than legitimate channels as described on the Genting
-              Consulting website, participating in purchasing or redemption
-              fraud, or tampering with OYA Survey links. Genting
-              Consulting reserves the right to terminate any account violating
+              other than legitimate channels as described on the OYA
+              Survey website, participating in purchasing or redemption
+              fraud, or tampering with OYA Survey links. OYA
+              Survey reserves the right to terminate any account violating
               this Agreement.
             </div>
             <div class="ml-2 mt-2">
               A.8) ONE ACCOUNT PER MEMBER OR HOUSEHOLD. You may only sign up
-              once and maintain one Membership in the Service. Genting
-              consulting.com reserves the right to terminate duplicate accounts,
+              once and maintain one Membership in the Service. oyasurvey.com
+               reserves the right to terminate duplicate accounts,
               resulting in the potential loss of accumulated credits.
             </div>
             <div class="ml-2 mt-3">
@@ -211,8 +211,8 @@
               to receive a cash incentive. OYA Survey members must have
               cookies enabled. OYA Survey members must access the
               partner site through OYA Survey. These conditions are
-              mandatory so that the partner will know that the Genting
-              Consulting member used OYA Survey to reach the partner
+              mandatory so that the partner will know that the OYA
+              Survey member used OYA Survey to reach the partner
               site. You agree that all redemption processes shall be done
               through the Member Accounts page on OYA Survey.
             </div>
@@ -245,18 +245,18 @@
               services, entry into and operation of promotions, discounts or
               contests, and any other terms, conditions, warranties or
               representations associated with such dealings, are solely between
-              You and such marketing partner. You agree not to hold Genting
-              Consulting liable for any loss or damage of any sort incurred as
+              You and such marketing partner. You agree not to hold OYA
+              Survey liable for any loss or damage of any sort incurred as
               the result of any such dealings or as the result of the content
               provided by such partners through the Service.
             </div>
             <div class="ml-2 mt-2">
-              H. TERMINATION. If a Member's account is terminated by Genting
-              Consulting, OYA Survey may refuse to "approve" a cash
+              H. TERMINATION. If a Member's account is terminated by OYA
+              Survey, OYA Survey may refuse to "approve" a cash
               incentive if such cash incentive were earned in violation, or
               after violation, of this Agreement or were otherwise unlawfully
-              obtained by the Member. If your account is terminated by Genting
-              Consulting, You may not re-enroll or join under a new account
+              obtained by the Member. If your account is terminated by OYA
+              Survey, You may not re-enroll or join under a new account
               unless formally invited to do so by OYA Survey.
             </div>
             <div class="ml-2 mt-3">
@@ -285,8 +285,8 @@
               UNAUTHORIZED ACCESS TO OR ALTERATION OF USER'S TRANSMISSIONS OR
               DATA, INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS,
               USE, DATA OR OTHER INTANGIBLE, EVEN IF SUCH PARTY HAS BEEN ADVISED
-              OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT WILL Genting
-              Consulting TOTAL CUMULATIVE LIABILITY TO ANY MEMBER UNDER THIS
+              OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT WILL OYA
+              SURVEY TOTAL CUMULATIVE LIABILITY TO ANY MEMBER UNDER THIS
               AGREEMENT EXCEED AN AMOUNT EQUAL TO THE VALUE OF ONE DOLLAR CASH
               FROM THE OYA Survey WEBSITE.
             </div>
@@ -311,13 +311,13 @@
               delegate, or assign this Agreement, your referral network, your
               OYA Survey account or other benefits you receive as a
               OYA Survey Member to anyone. Any attempt by You to assign
-              or delegate this Agreement shall be null and void. Genting
-              Consulting may assign this Agreement at its sole discretion.
+              or delegate this Agreement shall be null and void. OYA
+              Survey may assign this Agreement at its sole discretion.
             </div>
             <div class="ml-2 mt-2">
               L. SECURITY: To prevent unauthorized access, maintain data
-              accuracy, and ensure the correct use of information, Genting
-              Consulting has used appropriate industry standard procedures to
+              accuracy, and ensure the correct use of information, OYA
+              Survey has used appropriate industry standard procedures to
               safeguard the confidentiality of Your personal information, such
               as firewall, encryption, token authentication, application
               proxies, monitoring technology, and adaptive analysis of network
@@ -351,8 +351,8 @@
               confirmation emails you receive from the advertisers. These
               confirmation emails are required in order for us to investigate if
               your account is not credited in 8 weeks. The funds will be sent to
-              the paypal e-mail address registered on file with Genting
-              Consulting. If your e-mail address changes and funds have already
+              the paypal e-mail address registered on file with OYA
+              Survey. If your e-mail address changes and funds have already
               been sent to your e-mail address on file, OYA Survey
               cannot redirect the funds to your new address. You can change your
               paypal e-mail address in OYA Survey at any time.
@@ -364,8 +364,8 @@
               lose, or misplace your funds via email. All cash payment amounts
               may be changed or modified at any time and at the discretion of
               OYA Survey. Members are responsible for any taxes due as a
-              result of payments made for their participation in Genting
-              Consulting.
+              result of payments made for their participation in OYA
+              Survey.
             </div>
             <div class="ml-2 mt-2">
               *Note: Payments will be transferred to your PayPal Account. It
@@ -417,8 +417,8 @@
               these changes to our system for you, so we can provide you with
               the best surveys and offers. If you have any questions about this
               policy, or you know a user who is committing fraud (like stated
-              above) in our system, please contact http://support.Genting
-              Consulting.com/ and we will be happy to promptly reply to your
+              above) in our system, please contact us and we will be happy to 
+              promptly reply to your query.
               query.
             </div>
             <div class="ml-2 mt-2">
@@ -428,7 +428,7 @@
             </div>
             <div class="ml-2 mt-2">
               CONTACTING US. If You have any questions about the Service or this
-              Agreement, please contact us at OYA Survey Support. We
+              Agreement, please contact us. We
               will respond promptly.
             </div>
             <div class="ml-2 mt-2">

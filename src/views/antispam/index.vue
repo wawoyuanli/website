@@ -15,8 +15,8 @@
               You may not promote your referral links or your own surveys
               through unsolicited emailing (i.e. SPAMMING), newsgroup postings,
               or any other method of mass communication. Failure to comply will
-              result in immediate termination of your membership with Genting
-              Consulting and may result in legal prosecution.
+              result in immediate termination of your membership with OYA
+              Survey and may result in legal prosecution.
             </div>
             <div class="mt-3 ml-2">
               OYA Survey strictly enforces anti-spamming laws. Spamming

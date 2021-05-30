@@ -18,12 +18,12 @@
             </div>
             <div class="mt-2" style="font-size: 14px">
               Your privacy is very important to us. We hope the following
-              statement will help you understand how gentingconsulting.com
+              statement will help you understand how oyasurvey.com
               collects, uses, and safeguards the personal information you
               provide to us on our Web site.
             </div>
             <div class="mt-2" style="font-size: 14px">
-              gentingconsulting.com has created this privacy policy to
+              oyasurvey.com has created this privacy policy to
               demonstrate our commitment to the privacy of users like you
               because your privacy is of utmost importance to us.
             </div>
@@ -52,7 +52,7 @@
                   </tr>
                   <tr>
                     <th scope="row">E-mail address:</th>
-                    <td>contact@gentingconsulting.com</td>
+                    <td>contact@oyasurvey.com</td>
                   </tr>
                   <tr>
                     <th scope="row">Phone number:</th>
@@ -67,7 +67,7 @@
                   <tr>
                     <th scope="row">E-mail address to customer support:</th>
                     <td>
-                      service@gentingconsulting.com
+                      service@oyasurvey.com
                     </td>
                   </tr>
                 </tbody>
@@ -87,8 +87,8 @@
               completed, and household income.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              2. Means of Collection Currently, the only way to join Genting
-              Consulting is through one of our signup forms. We do not acquire
+              2. Means of Collection Currently, the only way to join OYA
+              Survey is through one of our signup forms. We do not acquire
               Users through purchase, co-registration, or any other means;
               however, we may do so at any time in the future.
             </div>
@@ -96,8 +96,8 @@
               I. USE OF INFORMATION
             </div>
             <div class="mt-1" style="font-size: 14px">
-              1.Use of Information User information is used by Genting
-              Consulting in all of the following, but not limited to, ways:(a)
+              1.Use of Information User information is used by OYA
+              Survey in all of the following, but not limited to, ways:(a)
               E-Mail Address is used to send paid email advertisements and
               important announcements about OYA Survey to User(b) User
               will have to provide US verified primary PayPal Account to receive
@@ -167,8 +167,8 @@
               earnings for our Affiliates.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              2. User Recognition After a User has logged into the Genting
-              Consulting Member's Section, cookies are used to remember their
+              2. User Recognition After a User has logged into the OYA
+              Survey Member's Section, cookies are used to remember their
               Username and Password so they do not need to be entered during
               every visit to our Web Site. Users can logout of the Member's
               Section if they do not wish to have this information saved.
@@ -181,20 +181,20 @@
               completing Offers, referring friends, etc), our Web Site will not
               function properly for Users who have Cookies disabled. Cookies
               help you gain fast access back to your paid surveys. Age
-              Requirement The gentingconsulting.com service is unavailable to
+              Requirement The oyasurvey.com service is unavailable to
               persons under the age of 18
             </div>
             <div class="mt-1" style="font-size: 14px">
               4. Data Security: To prevent unauthorized access, maintain data
               accuracy, and ensure the correct use of information,
-              gentingconsulting.com has used appropriate industry standard
+              oyasurvey.com has used appropriate industry standard
               procedures to safeguard the confidentiality of your personal
               information, such as firewall, encryption, token authentication,
               application proxies, monitoring technology, and adaptive analysis
               of network traffic to track abuse of our network and its data.
               However, no data transmitted over the Internet can be 100% secure.
               As a result, while we strive to protect your personal information,
-              gentingconsulting.com cannot guarantee the security of any
+              oyasurvey.com cannot guarantee the security of any
               information that you transmit to us or from our sponsors and you
               do so at your own risk.
             </div>
@@ -209,13 +209,13 @@
               916-445-1254 or 800-952-5210; or by email to dca@dca.ca.gov
             </div>
             <div class="mt-1" style="font-size: 14px">
-              2.External Links: gentingconsulting.com is not responsible for any
+              2.External Links: oyasurvey.com is not responsible for any
               content or privacy policies of web sites not operated by
-              gentingconsulting.com.
+              oyasurvey.com.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              3.Opting-Out: gentingconsulting.com members are opted-in to
-              receive gentingconsulting.com newsletters at the time of
+              3.Opting-Out: oyasurvey.com members are opted-in to
+              receive oyasurvey.com newsletters at the time of
               enrollment. You may opt-out of by following the directions
               enclosed in the newsletter.
             </div>
@@ -224,14 +224,14 @@
               unsubscribing here. If you decide to cancel your membership and
               later wish to re-enroll, you will be assigned a new account ID and
               you will not receive credit for earnings made using your previous
-              account. gentingconsulting.com reserves the right to terminate or
+              account. oyasurvey.com reserves the right to terminate or
               suspend any account at any time with or without notice.
-              gentingconsulting.com does not tolerate any abuse, harassment, or
+              oyasurvey.com does not tolerate any abuse, harassment, or
               fraudulent activity aimed towards other members or
-              gentingconsulting.com. Changes To The Privacy Policy: By
-              registering to use the gentingconsulting.com service, you agree to
+              oyasurvey.com. Changes To The Privacy Policy: By
+              registering to use the oyasurvey.com service, you agree to
               accept this privacy policy and are aware that
-              gentingconsulting.com's privacy policy may change from time to
+              oyasurvey.com's privacy policy may change from time to
               time. We strongly advise our members to check back from time to
               time. We also welcome any feedback from you; please click here to
               contact us i
@@ -303,7 +303,7 @@
               information we collect and disclose about consumers. If California
               users would like to make a CCPA Privacy Rights request or have any
               questions or suggestions regarding our privacy policy, please
-              email us at: service@gentingconsulting.com.
+              email us at: service@oyasurvey.com.
             </div>
             <div class="mt-1" style="font-size: 14px">
               You Have the Right Not to Have Your Personal Information Sold
@@ -705,7 +705,7 @@
               PLEASE NOTE: If you still have a question, please feel free to
               contact us at OYA Survey Contact Us. We will respond
               promptly. Alternatively you may email us at:
-              service@gentingconsulting.com.
+              service@oyasurvey.com.
             </div>
           </div>
           <div class="col-md-1"></div>

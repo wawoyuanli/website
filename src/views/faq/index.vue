@@ -260,8 +260,8 @@
                     <div class="card-body">
                       <div class="panel">
                         After you have successfully met all the advertiser’s
-                        requirements you will earn credit from Genting
-                        Consulting. Credit(s) can be applied upwards of 7
+                        requirements you will earn credit from OYA
+                        Survey. Credit(s) can be applied upwards of 7
                         business days after advertiser approval to reach your
                         account
                       </div>
@@ -483,8 +483,8 @@
                       <div class="panel">
                         YES! You can refer your friends to OYA Survey
                         and earn 10% of their offer earnings for the life of
-                        their account. For example, you refer Bob to Genting
-                        Consulting, Bob becomes a member and completes $30.00 in
+                        their account. For example, you refer Bob to OYA
+                        Survey, Bob becomes a member and completes $30.00 in
                         offers and $20.00 in OYA Survey Mails. Once Bob
                         requests payment for $50.00, OYA Survey will
                         immediately credit $3.00 (10% of Offer Earnings) into
