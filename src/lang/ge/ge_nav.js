@@ -1,5 +1,5 @@
 export default {
-  webLogo: 'Genting Beratung',
+  webLogo: 'OYA Survey',
   home: 'Startseite',
   about: 'Über uns',
   FAQ: 'FAQ',

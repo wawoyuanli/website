@@ -1,12 +1,12 @@
 export default {
-    webLogo: 'Genting Consulting',
+    webLogo: 'OYA Survey',
     home: 'Home',
     about: 'AboutUs',
     FAQ: 'FAQ',
     contact: 'Contact',
     signIn: 'SignIn',
     getStarted: 'GetStarted',
-    changeLanguage: 'change language',
+    changeLanguage: 'select language',
     privacy: 'Privacy',
     reviews:'Reviews'
 

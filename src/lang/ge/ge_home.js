@@ -12,7 +12,7 @@ export default {
   getPaidDesc: 'Überprüfen Sie das Wachstum Ihres Kontostands und fordern Sie die Zahlung an.',
   /**第三部分 */
   our: "Unsere Erfolge",
-  second_title: "Basierend auf Ihren demografischen Daten bietet Genting Ihnen bezahlte Forschungs- und Marktforschungsmöglichkeiten sowie eine Vergütung",
+  second_title: "Basierend auf Ihren demografischen Daten bietet OYA Survey Ihnen bezahlte Forschungs- und Marktforschungsmöglichkeiten sowie eine Vergütung",
   monthly: 'Monatlich aktive Benutzer',//26912
   total: 'Insgesamt bis heute bezahlt', //$3819018
   partner: 'Unser vertrauenswürdiger Partner',//90
@@ -37,9 +37,9 @@ export default {
   /**第五部分 */
   fiveTitle: "Worauf wartest du?",
   fiveText1: `Wir brauchen Sie. Deine Meinung zählt`,
-  fiveText2: `Genting Consulting sucht nach Personen, die an bezahlten Online-Umfragen teilnehmen können.`,
-  why: 'Warum sollte ich mich für Genting Consulting registrieren?',
-  reasons: 'Die Forschung von Genting Consulting ist so einzigartig und die Gründe dafür.',
+  fiveText2: `OYA Survey sucht nach Personen, die an bezahlten Online-Umfragen teilnehmen können.`,
+  why: 'Warum sollte ich mich für OYA Survey registrieren?',
+  reasons: 'Die Forschung von OYA Survey ist so einzigartig und die Gründe dafür.',
   cashPayments: "Bezahlen mit Bargeld",
   dataPrivacy: "Datenprivatsphäre",
   supportTeam: "Support-team",

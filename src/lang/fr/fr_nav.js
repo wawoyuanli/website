@@ -1,5 +1,5 @@
 export default {
-  webLogo: 'Conseil Genting',
+  webLogo: 'OYA Survey',
   home: "Page d'accueil",
   about: 'à propos de nous',
   FAQ: 'FAQ',
