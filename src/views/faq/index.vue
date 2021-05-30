@@ -92,7 +92,7 @@
                   >
                     <div class="card-body">
                       <div class="panel">
-                        To be eligible for Genting Consulting, you must meet the
+                        To be eligible for OYA Survey, you must meet the
                         following criteria: You must be 18 years old and Account
                         information must be accurate and complete. You must
                         register using your valid e-mail address. Signing up
@@ -468,7 +468,7 @@
                         aria-controls="collapseEleven"
                         style="font-weight:600"
                       >
-                        Do members get paid for referring Genting Consulting to
+                        Do members get paid for referring OYA Survey to
                         friends?
                       </button>
                     </h2>
@@ -481,12 +481,12 @@
                   >
                     <div class="card-body">
                       <div class="panel">
-                        YES! You can refer your friends to Genting Consulting
+                        YES! You can refer your friends to OYA Survey
                         and earn 10% of their offer earnings for the life of
                         their account. For example, you refer Bob to Genting
                         Consulting, Bob becomes a member and completes $30.00 in
-                        offers and $20.00 in Genting Consulting Mails. Once Bob
-                        requests payment for $50.00, Genting Consulting will
+                        offers and $20.00 in OYA Survey Mails. Once Bob
+                        requests payment for $50.00, OYA Survey will
                         immediately credit $3.00 (10% of Offer Earnings) into
                         your account.
                       </div>
@@ -535,7 +535,7 @@
                   style="font-size: 16px; background-color: #f6f6f6"
                 >
                   PLEASE NOTE: If you still have a question, please feel free to
-                  contact us at Genting Consulting Support. We will respond
+                  contact us at OYA Survey Support. We will respond
                   promptly.
                 </div>
               </div>

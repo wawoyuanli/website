@@ -38,13 +38,13 @@
                 <thead>
                   <tr>
                     <th scope="col">Name of the company:</th>
-                    <th scope="col">Genting Consulting Inc</th>
+                    <th scope="col">Kroses Trading Inc</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row">Employer Identification Number:</th>
-                    <td>86-3723893</td>
+                    <td>4984759</td>
                   </tr>
                   <tr>
                     <th scope="row">Country of operation:</th>
@@ -61,7 +61,7 @@
                   <tr>
                     <th scope="row">Postal address:</th>
                     <td>
-                      615 W 138TH ST NEW YORK, NY 10031
+                      145-02 156TH STREET,TWCFJ80 JAMAICA, NEW YORK, 11434
                     </td>
                   </tr>
                   <tr>
@@ -78,7 +78,7 @@
             </div>
             <div class="mt-1" style="font-size: 14px">
               1.Information Collected All Users must provide the following
-              information in order to join Genting Consulting: name, mailing
+              information in order to join OYA Survey: name, mailing
               address, phone number, email address, username, and password.
               Users may be required to provide subsequent demographic
               information in order to receive Signup Bonus(es) and/or qualify
@@ -99,14 +99,14 @@
               1.Use of Information User information is used by Genting
               Consulting in all of the following, but not limited to, ways:(a)
               E-Mail Address is used to send paid email advertisements and
-              important announcements about Genting Consulting to User(b) User
+              important announcements about OYA Survey to User(b) User
               will have to provide US verified primary PayPal Account to receive
               payments.(c) Demographic information is used to target
               advertisements to User(d) Username and Password are used for User
               protection to restrict access to their account
             </div>
             <div class="mt-1" style="font-size: 14px">
-              2.Sharing of Information Genting Consulting does not rent, sell,
+              2.Sharing of Information OYA Survey does not rent, sell,
               or share User information, except in the following circumstances:
             </div>
             <div class="mt-1" style="font-size: 14px">
@@ -130,30 +130,30 @@
               enhance the service provided to our Users
             </div>
             <div class="mt-1" style="font-size: 14px">
-              (f) All emails you receive from Genting Consulting will come from
-              Genting Consulting, so you may easily distinguish our emails. We
+              (f) All emails you receive from OYA Survey will come from
+              OYA Survey, so you may easily distinguish our emails. We
               will never share your email with third party marketing companies.
               Your email will only be shared with Restoration Media for Job
-              Alerts and Genting Consulting mailing partner.
+              Alerts and OYA Survey mailing partner.
             </div>
             <div class="mt-1" style="font-size: 14px; font-weight: 600">
               I.CO-REGISTRATION
             </div>
             <div class="mt-2" style="font-size: 14px">
-              1.Definition Genting Consulting signup pages may contain
+              1.Definition OYA Survey signup pages may contain
               co-registration checkboxes, where Users can choose to
               "co-register" for other Web Sites during their registration with
-              Genting Consulting by checking the checkbox next to the
+              OYA Survey by checking the checkbox next to the
               co-registration Offer. Users are not required to select any
-              co-registration boxes to join Genting Consulting; however, they
+              co-registration boxes to join OYA Survey; however, they
               may be required to do so in order to qualify for Signup Bonus(es)
               and/or other promotions.
             </div>
             <div class="mt-1" style="font-size: 14px">
               2.Information Sharing When a User co-registers for an Offer by
               checking the co-registration checkbox, any information they
-              provide to Genting Consulting may be shared with the Advertiser
-              associated with the co-registration Offer. Genting Consulting
+              provide to OYA Survey may be shared with the Advertiser
+              associated with the co-registration Offer. OYA Survey
               cannot control what Advertisers subsequently do with that
               information.
             </div>
@@ -161,7 +161,7 @@
               I. COOKIES
             </div>
             <div class="mt-1" style="font-size: 14px">
-              1. Referral and Affiliate Tracking Genting Consulting uses cookies
+              1. Referral and Affiliate Tracking OYA Survey uses cookies
               in order to track new User registrations. This ensures Users are
               properly credited for referring other Users, as well as to track
               earnings for our Affiliates.
@@ -174,8 +174,8 @@
               Section if they do not wish to have this information saved.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              3. Cookies are Safe! Cookies used by Genting Consulting can only
-              be seen by Genting Consulting, and cannot in any way cause harm to
+              3. Cookies are Safe! Cookies used by OYA Survey can only
+              be seen by OYA Survey, and cannot in any way cause harm to
               your computer. Because we cannot properly track user actions
               without the use of Cookies (to ensure Users are credited for
               completing Offers, referring friends, etc), our Web Site will not
@@ -242,7 +242,7 @@
             </div>
             <div class="mt-2" style="font-size: 14px">Or Write To Us At:</div>
             <div class="mt-2" style="font-size: 14px">
-              Genting Consulting Inc 615 W 138TH ST NEW YORK, NY 10031, United
+              OYA Survey Inc 615 W 138TH ST NEW YORK, NY 10031, United
               States
             </div>
             <div class="mt-1" style="font-size: 14px; font-weight: 600">
@@ -703,7 +703,7 @@
               style="font-size: 14px; background-color: #f6f6f6"
             >
               PLEASE NOTE: If you still have a question, please feel free to
-              contact us at Genting Consulting Contact Us. We will respond
+              contact us at OYA Survey Contact Us. We will respond
               promptly. Alternatively you may email us at:
               service@gentingconsulting.com.
             </div>
