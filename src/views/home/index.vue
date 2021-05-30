@@ -178,7 +178,7 @@
                     />
                     <countTo
                       :startVal="0"
-                      :endVal="159182"
+                      :endVal="231886"
                       :duration="5600"
                       class="counter h4 text-white"
                       style=""
@@ -198,7 +198,7 @@
                     />
                     <countTo
                       :startVal="0"
-                      :endVal="3408381"
+                      :endVal="3208381"
                       :duration="5600"
                       class="counter h4 text-white"
                     ></countTo>
@@ -219,7 +219,7 @@
 
                     <countTo
                       :startVal="0"
-                      :endVal="62"
+                      :endVal="30"
                       :duration="5600"
                       class="counter h4 text-white"
                       >$</countTo

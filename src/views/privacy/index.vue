@@ -48,7 +48,7 @@
                   </tr>
                   <tr>
                     <th scope="row">Country of operation:</th>
-                    <td>America</td>
+                    <td>the United States</td>
                   </tr>
                   <tr>
                     <th scope="row">E-mail address:</th>

@@ -535,7 +535,7 @@
                   style="font-size: 16px; background-color: #f6f6f6"
                 >
                   PLEASE NOTE: If you still have a question, please feel free to
-                  contact us at OYA Survey Support. We will respond
+                  contact us. We will respond
                   promptly.
                 </div>
               </div>
