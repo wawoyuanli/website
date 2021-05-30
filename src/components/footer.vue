@@ -61,7 +61,7 @@
     <div class="row pb-3">
       <div class="col-md-3"></div>
       <div class="col-md-6 text-center text-white">
-        © 2021 Genting Consulting Inc. All rights reserved.
+        © 2021 Kroses Trading Inc. All Rights Reserved.
       </div>
       <div class="col-md-3"></div>
     </div>
