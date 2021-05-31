@@ -55,10 +55,6 @@
                     <td>contact@oyasurvey.com</td>
                   </tr>
                   <tr>
-                    <th scope="row">Phone number:</th>
-                    <td>(302) 402-3875</td>
-                  </tr>
-                  <tr>
                     <th scope="row">Postal address:</th>
                     <td>
                       145-02 156TH STREET,TWCFJ80 JAMAICA, NEW YORK, 11434
@@ -228,10 +224,10 @@
               requirements of the GDPA:
             </div>
             <div class="mt-1" style="font-size: 14px">
-              kuthsurveys.com can provide services to users located in Europe.
+              oyasurvey.com can provide services to users located in Europe.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              1. In the interaction with European service users, kuthsurveys.com
+              1. In the interaction with European service users, oyasurvey.com
               is a data controller, so we are an organization that decides the
               purpose and way of using any personal data we collect.
             </div>
@@ -263,32 +259,6 @@
               7.We will process personal information in a manner that ensures
               the appropriate security of the information, including preventing
               unauthorized processing and accidental loss.
-            </div>
-            <div class="mt-1" style="font-size: 14px">
-              8.We will have a DPO (Data Protection Officer (DPO) is a position
-              in the company, it is an independent advocate for the proper
-              maintenance and use of customer information. The EU officially
-            </div>
-            <div class="mt-1" style="font-size: 14px">
-              stipulates the role of a data protection officer as its General
-              Data Protection Regulation (GDPR) According to this regulation,
-              all companies that sell goods or services to customers within the
-              EU and collect data must appoint a data protection officer. The
-              data protection officer complies with laws and practices related
-              to data protection and conducts internal privacy assessments. And
-              to ensure that all other compliance issues related to data are up
-              to date. Appointment of a data protection officer (DPO) is one of
-              the key requirements for companies doing business in the EU. GDPR
-              is clearly an important piece of legislation. DPO is responsible
-              Ensure that the company complies with the goals of GDPR and other
-              related regulations. This includes setting a defensible retention
-              period for personal data, authorizing specific workflows that
-              allow access to the data, outlining how to make retained data
-              anonymous, and then monitoring all these systems to ensure they
-              are protected Private customer data. For any detailed information
-              or any other request or any information you need help, please
-              contact our DPO by email at rick.l@kuthsurvey.com. or directly by
-              phone: +15560073111.
             </div>
 
             <div class="mt-2" style="font-size: 14px; font-weight: 600">
