@@ -18,14 +18,14 @@
             </div>
             <div class="mt-2" style="font-size: 14px">
               Your privacy is very important to us. We hope the following
-              statement will help you understand how oyasurvey.com
-              collects, uses, and safeguards the personal information you
-              provide to us on our Web site.
+              statement will help you understand how oyasurvey.com collects,
+              uses, and safeguards the personal information you provide to us on
+              our Web site.
             </div>
             <div class="mt-2" style="font-size: 14px">
-              oyasurvey.com has created this privacy policy to
-              demonstrate our commitment to the privacy of users like you
-              because your privacy is of utmost importance to us.
+              oyasurvey.com has created this privacy policy to demonstrate our
+              commitment to the privacy of users like you because your privacy
+              is of utmost importance to us.
             </div>
             <div class="mt-2">
               <p>
@@ -78,36 +78,36 @@
             </div>
             <div class="mt-1" style="font-size: 14px">
               1.Information Collected All Users must provide the following
-              information in order to join OYA Survey: name, mailing
-              address, phone number, email address, username, and password.
-              Users may be required to provide subsequent demographic
-              information in order to receive Signup Bonus(es) and/or qualify
-              for other promotions. Demographic information includes, but is not
-              limited to: birth date, gender, marital status, education
-              completed, and household income.
+              information in order to join OYA Survey: name, mailing address,
+              phone number, email address, username, and password. Users may be
+              required to provide subsequent demographic information in order to
+              receive Signup Bonus(es) and/or qualify for other promotions.
+              Demographic information includes, but is not limited to: birth
+              date, gender, marital status, education completed, and household
+              income.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              2. Means of Collection Currently, the only way to join OYA
-              Survey is through one of our signup forms. We do not acquire
-              Users through purchase, co-registration, or any other means;
-              however, we may do so at any time in the future.
+              2. Means of Collection Currently, the only way to join OYA Survey
+              is through one of our signup forms. We do not acquire Users
+              through purchase, co-registration, or any other means; however, we
+              may do so at any time in the future.
             </div>
             <div class="mt-3" style="font-size: 14px; font-weight: 600">
               I. USE OF INFORMATION
             </div>
             <div class="mt-1" style="font-size: 14px">
-              1.Use of Information User information is used by OYA
-              Survey in all of the following, but not limited to, ways:(a)
-              E-Mail Address is used to send paid email advertisements and
-              important announcements about OYA Survey to User(b) User
-              will have to provide US verified primary PayPal Account to receive
-              payments.(c) Demographic information is used to target
-              advertisements to User(d) Username and Password are used for User
-              protection to restrict access to their account
+              1.Use of Information User information is used by OYA Survey in all
+              of the following, but not limited to, ways:(a) E-Mail Address is
+              used to send paid email advertisements and important announcements
+              about OYA Survey to User(b) User will have to provide US verified
+              primary PayPal Account to receive payments.(c) Demographic
+              information is used to target advertisements to User(d) Username
+              and Password are used for User protection to restrict access to
+              their account
             </div>
             <div class="mt-1" style="font-size: 14px">
-              2.Sharing of Information OYA Survey does not rent, sell,
-              or share User information, except in the following circumstances:
+              2.Sharing of Information OYA Survey does not rent, sell, or share
+              User information, except in the following circumstances:
             </div>
             <div class="mt-1" style="font-size: 14px">
               (a) We are required to release User information in response to
@@ -130,73 +130,167 @@
               enhance the service provided to our Users
             </div>
             <div class="mt-1" style="font-size: 14px">
-              (f) All emails you receive from OYA Survey will come from
-              OYA Survey, so you may easily distinguish our emails. We
-              will never share your email with third party marketing companies.
-              Your email will only be shared with OYA Survey mailing partner.
+              (f) All emails you receive from OYA Survey will come from OYA
+              Survey, so you may easily distinguish our emails. We will never
+              share your email with third party marketing companies. Your email
+              will only be shared with OYA Survey mailing partner.
             </div>
             <div class="mt-1" style="font-size: 14px; font-weight: 600">
               I.CO-REGISTRATION
             </div>
             <div class="mt-2" style="font-size: 14px">
-              1.Definition OYA Survey signup pages may contain
-              co-registration checkboxes, where Users can choose to
-              "co-register" for other Web Sites during their registration with
-              OYA Survey by checking the checkbox next to the
-              co-registration Offer. Users are not required to select any
-              co-registration boxes to join OYA Survey; however, they
-              may be required to do so in order to qualify for Signup Bonus(es)
-              and/or other promotions.
+              1.Definition OYA Survey signup pages may contain co-registration
+              checkboxes, where Users can choose to "co-register" for other Web
+              Sites during their registration with OYA Survey by checking the
+              checkbox next to the co-registration Offer. Users are not required
+              to select any co-registration boxes to join OYA Survey; however,
+              they may be required to do so in order to qualify for Signup
+              Bonus(es) and/or other promotions.
             </div>
             <div class="mt-1" style="font-size: 14px">
               2.Information Sharing When a User co-registers for an Offer by
               checking the co-registration checkbox, any information they
-              provide to OYA Survey may be shared with the Advertiser
-              associated with the co-registration Offer. OYA Survey
-              cannot control what Advertisers subsequently do with that
-              information.
+              provide to OYA Survey may be shared with the Advertiser associated
+              with the co-registration Offer. OYA Survey cannot control what
+              Advertisers subsequently do with that information.
             </div>
             <div class="mt-2" style="font-size: 14px; font-weight: 600">
               I. COOKIES
             </div>
             <div class="mt-1" style="font-size: 14px">
-              1. Referral and Affiliate Tracking OYA Survey uses cookies
-              in order to track new User registrations. This ensures Users are
+              1. Referral and Affiliate Tracking OYA Survey uses cookies in
+              order to track new User registrations. This ensures Users are
               properly credited for referring other Users, as well as to track
               earnings for our Affiliates.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              2. User Recognition After a User has logged into the OYA
-              Survey Member's Section, cookies are used to remember their
-              Username and Password so they do not need to be entered during
-              every visit to our Web Site. Users can logout of the Member's
-              Section if they do not wish to have this information saved.
+              2. User Recognition After a User has logged into the OYA Survey
+              Member's Section, cookies are used to remember their Username and
+              Password so they do not need to be entered during every visit to
+              our Web Site. Users can logout of the Member's Section if they do
+              not wish to have this information saved.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              3. Cookies are Safe! Cookies used by OYA Survey can only
-              be seen by OYA Survey, and cannot in any way cause harm to
-              your computer. Because we cannot properly track user actions
-              without the use of Cookies (to ensure Users are credited for
-              completing Offers, referring friends, etc), our Web Site will not
-              function properly for Users who have Cookies disabled. Cookies
-              help you gain fast access back to your paid surveys. Age
-              Requirement The oyasurvey.com service is unavailable to
-              persons under the age of 18
+              3. Cookies are Safe! Cookies used by OYA Survey can only be seen
+              by OYA Survey, and cannot in any way cause harm to your computer.
+              Because we cannot properly track user actions without the use of
+              Cookies (to ensure Users are credited for completing Offers,
+              referring friends, etc), our Web Site will not function properly
+              for Users who have Cookies disabled. Cookies help you gain fast
+              access back to your paid surveys. Age Requirement The
+              oyasurvey.com service is unavailable to persons under the age of
+              18
             </div>
             <div class="mt-1" style="font-size: 14px">
               4. Data Security: To prevent unauthorized access, maintain data
-              accuracy, and ensure the correct use of information,
-              oyasurvey.com has used appropriate industry standard
-              procedures to safeguard the confidentiality of your personal
-              information, such as firewall, encryption, token authentication,
-              application proxies, monitoring technology, and adaptive analysis
-              of network traffic to track abuse of our network and its data.
-              However, no data transmitted over the Internet can be 100% secure.
-              As a result, while we strive to protect your personal information,
-              oyasurvey.com cannot guarantee the security of any
-              information that you transmit to us or from our sponsors and you
-              do so at your own risk.
+              accuracy, and ensure the correct use of information, oyasurvey.com
+              has used appropriate industry standard procedures to safeguard the
+              confidentiality of your personal information, such as firewall,
+              encryption, token authentication, application proxies, monitoring
+              technology, and adaptive analysis of network traffic to track
+              abuse of our network and its data. However, no data transmitted
+              over the Internet can be 100% secure. As a result, while we strive
+              to protect your personal information, oyasurvey.com cannot
+              guarantee the security of any information that you transmit to us
+              or from our sponsors and you do so at your own risk.
             </div>
+
+            <div class="mt-2" style="font-size: 14px; font-weight: 600">
+              I.Children's Privacy Policy
+            </div>
+
+            <div class="mt-1" style="font-size: 14px">
+              We comply with applicable laws and industry regulations related to
+              the protection of children's privacy. Our services are not
+              designed for anyone under the age of thirteen (13) or intended for
+              use by anyone, and we do not knowingly collect personal data from
+              anyone under the age of thirteen (13). If we discover that
+              personal data has been accidentally collected from anyone under
+              this age, we will delete such personal data immediately. As
+              described below, parents, guardians or other persons with parental
+              rights are encouraged to contact us to discuss this privacy policy
+              and their right to access, view, correct, delete or object to the
+              processing of their children or their personal data related to
+              children. child. If you are under 13 years old, please do not send
+              us any information about yourself or register an account
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              Minors between the ages of 16 and 17 can access the services of
+              the website only by seeking and obtaining oral permission from
+              their parents. It is the responsibility of individuals and parents
+              to ensure that such permission is obtained.
+            </div>
+            <div class="mt-2" style="font-size: 14px; font-weight: 600">
+              I.European users
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              If you are located in Europe, please note the following
+              requirements of the GDPA:
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              kuthsurveys.com can provide services to users located in Europe.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              1. In the interaction with European service users, kuthsurveys.com
+              is a data controller, so we are an organization that decides the
+              purpose and way of using any personal data we collect.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              2. You agree that we have the right to obtain, use and process the
+              information you provide to us so that we can perform our services.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              3.The legitimate reason for our processing of your personal
+              information is "legal rights and interests". If we have legitimate
+              and reasonable reasons and do not harm any of your rights and
+              interests, we can process your personal information under the
+              "legitimate rights and interests".
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              4.We only process your personal data in a legal, fair and
+              transparent way for the legitimate purpose of providing services.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              5.We will only request, process and maintain personal information
+              to the extent necessary to provide services.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              6.We will save the data in such a way that the data will only be
+              retained during the period when the data subject is allowed to be
+              identified, and the time shall not exceed the necessary time.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              7.We will process personal information in a manner that ensures
+              the appropriate security of the information, including preventing
+              unauthorized processing and accidental loss.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              8.We will have a DPO (Data Protection Officer (DPO) is a position
+              in the company, it is an independent advocate for the proper
+              maintenance and use of customer information. The EU officially
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              stipulates the role of a data protection officer as its General
+              Data Protection Regulation (GDPR) According to this regulation,
+              all companies that sell goods or services to customers within the
+              EU and collect data must appoint a data protection officer. The
+              data protection officer complies with laws and practices related
+              to data protection and conducts internal privacy assessments. And
+              to ensure that all other compliance issues related to data are up
+              to date. Appointment of a data protection officer (DPO) is one of
+              the key requirements for companies doing business in the EU. GDPR
+              is clearly an important piece of legislation. DPO is responsible
+              Ensure that the company complies with the goals of GDPR and other
+              related regulations. This includes setting a defensible retention
+              period for personal data, authorizing specific workflows that
+              allow access to the data, outlining how to make retained data
+              anonymous, and then monitoring all these systems to ensure they
+              are protected Private customer data. For any detailed information
+              or any other request or any information you need help, please
+              contact our DPO by email at rick.l@kuthsurvey.com. or directly by
+              phone: +15560073111.
+            </div>
+
             <div class="mt-2" style="font-size: 14px; font-weight: 600">
               I. U.S. users
             </div>
@@ -208,32 +302,28 @@
               916-445-1254 or 800-952-5210; or by email to dca@dca.ca.gov
             </div>
             <div class="mt-1" style="font-size: 14px">
-              2.External Links: oyasurvey.com is not responsible for any
-              content or privacy policies of web sites not operated by
-              oyasurvey.com.
+              2.External Links: oyasurvey.com is not responsible for any content
+              or privacy policies of web sites not operated by oyasurvey.com.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              3.Opting-Out: oyasurvey.com members are opted-in to
-              receive oyasurvey.com newsletters at the time of
-              enrollment. You may opt-out of by following the directions
-              enclosed in the newsletter.
+              3.Opting-Out: oyasurvey.com members are opted-in to receive
+              oyasurvey.com newsletters at the time of enrollment. You may
+              opt-out of by following the directions enclosed in the newsletter.
             </div>
             <div class="mt-1" style="font-size: 14px">
               4.Canceling: You may cancel your Membership at anytime by
               unsubscribing here. If you decide to cancel your membership and
               later wish to re-enroll, you will be assigned a new account ID and
               you will not receive credit for earnings made using your previous
-              account. oyasurvey.com reserves the right to terminate or
-              suspend any account at any time with or without notice.
-              oyasurvey.com does not tolerate any abuse, harassment, or
-              fraudulent activity aimed towards other members or
-              oyasurvey.com. Changes To The Privacy Policy: By
-              registering to use the oyasurvey.com service, you agree to
-              accept this privacy policy and are aware that
-              oyasurvey.com's privacy policy may change from time to
-              time. We strongly advise our members to check back from time to
-              time. We also welcome any feedback from you; please click here to
-              contact us i
+              account. oyasurvey.com reserves the right to terminate or suspend
+              any account at any time with or without notice. oyasurvey.com does
+              not tolerate any abuse, harassment, or fraudulent activity aimed
+              towards other members or oyasurvey.com. Changes To The Privacy
+              Policy: By registering to use the oyasurvey.com service, you agree
+              to accept this privacy policy and are aware that oyasurvey.com's
+              privacy policy may change from time to time. We strongly advise
+              our members to check back from time to time. We also welcome any
+              feedback from you; please click here to contact us i
             </div>
             <div class="mt-1" style="font-size: 14px">
               Contact Information: If users have any questions or suggestions
@@ -702,9 +792,8 @@
               style="font-size: 14px; background-color: #f6f6f6"
             >
               PLEASE NOTE: If you still have a question, please feel free to
-              contact us at OYA Survey Contact Us. We will respond
-              promptly. Alternatively you may email us at:
-              service@oyasurvey.com.
+              contact us at OYA Survey Contact Us. We will respond promptly.
+              Alternatively you may email us at: service@oyasurvey.com.
             </div>
           </div>
           <div class="col-md-1"></div>
@@ -735,10 +824,9 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-.privacy{
-  .privacy-content{
+.privacy {
+  .privacy-content {
     margin-top: 8rem;
   }
 }
- 
 </style>

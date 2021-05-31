@@ -33,10 +33,7 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-3">
               <li class="nav-item">
-                <a
-                  class="nav-link actived h6 text-white "
-                  href="#/home"
-                  :style="{ color: color }"
+                <a class="nav-link actived h6 text-white " href="#/home"
                   >{{ $t("nav.home") }}
                   <span class="sr-only">(current)</span>
                 </a>
@@ -45,7 +42,6 @@
                 <a
                   :href="'#/home?maodian=about'"
                   class="nav-link h6 text-white"
-                  :class="{ navitemcolor: isActive }"
                   @click="aboutUrlClick('#about')"
                   >{{ $t("nav.about") }}
                 </a>
@@ -54,43 +50,29 @@
                 <a
                   :href="'#/home?maodian=reviews'"
                   class="nav-link h6 text-white"
-                  :class="{ navitemcolor: isActive }"
                   @click="reviewsUrlClick('#reviews')"
                   >{{ $t("nav.reviews") }}
                 </a>
               </li>
               <li class="nav-item">
-                <a
-                  href="#/faq"
-                  class="nav-link h6 text-white"
-                  :class="{ navitemcolor: isActive }"
+                <a href="#/faq" class="nav-link h6 text-white"
                   >{{ $t("nav.FAQ") }}
                 </a>
               </li>
               <li class="nav-item">
-                <a
-                  href="#/contact"
-                  class="nav-link h6 text-white"
-                  :class="{ navitemcolor: isActive }"
+                <a href="#/contact" class="nav-link h6 text-white"
                   >{{ $t("nav.contact") }}
                 </a>
               </li>
               <li class="nav-item">
-                <a
-                  href="#/privacy"
-                  class="nav-link h6 text-white"
-                  :class="{ navitemcolor: isActive }"
+                <a href="#/privacy" class="nav-link h6 text-white"
                   >{{ $t("nav.privacy") }}
                 </a>
               </li>
             </ul>
-            <a
-              class="btn h4 text-white"
-              href="#/login"
-              :style="{ color: color }"
-              id="signin"
-              >{{ $t("nav.signIn") }}</a
-            >
+            <a class="btn h4 text-white" href="#/login" id="signin">{{
+              $t("nav.signIn")
+            }}</a>
             <a
               class="btn btn-primary ml-4 border-0"
               href="#/registerInfo"
