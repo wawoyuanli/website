@@ -17,7 +17,7 @@
                   directly: service@oyasurvey.com
                 </p>
                 <p class="text-left">
-                  Our postal address is 615 W 138TH ST NEW YORK, NY 10031
+                  Our postal address is 145-02 156TH STREET, TWCFJ80 JAMAICA, NEW YORK, 11434
                 </p>
                 <div class="row">
                   <div class="col-md-12">
