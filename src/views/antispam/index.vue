@@ -67,7 +67,7 @@
             </div>
             <div class="mt-2 ml-2">
               PLEASE NOTE: If you still find spam, please feel free to email us
-              at abuse@test.com. We will respond promptly.
+              at abuse@oyasurvey.com. We will respond promptly.
             </div>
             <div
               class="mt-1 card text-center p-4 m-4"

@@ -14,8 +14,6 @@
             <p class="mt-3 ml-2">OYA Survey GENERAL MEMBERSHIP</p>
             <p class="ml-2 mt-1">Revised December 26, 2019</p>
             <div class="ml-2 mt-1">
-              You must be a U.S. resident and 18 years of age or older to
-              participate.
             </div>
             <div class="ml-2 mt-2">
               OYA Survey, ("oyasurvey.com" or "we") may revise
@@ -34,9 +32,7 @@
               requirements on an ongoing basis.
             </div>
             <div class="ml-2 mt-2">
-              A.1) MEMBERSHIP ELIGIBILITY: To participate in OYA Survey,
-              you must be an individual at least 18 years of age and reside in
-              the United States of America. Corporations or other business
+              A.1) MEMBERSHIP ELIGIBILITY: Corporations or other business
               entities are not eligible to participate. It is required that
               members establish and maintain only one account, and that account
               must be registered to a unique e-mail address. OYA Survey
@@ -71,8 +67,7 @@
               Survey Mails are our way of showing appreciation to our
               members. As an attempt to keep fraud in check, kindly understand
               that no credit will be given to members that are confirming these
-              emails through mobile devices such as cell phones. There is a $25
-              Maximum in OYA Survey Mail Credits per payment.
+              emails through mobile devices such as cell phones.
             </div>
             <div class="ml-2 mt-2">
               A.5) ACCOUNTS ARE NON-TRANSFERABLE. Your account is personal to
@@ -141,8 +136,8 @@
             <div class="ml-2 mt-2">
               In some cases incentive for surveys offers and other offers will
               show a viewed status for 6 to 8 weeks, till we are paid from the
-              advertisers. Minimum payment threshold is approved $30 USD in your
-              account. You must have accumulated $30 USD in your account for
+              advertisers. Minimum payment threshold is approved $10 USD in your
+              account. You must have accumulated $10 USD in your account for
               redemption. We pay our members through PayPal once you reach the
               minimum payment threshold. We do not mail checks to any
               participants in our survey panel, 100% of the payments are
@@ -158,7 +153,7 @@
             <div class="ml-2 h6">
               (c) correct & validated PayPal entered in account
             </div>
-            <div class="ml-2 h6">(d) a minimum of $20 Approved from Offers</div>
+            <div class="ml-2 h6">(d) a minimum of $10 Approved from Offers</div>
             <div class="ml-2 h6">
               (e) a maximum of $10 in OYA Survey Emails is allowed per
               payment request.

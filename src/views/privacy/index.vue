@@ -242,8 +242,8 @@
             </div>
             <div class="mt-2" style="font-size: 14px">Or Write To Us At:</div>
             <div class="mt-2" style="font-size: 14px">
-              OYA Survey Inc 615 W 138TH ST NEW YORK, NY 10031, United
-              States
+              Kroses Trading Inc 145-02 156TH STREET, TWCFJ80 JAMAICA, NEW YORK
+              11434
             </div>
             <div class="mt-1" style="font-size: 14px; font-weight: 600">
               I.CALIFORNIA CONSUMER PRIVACY ACT (CCPA)
