@@ -133,8 +133,7 @@
               (f) All emails you receive from OYA Survey will come from
               OYA Survey, so you may easily distinguish our emails. We
               will never share your email with third party marketing companies.
-              Your email will only be shared with Restoration Media for Job
-              Alerts and OYA Survey mailing partner.
+              Your email will only be shared with OYA Survey mailing partner.
             </div>
             <div class="mt-1" style="font-size: 14px; font-weight: 600">
               I.CO-REGISTRATION
@@ -199,7 +198,7 @@
               do so at your own risk.
             </div>
             <div class="mt-2" style="font-size: 14px; font-weight: 600">
-              I. ALL USER CONSUMER RIGHTS
+              I. U.S. users
             </div>
             <div class="mt-1" style="font-size: 14px">
               1.In accordance with California Civil Code Sec. 1789.3, California
