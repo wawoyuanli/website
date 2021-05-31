@@ -191,7 +191,7 @@
       <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-          <label for="referrer" class="col-md-12 mt-2">Address : </label>
+          <label for="address" class="col-md-12 mt-2">Address : </label>
           <input
             class="form-control"
             id="address"
@@ -249,7 +249,7 @@
           />
         </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
           <label class="mt-2"> Referral Links:</label>
@@ -262,7 +262,7 @@
             maxlength="4"
           />
         </div>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
