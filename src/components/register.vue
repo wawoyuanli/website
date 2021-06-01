@@ -249,7 +249,7 @@
           />
         </div>
       </div>
-      <!-- <div class="row">
+      <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
           <label class="mt-2"> Referral Links:</label>
@@ -262,7 +262,7 @@
             maxlength="4"
           />
         </div>
-      </div> -->
+      </div>
       <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
@@ -447,7 +447,7 @@ export default {
   created: function() {},
   mounted() {
     let _th = this;
-    window.addEventListener("scroll", _th.handleScroll);
+    // window.addEventListener("scroll", _th.handleScroll);
 
     /**国家码获取 */
     getCountryCode()
