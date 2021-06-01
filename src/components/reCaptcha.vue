@@ -1,5 +1,5 @@
 <template>
-	<div ref="grecaptcha">人机验证</div>
+	<div ref="grecaptcha">Human verification</div>
 </template>
 <script>
 export default {
