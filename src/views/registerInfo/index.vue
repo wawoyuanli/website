@@ -65,7 +65,7 @@ export default {
         return false;
       }
       if (!data.remark) {
-        alert("remark can not be empty");
+        alert("verification code can not be empty");
         return false;
       }
       if (!data.sex) {
