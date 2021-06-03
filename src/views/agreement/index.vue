@@ -17,7 +17,7 @@
 							Please read the following terms and conditions carefully.
 						</div>
 						<div class="ml-3 mt-3">
-							AFFILIATE AGREEMENT w.e.f 6th June, 2009.
+							AFFILIATE AGREEMENT w.e.f 6th June, 2019.
 						</div>
 						<div class="ml-3 mt-3">
 							This agreement contains the complete terms and conditions that
