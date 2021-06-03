@@ -12,7 +12,7 @@ export default {
   getPaidDesc: 'Vérifiez la croissance du solde de votre compte et demandez le paiement.',
   /**第三部分 */
   our: "Nos réalisations",
-  second_title: "Sur la base de vos informations démographiques, Genting vous fournira des opportunités d'études rémunérées et d'études de marché, et vous fournira une rémunération.",
+  second_title: "Sur la base de vos informations démographiques, Salient Surveys vous fournira des opportunités d'études rémunérées et d'études de marché, et vous fournira une rémunération.",
   monthly: 'Utilisateurs actifs mensuels',//26912
   total: 'Total payé à ce jour', //$3819018
   partner: 'Notre partenaire de confiance',//90
@@ -37,9 +37,9 @@ export default {
   /**第五部分 */
   fiveTitle: "Qu'est-ce que tu attends?",
   fiveText1: `nous avons besoin de toi. Votre opinion compte`,
-  fiveText2: `Genting Consulting recherche des personnes pour participer à des sondages en ligne rémunérés.`,
-  why: `Pourquoi devrais-je m'inscrire à Genting Consulting?`,
-  reasons: 'Pourquoi la recherche de Genting Consulting est si unique et les raisons qui la sous-tendent。',
+  fiveText2: `Salient Surveys recherche des personnes pour participer à des sondages en ligne rémunérés.`,
+  why: `Pourquoi devrais-je m'inscrire à Salient Surveys?`,
+  reasons: 'Pourquoi la recherche de Salient Surveys est si unique et les raisons qui la sous-tendent。',
   cashPayments: "Payer en espèce",
   dataPrivacy: "Confidentialité des données",
   supportTeam: "Équipe de soutien",

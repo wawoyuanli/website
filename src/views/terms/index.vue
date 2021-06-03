@@ -18,7 +18,7 @@
               participate.
             </div>
             <div class="ml-2 mt-2">
-              Genting Consulting, ("Gentingconsulting.com" or "we") may revise
+              Genting Consulting, ("salientsurveys.com" or "we") may revise
               these terms from time to time, at our sole discretion, by updating
               this posting. Unless otherwise provided below, the revised terms
               will take effect when they are posted. Your continued use of the

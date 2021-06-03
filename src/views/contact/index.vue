@@ -14,7 +14,7 @@
                 <h2 class="content-title">Contact</h2>
                 <p class="text-left">
                   Do you need to contact us? Fill the form below or email us
-                  directly: service@gentingconsulting.com
+                  directly: service@salientsurveys.com
                 </p>
                 <p class="text-left">
                   Our postal address is 615 W 138TH ST NEW YORK, NY 10031

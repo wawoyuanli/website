@@ -13,7 +13,7 @@ export default {
   getPaidDesc: 'Watch your account balance grow then request a payout.',
   /**第三部分 */
   our: "Our Achievement",
-  second_title:"Based on your demographics, Genting will provide you with paid research and market research opportunities and will provide you with remuneration.",
+  second_title:"Based on your demographics, Salient Surveys will provide you with paid research and market research opportunities and will provide you with remuneration.",
   monthly: 'Total number of users',//26912
   total: 'Total Payout To Date', //$3819018
   partner: 'Our Trusted Partners',//90
@@ -39,7 +39,7 @@ export default {
   fiveTitle: "What are you waiting for?",
   fiveText1: `We need you. Your opinion matters.
     `,
-    fiveText2:`Genting Consulting is looking for people to participate in Paid Online Surveys.`,
+    fiveText2:`Salient Surveys is looking for people to participate in Paid Online Surveys.`,
   /**第六部分 左标题*/
   company: 'Company',
   home: 'Home',
@@ -56,8 +56,8 @@ export default {
   bottom: '© 2021 Genting Consulting Inc. All rights reserved.',
 
   /**为什么要注册云顶咨询？ */
-  why: 'Why sign up to Genting Consulting?',
-  reasons: 'Why Genting Consulting Research is unique and reasons behindit.',
+  why: 'Why sign up to Salient Surveys?',
+  reasons: 'Why Salient Surveys is unique and reasons behindit.',
   cashPayments: "Cash Payments",
   dataPrivacy: "Data Privacy",
   supportTeam: "Support Team",

@@ -1,5 +1,5 @@
 export default {
-  webLogo: 'Conseil Genting',
+  webLogo: 'Salient Surveys',
   home: "Page d'accueil",
   about: 'à propos de nous',
   FAQ: 'FAQ',

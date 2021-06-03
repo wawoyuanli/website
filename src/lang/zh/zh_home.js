@@ -12,7 +12,7 @@ export default {
   getPaidDesc: '查看您的帐户余额生长然后请求支付。',
   /**第三部分 */
   our: "我们的成就",
-  second_title: "根据您的人口统计资料，云顶将为您提供付费研究和市场研究机会，并为您提供报酬。",
+  second_title: "根据您的人口统计资料，Salient Surveys将为您提供付费研究和市场研究机会，并为您提供报酬。",
   monthly: '每月活跃用户',//26912
   total: '迄今为止支付总额', //$3819018
   partner: '我们值得信赖的伙伴',//90
@@ -37,9 +37,9 @@ export default {
   /**第五部分 */
   fiveTitle: "你还在等什么?",
   fiveText1: `我们需要你。 你的意见事项`,
-  fiveText2: `云顶咨询正在寻找人们参加付费的在线调查。`,
-  why: '为什么要注册云顶咨询？',
-  reasons: '云顶咨询研究为何如此独特以及其背后的原因。',
+  fiveText2: `Salient Surveys正在寻找人们参加付费的在线调查。`,
+  why: '为什么要注册Salient Surveys？',
+  reasons: 'Salient Surveys为何如此独特以及其背后的原因。',
   cashPayments: "现金付款",
   dataPrivacy: "资料私隐",
   supportTeam: "支持团队",

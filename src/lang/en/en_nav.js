@@ -1,5 +1,5 @@
 export default {
-    webLogo: 'Genting Consulting',
+    webLogo: 'Salient Surveys',
     home: 'Home',
     about: 'AboutUs',
     FAQ: 'FAQ',

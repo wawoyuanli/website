@@ -1,5 +1,5 @@
 export default {
-    webLogo: '云顶咨询',
+    webLogo: 'Salient Surveys',
     home: '首页',
     about: '关于我们',
     FAQ: 'FAQ',
