@@ -271,7 +271,7 @@
         </div>
       </div>
     </div>
-    <!--Why sign up to Genting Consulting?-->
+    <!--Why sign up to Salient Surveys?-->
     <div class="row">
       <div class="col-md-12 p-0">
         <div class="container-fluid">
