@@ -3,7 +3,7 @@ import service from '@/utils/request';
 export function registerHandler(data) {
   return service.request({
     method: "POST",
-    url: "/manager/authorization/sys/register",
+    url: "/manager/authorization/sys/register/100",
     data
   })
 }
@@ -12,7 +12,7 @@ export function registerHandler(data) {
 export function getCode(data) {
   return service.request({
     method: "GET",
-    url: `/manager/authorization/sys/sendEmail?email=${data.email}`,
+    url: `/manager/authorization/sys/sendEmail/100?email=${data.email}`,
     data
   })
 }
