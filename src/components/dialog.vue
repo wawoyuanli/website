@@ -28,8 +28,8 @@ export default {
       isShowConfirm: false, // 用于控制整个窗口的显示/隐藏
       titleText: 'Tips', // 提示框标题
       content: 'Say Something ...', // 提示框的内容
-      cancelText: '取消', // 取消按钮的文字
-      confirmText: '确认', // 确认按钮的文字
+      cancelText: 'cancel', // 取消按钮的文字
+      confirmText: 'confirm', // 确认按钮的文字
       type: 'confirm', // 表明弹框的类型：confirm - 确认弹窗（有取消按钮）；alert - 通知弹框（没有取消按钮）
       outerData: null // 用于记录外部传进来的数据，也可以给外部监听userBehavior，事件的函数提供判断到底是哪个事件触发的
     }
@@ -134,7 +134,7 @@ export default {
   flex: 1;
 }
 .my-operation .confirm-btn {
-  color: #ffb000;
+  color: #000;
 }
 .my-operation .my-btn-text {
   text-align: center;
