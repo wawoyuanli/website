@@ -485,10 +485,8 @@
                         and earn 10% of their offer earnings for the life of
                         their account. For example, you refer Bob to Salient 
                         Surveys, Bob becomes a member and completes $30.00 in
-                        offers and $20.00 in Salient Surveys Mails. Once Bob
-                        requests payment for $50.00, Salient Surveys will
-                        immediately credit $3.00 (10% of Offer Earnings) into
-                        your account.
+                        offers. Once Bob requests payment for $30.00, Salient Surveys will
+                        immediately credit $3.00 (10% of Offer Earnings) into your account.
                       </div>
                     </div>
                   </div>
