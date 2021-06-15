@@ -33,46 +33,6 @@
                 questions about our processing of personal data or this Privacy
                 Notice.
               </p>
-              <div class="h5 mt-2">Contact Details to the Controller</div>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">Name of the company:</th>
-                    <th scope="col">Genting Consulting Inc</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Employer Identification Number:</th>
-                    <td>86-3723893</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Country of operation:</th>
-                    <td>America</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">E-mail address:</th>
-                    <td>contact@salientsurveys.com</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Phone number:</th>
-                    <td>(302) 402-3875</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Postal address:</th>
-                    <td>
-                      615 W 138TH ST NEW YORK, NY 10031
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">E-mail address to customer support:</th>
-                    <td>
-                      service@salientsurveys.com
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
             <div class="mt-3" style="font-size: 14px; font-weight: 600">
               I. INFORMATION COLLECTION
             </div>
@@ -238,12 +198,7 @@
             </div>
             <div class="mt-1" style="font-size: 14px">
               Contact Information: If users have any questions or suggestions
-              regarding our privacy policy, please contact us at: Contact Us
-            </div>
-            <div class="mt-2" style="font-size: 14px">Or Write To Us At:</div>
-            <div class="mt-2" style="font-size: 14px">
-              Genting Consulting Inc 615 W 138TH ST NEW YORK, NY 10031, United
-              States
+              regarding our privacy policy, please contact us at: Contact Us.
             </div>
             <div class="mt-1" style="font-size: 14px; font-weight: 600">
               I.CALIFORNIA CONSUMER PRIVACY ACT (CCPA)

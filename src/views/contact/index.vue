@@ -16,9 +16,6 @@
                   Do you need to contact us? Fill the form below or email us
                   directly: service@salientsurveys.com
                 </p>
-                <p class="text-left">
-                  Our postal address is 615 W 138TH ST NEW YORK, NY 10031
-                </p>
                 <div class="row">
                   <div class="col-md-12">
                     <br />
@@ -103,7 +100,7 @@ export default {
     submit() {
       var reg = new RegExp(
         "^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"
-      ); //正则表达式
+      ); //姝ｅ垯琛ㄨ揪寮�
       if (!reg.test(this.email)) {
         alert("E-mail format is incorrect");
         return false;
