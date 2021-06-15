@@ -18,7 +18,7 @@ export default {
   partner: 'Notre partenaire de confiance',//90
   /**第四部分 */
   testimonials: "Témoignages",//感言
-  user1: 'John (Los Angeles, US)',
+  user1: 'WangQiang (ShangHai, CN)',
   user1Text: `Je suis un ingénieur en développement logiciel ordinaire,
   Ma femme a perdu son emploi à cause d'une épidémie,
   Il y a deux enfants dans la famille, merci beaucoup de m'avoir donné cette opportunité de gagner de l'argent,

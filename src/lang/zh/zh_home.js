@@ -18,7 +18,7 @@ export default {
   partner: '我们值得信赖的伙伴',//90
   /**第四部分 */
   testimonials: "感言",//感言
-  user1: 'John (Los Angeles, US)',
+  user1: 'WangQiang (ShangHai, CN)',
   user1Text: `我是一个普通的软件开发工程师，
   我的妻子因流行病而失去了工作，
   家里有两个孩子，非常感谢你，给我这个机会赚钱，

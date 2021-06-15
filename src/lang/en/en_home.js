@@ -19,7 +19,7 @@ export default {
   partner: 'Our Trusted Partners',//90
   /**第四部分 */
   testimonials: "Testimonials",//感言
-  user1: 'John (Los Angeles, US)',
+  user1: 'WangQiang (ShangHai, CN)',
   user1Text: `I am an ordinary software development engineer,
     my wife lost her job because of the epidemic,
     there are two children at home,thank you very much for giving me this opportunity to make money,
