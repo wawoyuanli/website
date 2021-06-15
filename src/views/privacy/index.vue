@@ -33,6 +33,7 @@
                 questions about our processing of personal data or this Privacy
                 Notice.
               </p>
+            </div>  
             <div class="mt-3" style="font-size: 14px; font-weight: 600">
               I. INFORMATION COLLECTION
             </div>

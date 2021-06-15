@@ -424,7 +424,7 @@
                   >
                     <div class="card-body">
                       <div class="panel">
-                        Once you have been approved for $50.00 the “Get Paid”
+                        Once you have been approved for $10.00 the “Get Paid”
                         button will be activated in the Account Status Tab. Once
                         you click on the “Get Paid” button, a pop-up will appear
                         on your screen with the phone number to our verification
@@ -441,7 +441,7 @@
                         sent on the 1st and 15th of each month solely through
                         PayPal. If the 1st or the 15th fall on a weekend or
                         holiday, the payment will be sent on the first business
-                        day. Payments will be made in $50.00 increments. (ex. If
+                        day. Payments will be made in $10.00 increments. (ex. If
                         you request $102.50, you will be paid $100.00 and the
                         remaining $2.50 will carry over for a future payment
                         request).
