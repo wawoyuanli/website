@@ -73,28 +73,28 @@ export default {
 				return false
 			}
 			if (!data.surveyBirthdayYear) {
-				alert('surveyBirthdayYear can not be empty')
+				alert('Birthday year can not be empty')
 				return false
 			}
 			if (!data.surveyBirthdayMonth) {
-				alert('surveyBirthdayMonth can not be empty')
+				alert('Birthday month can not be empty')
 				return false
 			}
 			if (!data.surveyBirthdayDay) {
-				alert('surveyBirthdayDay can not be empty')
+				alert('Birthday day can not be empty')
 				return false
 			}
 			if (!data.surveyAddress) {
-				alert('surveyAddress can not be empty')
+				alert('Address can not be empty')
 				return false
 			}
 			if (!data.surveyPostcode) {
-				alert('surveyPostcode can not be empty')
+				alert('Post Code can not be empty')
 				return false
 			}
 
 			if (!data.phonenumber) {
-				alert('phonenumber can not be empty')
+				alert('Phone can not be empty')
 				return false
 			}
 			// var isPhone = /^[1](([3][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,8,9]))[0-9]{8}$/;
@@ -110,19 +110,19 @@ export default {
 			// }
 
 			if (!data.surveyPinCode) {
-				alert('surveyPinCode can not be empty')
+				alert('PinCode can not be empty')
 				return false
 			}
 			if (/^[a-zA-Z]/.test(data.surveyPinCode)) {
-				alert('Need to enter four digits')
+				alert('PinCode need to enter four digits')
 				return false
 			}
 			if (/^[\u4e00-\u9fa5]/.test(data.surveyPinCode)) {
-				alert('Need to enter four digits')
+				alert('PinCode need to enter four digits')
 				return false
 			}
 			if (data.surveyPinCode.length < 4) {
-				alert('Need to enter four digits')
+				alert('PinCode need to enter four digits')
 				return false
 			}
 			if (!data.checkCode) {

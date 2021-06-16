@@ -253,7 +253,6 @@
         <div class="col-md-3"></div>
         <div class="col-md-6">
           <label class="mt-2"> Referral Links:</label>
-          <label style="color: red">*</label>
           <input
             class="form-control"
             id="pinCode"
