@@ -33,42 +33,7 @@
                 questions about our processing of personal data or this Privacy
                 Notice.
               </p>
-              <div class="h5 mt-2">Contact Details to the Controller</div>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">Name of the company:</th>
-                    <th scope="col">Kroses Trading Inc</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Employer Identification Number:</th>
-                    <td>4984759</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Country of operation:</th>
-                    <td>the United States</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">E-mail address:</th>
-                    <td>contact@oyasurvey.com</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Postal address:</th>
-                    <td>
-                      145-02 156TH STREET,TWCFJ80 JAMAICA, NEW YORK, 11434
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">E-mail address to customer support:</th>
-                    <td>
-                      service@oyasurvey.com
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            </div>  
             <div class="mt-3" style="font-size: 14px; font-weight: 600">
               I. INFORMATION COLLECTION
             </div>
@@ -298,11 +263,6 @@
             <div class="mt-1" style="font-size: 14px">
               Contact Information: If users have any questions or suggestions
               regarding our privacy policy, please contact us at: Contact Us
-            </div>
-            <div class="mt-2" style="font-size: 14px">Or Write To Us At:</div>
-            <div class="mt-2" style="font-size: 14px">
-              Kroses Trading Inc 145-02 156TH STREET, TWCFJ80 JAMAICA, NEW YORK
-              11434
             </div>
             <div class="mt-1" style="font-size: 14px; font-weight: 600">
               I.CALIFORNIA CONSUMER PRIVACY ACT (CCPA)
