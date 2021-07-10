@@ -160,7 +160,77 @@
               do so at your own risk.
             </div>
             <div class="mt-2" style="font-size: 14px; font-weight: 600">
-              I. ALL USER CONSUMER RIGHTS
+              I.Children's Privacy Policy
+            </div>
+
+            <div class="mt-1" style="font-size: 14px">
+              We comply with applicable laws and industry regulations related to
+              the protection of children's privacy. Our services are not
+              designed for anyone under the age of thirteen (13) or intended for
+              use by anyone, and we do not knowingly collect personal data from
+              anyone under the age of thirteen (13). If we discover that
+              personal data has been accidentally collected from anyone under
+              this age, we will delete such personal data immediately. As
+              described below, parents, guardians or other persons with parental
+              rights are encouraged to contact us to discuss this privacy policy
+              and their right to access, view, correct, delete or object to the
+              processing of their children or their personal data related to
+              children. child. If you are under 13 years old, please do not send
+              us any information about yourself or register an account
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              Minors between the ages of 16 and 17 can access the services of
+              the website only by seeking and obtaining oral permission from
+              their parents. It is the responsibility of individuals and parents
+              to ensure that such permission is obtained.
+            </div>
+            <div class="mt-2" style="font-size: 14px; font-weight: 600">
+              I.European users
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              If you are located in Europe, please note the following
+              requirements of the GDPA:
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              salientsurveys.com can provide services to users located in Europe.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              1. In the interaction with European service users, salientsurveys.com
+              is a data controller, so we are an organization that decides the
+              purpose and way of using any personal data we collect.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              2. You agree that we have the right to obtain, use and process the
+              information you provide to us so that we can perform our services.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              3.The legitimate reason for our processing of your personal
+              information is "legal rights and interests". If we have legitimate
+              and reasonable reasons and do not harm any of your rights and
+              interests, we can process your personal information under the
+              "legitimate rights and interests".
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              4.We only process your personal data in a legal, fair and
+              transparent way for the legitimate purpose of providing services.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              5.We will only request, process and maintain personal information
+              to the extent necessary to provide services.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              6.We will save the data in such a way that the data will only be
+              retained during the period when the data subject is allowed to be
+              identified, and the time shall not exceed the necessary time.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              7.We will process personal information in a manner that ensures
+              the appropriate security of the information, including preventing
+              unauthorized processing and accidental loss.
+            </div>
+
+            <div class="mt-2" style="font-size: 14px; font-weight: 600">
+              I. U.S. users
             </div>
             <div class="mt-1" style="font-size: 14px">
               1.In accordance with California Civil Code Sec. 1789.3, California
@@ -170,36 +240,32 @@
               916-445-1254 or 800-952-5210; or by email to dca@dca.ca.gov
             </div>
             <div class="mt-1" style="font-size: 14px">
-              2.External Links: salientsurveys.com is not responsible for any
-              content or privacy policies of web sites not operated by
-              salientsurveys.com.
+              2.External Links: salientsurveys.com is not responsible for any content
+              or privacy policies of web sites not operated by salientsurveys.com.
             </div>
             <div class="mt-1" style="font-size: 14px">
-              3.Opting-Out: salientsurveys.com members are opted-in to
-              receive salientsurveys.com newsletters at the time of
-              enrollment. You may opt-out of by following the directions
-              enclosed in the newsletter.
+              3.Opting-Out: salientsurveys.com members are opted-in to receive
+              salientsurveys.com newsletters at the time of enrollment. You may
+              opt-out of by following the directions enclosed in the newsletter.
             </div>
             <div class="mt-1" style="font-size: 14px">
               4.Canceling: You may cancel your Membership at anytime by
               unsubscribing here. If you decide to cancel your membership and
               later wish to re-enroll, you will be assigned a new account ID and
               you will not receive credit for earnings made using your previous
-              account. salientsurveys.com reserves the right to terminate or
-              suspend any account at any time with or without notice.
-              salientsurveys.com does not tolerate any abuse, harassment, or
-              fraudulent activity aimed towards other members or
-              salientsurveys.com. Changes To The Privacy Policy: By
-              registering to use the salientsurveys.com service, you agree to
-              accept this privacy policy and are aware that
-              salientsurveys.com's privacy policy may change from time to
-              time. We strongly advise our members to check back from time to
-              time. We also welcome any feedback from you; please click here to
-              contact us i
+              account. salientsurveys.com reserves the right to terminate or suspend
+              any account at any time with or without notice. salientsurveys.com does
+              not tolerate any abuse, harassment, or fraudulent activity aimed
+              towards other members or salientsurveys.com. Changes To The Privacy
+              Policy: By registering to use the salientsurveys.com service, you agree
+              to accept this privacy policy and are aware that salientsurveys.com's
+              privacy policy may change from time to time. We strongly advise
+              our members to check back from time to time. We also welcome any
+              feedback from you; please click here to contact us i
             </div>
             <div class="mt-1" style="font-size: 14px">
               Contact Information: If users have any questions or suggestions
-              regarding our privacy policy, please contact us at: Contact Us.
+              regarding our privacy policy, please contact us at: Contact Us
             </div>
             <div class="mt-1" style="font-size: 14px; font-weight: 600">
               I.CALIFORNIA CONSUMER PRIVACY ACT (CCPA)
