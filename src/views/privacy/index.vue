@@ -189,7 +189,7 @@
             </div>
             <div class="mt-1" style="font-size: 14px">
               If you are located in Europe, please note the following
-              requirements of the GDPA:
+              requirements of the GDPR:
             </div>
             <div class="mt-1" style="font-size: 14px">
               salientsurveys.com can provide services to users located in Europe.
@@ -266,6 +266,39 @@
             <div class="mt-1" style="font-size: 14px">
               Contact Information: If users have any questions or suggestions
               regarding our privacy policy, please contact us at: Contact Us
+            </div>
+            <div class="mt-2" style="font-size: 14px; font-weight: 600">
+              I. Access & Correction
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              1.If you register as a Buyer or Supplier, you can update, correct, 
+              or delete your user information and email subscription preferences 
+              by going to the log-in section of our Sites.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              2.You have the right to access the Personal Information we hold about you.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              3.You may also access your information that Salient Surveys holds by contacting us 
+              at the address below. You have the right to correct, amend, or delete 
+              that information where it is inaccurate, or has been processed in violation 
+              of the Privacy Shield Principles, except where the burden or expense of providing 
+              access would be disproportionate to the risks to the individual's privacy 
+              in the case in question, or where the rights of persons other than the individual would be violated.
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+              4.We maintain processes or mechanisms to allow you to review, update, correct or delete 
+              Personal Information held by us. You may make changes to your account 
+              information, access, correct, or delete Personal Information held by Salient Surveys by contacting us at:
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+			  United States of America<br/>
+			  Email: privacy@salientsurveys.com
+            </div>
+            <div class="mt-1" style="font-size: 14px">
+			  5.To protect your privacy and security, Salient Surveys may also take reasonable steps to 
+			  verify your identity before making corrections to or deleting your information. 
+			  We will respond to your request for access to modify or delete your information within a reasonable timeframe.
             </div>
             <div class="mt-1" style="font-size: 14px; font-weight: 600">
               I.CALIFORNIA CONSUMER PRIVACY ACT (CCPA)
