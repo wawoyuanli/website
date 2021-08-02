@@ -4,9 +4,12 @@ import nav from './en/en_nav'
 import home from './en/en_home'
 
 import protocol from './en/protocol'
+import privacy from './en/en_privacy'
+
 const lang = {
   nav,
   home,
-  protocol
+  protocol,
+  privacy
 }
 export default lang
