@@ -6,6 +6,8 @@ const BASEURL = process.env.NODE_ENV === 'production' ? process.env.VUE_APP_API 
 
 const service = axios.create({
   baseURL: BASEURL,
+  withCredentials: true, // send cookies when cross-domain requests
+  crossDomain: true,
   timeout: 15000
 })
 /**请求拦截器 */
