@@ -70,7 +70,7 @@ module.exports = {
     hotOnly: false,
     proxy: {
       [process.env.VUE_APP_API]: {
-        target:'https://www.oyasurvey.com',// 'http://www.gentingconsulting.com',////'http://www.surveyleague.club',//"http://g36469v144.zicp.vip", //API服务器的地址  http://g36469v144.zicp.vip
+        target:'https://oyasurvey.com',// 'http://www.gentingconsulting.com',////'http://www.surveyleague.club',//"http://g36469v144.zicp.vip", //API服务器的地址  http://g36469v144.zicp.vip
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_API]: '' // es5
