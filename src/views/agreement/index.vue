@@ -16,6 +16,9 @@
 						<div class="ml-3 mt-4">
 							Please read the following terms and conditions carefully.
 						</div>
+						<div class="ml-3 mt-4">
+							We belong to an American company called Gentig Consulting Inc, with global thinking and creative ability,.
+						</div>
 						<div class="ml-3 mt-3">
 							AFFILIATE AGREEMENT w.e.f 6th June, 2019.
 						</div>
